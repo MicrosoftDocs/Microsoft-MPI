@@ -1,1 +1,3 @@
-# Welcome to Microsoft-MPI!
+﻿---
+redirect_url: 'microsoft-mpi'
+---
