@@ -52,7 +52,7 @@
                                          "author":  "dlepow",
                                          "ms.author":  "dlepow",
                                          "ms.prod":  "mpi",
-                                         "ms.technology":  ""
+                                         "contributors_to_exclude": ["nivnar"]
                                      },
                   "fileMetadata":  {
 
