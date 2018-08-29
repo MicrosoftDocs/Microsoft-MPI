@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Comm\_call\_errhandler function
 
-TBD
+Call the error handler installed on a communicator.
 
 ## Syntax
 
@@ -31,19 +31,25 @@ int MPIAPI MPI_Comm_call_errhandler(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator with error handler.
 
   - *errorcode*  
-    TBD
+    Error code.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_COMM_CALL_ERRHANDLER(COMM, ERRORCODE, IERROR)
         INTEGER COMM, ERRORCODE, IERROR
+
+## Remarks
+
+Assuming the input parameters are valid, when the error handler is set to **MPI\_ERRORS\_RETURN**, this routine will always return **MPI\_SUCCESS**.
 
 ## Requirements
 
