@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Comm\_test\_inter function
 
-TBD
+ Tests to see if a comm is an inter-communicator.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Comm_test_inter(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator to test.
 
   - *flag* \[out\]  
-    TBD
+    True if this is an inter-communicator.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
