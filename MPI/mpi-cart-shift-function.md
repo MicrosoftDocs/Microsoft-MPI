@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Cart\_shift function
 
-TBD
+Returns the shifted source and destination ranks, given a shift direction and amount.
 
 ## Syntax
 
@@ -34,23 +34,25 @@ int MPIAPI MPI_Cart_shift(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator with cartesian structure.
 
   - *direction*  
-    TBD
+    Coordinate dimension of shift.
 
   - *disp*  
-    TBD
+    Displacement (> 0: upwards shift, < 0: downwards shift).
 
   - *rank\_source* \[out\]  
-    TBD
+    Rank of source process.
 
   - *rank\_dest* \[out\]  
-    TBD
+    Rank of destination process.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
