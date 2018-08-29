@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Accumulate function
 
-TBD
+Accumulate data into the target process using remote memory access
 
 ## Syntax
 
@@ -38,35 +38,37 @@ int MPIAPI MPI_Accumulate(
 ## Parameters
 
   - *origin\_addr* \[in\]  
-    TBD
+    initial address of buffer
 
   - *origin\_count*  
-    TBD
+    number of entries in buffer
 
   - *origin\_datatype*  
-    TBD
+    datatype of each buffer entry
 
   - *target\_rank*  
-    TBD
+    rank of target
 
   - *target\_disp*  
-    TBD
+    displacement from start of window to beginning of target buffer
 
   - *target\_count*  
-    TBD
+    number of entries in target buffer
 
   - *datatype*  
-    TBD
+    datatype of each entry in target buffer
 
   - *op*  
-    TBD
+    predefined reduce operation
 
   - *win*  
-    TBD
+    window object
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
