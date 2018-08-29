@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Comm\_free\_keyval function
 
-TBD
+Frees an attribute key for communicators.
 
 ## Syntax
 
@@ -30,11 +30,13 @@ int MPIAPI MPI_Comm_free_keyval(
 ## Parameters
 
   - *comm\_keyval*  
-    TBD
+    Frees the integer key value.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
