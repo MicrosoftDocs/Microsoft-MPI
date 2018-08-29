@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Comm\_spawn\_multiple function
 
-TBD
+Spawns multiple binaries or the same binary with multiple sets of arguments, establishing communication with them and placing them in the same **MPI\_COMM\_WORLD**.
 
 ## Syntax
 
@@ -38,35 +38,37 @@ int MPIAPI MPI_Comm_spawn_multiple(
 ## Parameters
 
   - *count*  
-    TBD
+    Number of commands.
 
   - *array\_of\_commands*  
-    TBD
+    Programs to be executed.
 
   - *array\_of\_argv*  
-    TBD
+    Arguments for commands.
 
   - *array\_of\_maxprocs*  
-    TBD
+    Maximum number of processes to start for each command.
 
   - *array\_of\_info*  
-    TBD
+    Info objects telling the runtime system where and how to start processes.
 
   - *root*  
-    TBD
+    Rank of process in which previous arguments are examined.
 
   - *comm*  
-    TBD
+    Intracommunicator containing group of spawning processes.
 
   - *intercomm* \[out\]  
-    TBD
+    Intercommunicator between original group and newly spawned group.
 
   - *array\_of\_errcodes* \[out, optional\]  
-    TBD
+    One error code per process.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
