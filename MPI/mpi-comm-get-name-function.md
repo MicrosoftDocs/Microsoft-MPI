@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Comm\_get\_name function
 
-TBD
+Return the print name from the communicator.
 
 ## Syntax
 
@@ -32,17 +32,19 @@ int MPIAPI MPI_Comm_get_name(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator to get name of.
 
   - *comm\_name*  
-    TBD
+    On output, contains the name of the communicator. It must be an array of size at least **MPI\_MAX\_OBJECT\_NAME**.
 
   - *resultlen* \[out\]  
-    TBD
+    Number of characters in name.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
