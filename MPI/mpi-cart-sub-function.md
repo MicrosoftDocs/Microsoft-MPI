@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Cart\_sub function
 
-TBD
+Partitions a communicator into subgroups which form lower-dimensional cartesian subgrids.
 
 ## Syntax
 
@@ -32,17 +32,19 @@ int MPIAPI MPI_Cart_sub(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator with cartesian structure.
 
   - *remain\_dims* \[in\]  
-    TBD
+    The  *i*-th entry of *remain_dims* specifies whether the *i*-th dimension is kept in the subgrid (true) or is dropped (false).
 
   - *newcomm* \[out\]  
-    TBD
+    Communicator containing the subgrid that includes the calling process.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
