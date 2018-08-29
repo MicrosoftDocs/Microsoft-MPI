@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Cart\_get function
 
-TBD
+Retrieves Cartesian topology information associated with a communicator.
 
 ## Syntax
 
@@ -34,23 +34,25 @@ int MPIAPI MPI_Cart_get(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator with cartesian structure.
 
   - *maxdims*  
-    TBD
+    Length of vectors  *dims*, *periods*, and *coords* in the calling program.
 
   - *dims*  
-    TBD
+    Number of processes for each cartesian dimension.
 
   - *periods*  
-    TBD
+    Periodicity (true/false) for each cartesian dimension.
 
   - *coords*  
-    TBD
+    Coordinates of calling process in cartesian structure.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
