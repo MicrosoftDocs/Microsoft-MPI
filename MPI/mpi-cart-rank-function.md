@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Cart\_rank function
 
-TBD
+Determines process rank in communicator given Cartesian location.
 
 ## Syntax
 
@@ -32,17 +32,19 @@ int MPIAPI MPI_Cart_rank(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator with cartesian structure.
 
   - *coords* \[in\]  
-    TBD
+    Integer array (of size *ndims*, the number of dimensions of the Cartesian topology associated with *comm*) specifying the cartesian coordinates of a process.
 
   - *rank* \[out\]  
-    TBD
+    Rank of specified process.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
