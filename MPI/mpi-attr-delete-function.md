@@ -32,14 +32,16 @@ MPIAPI MPI_Attr_delete(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator to which attribute is attached.
 
   - *keyval*  
-    TBD
+    The key value of the deleted attribute.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
