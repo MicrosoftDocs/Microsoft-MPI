@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Comm\_join function
 
-TBD
+Creates a communicator by joining two processes connected by a socket.
 
 ## Syntax
 
@@ -31,19 +31,25 @@ int MPIAPI MPI_Comm_join(
 ## Parameters
 
   - *fd*  
-    TBD
+    Socket file descriptor.
 
   - *intercomm* \[out\]  
-    TBD
+    New intercommunicator.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_COMM_JOIN(FD, INTERCOMM, IERROR)
         INTEGER FD, INTERCOMM, IERROR
+
+## Remarks
+
+The socket must be quiescent before [**MPI\_Comm\_join**](mpi-comm-join-function.md) is called and after [**MPI\_Comm\_join**](mpi-comm-join-function.md) returns. More specifically, on entry to [**MPI\_Comm\_join**](mpi-comm-join-function.md), a read on the socket will not read any data that was written to the socket before the remote process called [**MPI\_Comm\_join**](mpi-comm-join-function.md).
 
 ## Requirements
 
