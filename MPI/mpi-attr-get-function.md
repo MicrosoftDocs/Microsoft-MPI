@@ -34,20 +34,22 @@ MPIAPI MPI_Attr_get(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator to which attribute is attached.
 
   - *keyval*  
-    TBD
+    Key value.
 
   - *attribute\_val* \[out\]  
-    TBD
+    Attribute value, unless flag = false.
 
   - *flag* \[out\]  
-    TBD
+    True if an attribute value was extracted; false if no attribute is associated with the key.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
