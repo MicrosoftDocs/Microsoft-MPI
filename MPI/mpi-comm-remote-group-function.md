@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Comm\_remote\_group function
 
-TBD
+Accesses the remote group associated with the given inter-communicator.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Comm_remote_group(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator (must be an intercommunicator).
 
   - *group* \[out\]  
-    TBD
+    Remote group of communicator.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
