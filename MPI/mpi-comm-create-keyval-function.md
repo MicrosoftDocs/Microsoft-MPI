@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Comm\_create\_keyval function
 
-TBD
+Create a new attribute key
 
 ## Syntax
 
@@ -33,20 +33,20 @@ int MPIAPI MPI_Comm_create_keyval(
 ## Parameters
 
   - *comm\_copy\_attr\_fn* \[in, optional\]  
-    TBD
+    Copy callback function for *keyval*.
 
   - *comm\_delete\_attr\_fn* \[in, optional\]  
-    TBD
+    Delete callback function for *keyval*.
 
   - *comm\_keyval* \[out\]  
-    TBD
+    Key value for future access.
 
   - *extra\_state* \[in, optional\]  
-    TBD
+    Extra state for callback functions.
 
 ## Return value
 
-TBD
+**MPI\_SUCCESS**
 
 ## Fortran
 
@@ -55,6 +55,19 @@ TBD
         EXTERNAL COMM_COPY_ATTR_FN, COMM_DELETE_ATTR_FN
         INTEGER COMM_KEYVAL, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) EXTRA_STATE
+
+## Remarks
+
+Key values are global (available for any and all communicators).
+
+Default copy and delete functions are available.  These are
+  **MPI\_COMM\_NULL\_COPY\_FN**   - empty copy function
+  **MPI\_COMM\_NULL\_DELETE\_FN** - empty delete function
+  **MPI\_COMM\_DUP\_FN**          - simple dup function
+
+There are subtle differences between C and Fortran that require that the copy_fn be written in the same language from which [**MPI\_Comm\_create\_keyval**](mpi-comm-create-keyval-function.md) is called.
+This should not be a problem for most users; only programers using both Fortran and C in the same program need to be sure that they follow this rule.
+
 
 ## Requirements
 
