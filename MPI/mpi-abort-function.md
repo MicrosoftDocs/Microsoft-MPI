@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Abort function
 
-TBD
+Terminates MPI execution environment
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Abort(
 ## Parameters
 
   - *comm*  
-    TBD
+    communicator of tasks to abort
 
   - *errorcode*  
-    TBD
+    error code to return to invoking environment
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
