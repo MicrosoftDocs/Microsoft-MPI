@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Comm\_get\_attr function
 
-TBD
+Retrieves attribute value by key.
 
 ## Syntax
 
@@ -33,20 +33,22 @@ int MPIAPI MPI_Comm_get_attr(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator to which attribute is attached.
 
   - *comm\_keyval*  
-    TBD
+    Key value.
 
   - *attribute\_val* \[out\]  
-    TBD
+    Attribute value, unless *flag* = false.
 
   - *flag* \[out\]  
-    TBD
+    True if an attribute value was extracted;  false if no attribute is associated with the key.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
@@ -54,6 +56,10 @@ TBD
         INTEGER COMM, COMM_KEYVAL, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) ATTRIBUTE_VAL
         LOGICAL FLAG
+
+## Remarks
+
+Attributes must be extracted from the same language as they were inserted in with [**MPI\_Comm\_set\_attr**](MPI-Comm-set-attr-function.md). Even though the *attribute_val* arguement is declared as *void* pointer, it is really the address of a void pointer.  See the rationale in the standard for more details.
 
 ## Requirements
 
