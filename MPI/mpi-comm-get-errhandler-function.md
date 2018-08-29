@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Comm\_get\_errhandler function
 
-TBD
+Get the error handler attached to a communicator.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Comm_get_errhandler(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator.
 
   - *errhandler* \[out\]  
-    TBD
+    Handler currently associated with communicator.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
