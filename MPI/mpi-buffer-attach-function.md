@@ -17,6 +17,8 @@ dev_langs:
 
 # MPI\_Buffer\_attach function
 
+Attaches a user-provided buffer for sending
+
 ## Syntax
 
 ``` c++
@@ -30,14 +32,16 @@ MPIAPI MPI_Buffer_attach(
 ## Parameters
 
   - *buffer* \[in\]  
-    TBD
+    Initial buffer address.
 
   - *size*  
-    TBD
+    Buffer size in bytes.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
