@@ -77,22 +77,22 @@ mtps_version: v=VS.85
     Scatters data from one member across all members of a group.
 
   - [**MPI\_Exscan**](mpi-exscan-function.md)  
-    TBD
+    Computes the exclusive scan (partial reductions) of data on a collection of processes.
 
   - [**MPI\_Op\_create**](mpi-op-create-function.md)  
-    TBD
+    Creates a user-defined combination function handle.
 
   - [**MPI\_Op\_free**](mpi-op-free-function.md)  
-    TBD
+    Frees a user-defined combination function handle.
 
   - [**MPI\_Reduce\_local**](mpi-reduce-local-function.md)  
-    TBD
+    Applies a reduction operator to local arguments.
 
   - [**MPI\_Reduce\_scatter**](mpi-reduce-scatter-function.md)  
-    TBD
+    Combines values and scatters the results.
 
   - [**MPI\_Scan**](mpi-scan-function.md)  
-    TBD
+    Computes the scan (partial reductions) of data on a collection of processes.
 
   - [**MPI\_User\_function**](mpi-user-function-function.md)  
     [**MPI\_User\_function**](mpi-user-function-function.md) is a placeholder for the application-defined function name.
