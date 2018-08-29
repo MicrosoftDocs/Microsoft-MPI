@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Comm\_get\_parent function
 
-TBD
+Returns the parent communicator for this process.
 
 ## Syntax
 
@@ -30,16 +30,26 @@ int MPIAPI MPI_Comm_get_parent(
 ## Parameters
 
   - *parent* \[out\]  
-    TBD
+    The parent communicator.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_COMM_GET_PARENT(PARENT, IERROR)
         INTEGER PARENT, IERROR
+
+## Remarks
+
+If a process was started with [**MPI\_Comm\_spawn**](mpi-comm-spawn-function.md) or [**MPI\_Comm\_spawn\_multiple**](mpi-comm-spawn-multiple-function.md), [**MPI\_Comm\_get\_parent**](mpi-comm-get-parent-function.md) returns the parent intercommunicator of the current process. This parent intercommunicator is created implicitly inside of [**MPI\_Init**](mpi-init-function.md) and is the same intercommunicator returned by [**MPI\_Comm\_spawn**](mpi-comm-spawn-function.md) in the parents.
+
+If the process was not spawned, [**MPI\_Comm\_get\_parent**](mpi-comm-get-parent-function.md) returns **MPI\_COMM\_NULL**.
+
+After the parent communicator is freed or disconnected, [**MPI\_Comm\_get\_parent**](mpi-comm-get-parent-function.md) returns **MPI\_COMM\_NULL**.
 
 ## Requirements
 
