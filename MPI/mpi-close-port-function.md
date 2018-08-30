@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Close\_port function
 
-TBD
+Close port.
 
 ## Syntax
 
@@ -30,11 +30,13 @@ int MPIAPI MPI_Close_port(
 ## Parameters
 
   - *port\_name* \[in\]  
-    TBD
+    Port name.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

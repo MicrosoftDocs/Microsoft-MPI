@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Cart\_create function
 
-TBD
+Makes a new communicator to which topology information has been attached.
 
 ## Syntax
 
@@ -35,26 +35,28 @@ int MPIAPI MPI_Cart_create(
 ## Parameters
 
   - *comm\_old*  
-    TBD
+    Input communicator.
 
   - *ndims*  
-    TBD
+    Number of dimensions of cartesian grid.
 
   - *dims*  
-    TBD
+    Integer array of size *ndims* specifying the number of processes in each dimension.
 
   - *periods*  
-    TBD
+    Logical array of size ndims specifying whether the grid is periodic (true) or not (false) in each dimension.
 
   - *reorder*  
-    TBD
+    Ranking may be reordered (true) or not (false).
 
   - *comm\_cart* \[out\]  
-    TBD
+    Communicator with new cartesian topology.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

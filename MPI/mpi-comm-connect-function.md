@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Comm\_connect function
 
-TBD
+Make a request to form a new intercommunicator.
 
 ## Syntax
 
@@ -34,23 +34,25 @@ int MPIAPI MPI_Comm_connect(
 ## Parameters
 
   - *port\_name* \[in\]  
-    TBD
+    Network address, used only on *root*.
 
   - *info*  
-    TBD
+    Implementation-dependent information.
 
   - *root*  
-    TBD
+    Rank in *comm* of root node.
 
   - *comm*  
-    TBD
+    Intracommunicator over which call is collective.
 
   - *newcomm* \[out\]  
-    TBD
+    Intercommunicator with server as remote group.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

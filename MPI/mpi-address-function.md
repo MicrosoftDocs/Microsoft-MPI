@@ -32,14 +32,16 @@ MPIAPI MPI_Address(
 ## Parameters
 
   - *location* \[in\]  
-    TBD
+    Location in caller memory.
 
   - *address* \[out\]  
-    TBD
+    Address of location.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

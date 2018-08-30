@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Comm\_set\_errhandler function
 
-TBD
+Set the error handler for a communicator.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Comm_set_errhandler(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator.
 
   - *errhandler*  
-    TBD
+    New error handler for communicator.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

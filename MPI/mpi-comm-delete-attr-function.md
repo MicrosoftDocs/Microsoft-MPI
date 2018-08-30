@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Comm\_delete\_attr function
 
-TBD
+Deletes an attribute value associated with a key on a  communicator.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Comm_delete_attr(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator to which attribute is attached.
 
   - *comm\_keyval*  
-    TBD
+    The key value of the deleted attribute.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

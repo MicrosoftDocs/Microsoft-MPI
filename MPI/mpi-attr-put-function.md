@@ -33,17 +33,19 @@ MPIAPI MPI_Attr_put(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator to which attribute will be attached.
 
   - *keyval*  
-    TBD
+    Key value, as returned by MPI_KEYVAL_CREATE.
 
   - *attribute\_val* \[in\]  
-    TBD
+    Attribute value.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

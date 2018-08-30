@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Comm\_spawn function
 
-TBD
+Spawns up to maxprocs instances of a single MPI application.
 
 ## Syntax
 
@@ -37,32 +37,34 @@ int MPIAPI MPI_Comm_spawn(
 ## Parameters
 
   - *command* \[in\]  
-    TBD
+    Name of program to be spawned.
 
   - *argv* \[in\]  
-    TBD
+    Arguments to command.
 
   - *maxprocs*  
-    TBD
+    Maximum number of processes to start.
 
   - *info*  
-    TBD
+    A set of key-value pairs telling the runtime system where and how to start the processes.
 
   - *root*  
-    TBD
+    Rank of process in which previous arguments are examined.
 
   - *comm*  
-    TBD
+    Intracommunicator containing group of spawning processes.
 
   - *intercomm* \[out\]  
-    TBD
+    Intercommunicator between original group and the newly spawned group.
 
   - *array\_of\_errcodes*  
-    TBD
+    One code per process.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

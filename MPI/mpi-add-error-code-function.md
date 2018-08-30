@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Add\_error\_code function
 
-TBD
+Add and MPI error code to an MPI error class
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Add_error_code(
 ## Parameters
 
   - *errorclass*  
-    TBD
+    Error class to add an error code.
 
   - *errorcode* \[out\]  
-    TBD
+    New error code for this error class.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

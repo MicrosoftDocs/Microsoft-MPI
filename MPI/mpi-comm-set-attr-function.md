@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Comm\_set\_attr function
 
-TBD
+Stores attribute value associated with a key.
 
 ## Syntax
 
@@ -32,23 +32,33 @@ int MPIAPI MPI_Comm_set_attr(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator to which attribute will be attached.
 
   - *comm\_keyval*  
-    TBD
+    Key value, as returned by  [**MPI\_Comm\_create\_keyval**](mpi-comm-create-keyval-function.md).
 
   - *attribute\_val* \[in\]  
-    TBD
+    Attribute value.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_COMM_SET_ATTR(COMM, COMM_KEYVAL, ATTRIBUTE_VAL, IERROR)
         INTEGER COMM, COMM_KEYVAL, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) ATTRIBUTE_VAL
+
+## Remarks
+
+Values of the permanent attributes **MPI\_TAG\_UB**, **MPI\_HOST**, **MPI\_IO**, **MPI\_WTIME\_IS\_GLOBAL**, **MPI\_UNIVERSE\_SIZE**, **MPI\_LASTUSEDCODE**, and **MPI\_APPNUM** may not be changed.
+
+The datatype of the attribute value depends on whether C, C++, or Fortran is being used. In C and C++, an attribute value is a void pointer; in Fortran, it is an address-sized integer.
+
+If an attribute is already present, the delete function (specified when the corresponding keyval was created) will be called.
 
 ## Requirements
 

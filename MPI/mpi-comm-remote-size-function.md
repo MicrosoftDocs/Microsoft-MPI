@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Comm\_remote\_size function
 
-TBD
+Determines the size of the remote group associated with an inter-communictor.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Comm_remote_size(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator.
 
   - *size* \[out\]  
-    TBD
+    Number of processes in the remote group of *comm*.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

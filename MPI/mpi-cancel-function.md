@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Cancel function
 
-TBD
+Cancels a communication request.
 
 ## Syntax
 
@@ -30,16 +30,25 @@ int MPIAPI MPI_Cancel(
 ## Parameters
 
   - *request* \[in\]  
-    TBD
+    Communication request.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_CANCEL(REQUEST, IERROR)
         INTEGER REQUEST, IERROR
+
+## Remarks
+
+The primary expected use of **MPI\_Cancel** is in multi-buffering schemes, where speculative **MPI\_Irecv**s are made.  When the computation completes, some of these receive requests may remain; using **MPI\_Cancel** allows the user to cancel these unsatisfied requests.
+
+Cancelling a send operation is much more difficult, in large part because the send will usually be at least partially complete (the information on the tag, size, and source are usually sent immediately to the destination).
+Users are advised that cancelling a send, while a local operation (as defined by the MPI standard), is likely to be expensive (usually generating one or more internal messages).
 
 ## Requirements
 

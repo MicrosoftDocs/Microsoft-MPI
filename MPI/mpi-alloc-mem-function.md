@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Alloc\_mem function
 
-TBD
+Allocate memory for message passing and RMA
 
 ## Syntax
 
@@ -32,17 +32,19 @@ int MPIAPI MPI_Alloc_mem(
 ## Parameters
 
   - *size*  
-    TBD
+    Size of memory segment in bytes.
 
   - *info*  
-    TBD
+    Info argument.
 
   - *baseptr* \[out\]  
-    TBD
+    Pointer to beginning of memory segment allocated.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

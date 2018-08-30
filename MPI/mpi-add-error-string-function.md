@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Add\_error\_string function
 
-TBD
+Associate an error string with an MPI error code or class
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Add_error_string(
 ## Parameters
 
   - *errorcode*  
-    TBD
+    Error code or class.
 
   - *string*  
-    TBD
+    Text corresponding to errorcode.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

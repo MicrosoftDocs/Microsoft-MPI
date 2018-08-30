@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Comm\_disconnect function
 
-TBD
+Disconnect from a communicator.
 
 ## Syntax
 
@@ -30,16 +30,22 @@ int MPIAPI MPI_Comm_disconnect(
 ## Parameters
 
   - *comm* \[in\]  
-    TBD
+    Communicator.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_COMM_DISCONNECT(COMM, IERROR)
         INTEGER COMM, IERROR
+
+## Remarks
+
+This routine waits for all pending communication to complete, then frees the communicator and sets *comm* to **MPI\_COMM\_NULL**.  It may not be called with **MPI\_COMM\_WORLD** or **MPI\_COMM\_SELF**.
 
 ## Requirements
 

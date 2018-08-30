@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Cart\_coords function
 
-TBD
+Determines process coords in cartesian topology given rank in group.
 
 ## Syntax
 
@@ -33,20 +33,22 @@ int MPIAPI MPI_Cart_coords(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator with cartesian structure.
 
   - *rank*  
-    TBD
+    Rank of a process within group of *comm*.
 
   - *maxdims*  
-    TBD
+    Length of vector *coords* in the calling program.
 
   - *coords*  
-    TBD
+    Integer array (of size *maxdims*) containing the Cartesian coordinates of specified process.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

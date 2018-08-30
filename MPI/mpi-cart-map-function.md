@@ -17,40 +17,42 @@ dev_langs:
 
 # MPI\_Cart\_map function
 
-TBD
+Maps process to Cartesian topology information.
 
 ## Syntax
 
 ``` c++
 int MPIAPI MPI_Cart_map(
-        MPI_Comm              comm,
-        int                   ndims,
-        _In_count_(ndims) int *dims,
-        _In_count_(ndims) int *periods,
-  _Out_ int                   *newrank
+        _In_              MPI_Comm comm,
+        _In_range_(>=, 0) int      ndims,
+        _In_count_(ndims) int      *dims,
+        _In_count_(ndims) int      *periods,
+        _Out_             int      *newrank
 );
 ```
 
 ## Parameters
 
   - *comm*  
-    TBD
+    Input communicator.
 
   - *ndims*  
-    TBD
+    Number of dimensions of Cartesian structure.
 
   - *dims*  
-    TBD
+    Integer array of size *ndims* specifying the number of processes in each coordinate direction.
 
   - *periods*  
-    TBD
+    Logical array of size *ndims* specifying the periodicity specification in each coordinate direction.
 
   - *newrank* \[out\]  
-    TBD
+    reordered rank of the calling process; **MPI\_UNDEFINED** if calling process does not belong to grid
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

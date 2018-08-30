@@ -22,8 +22,6 @@ dev_langs:
 
 # MPI\_Comm enumeration
 
-TBD
-
 ## Syntax
 
 ``` c++
@@ -37,13 +35,13 @@ typedef enum _MPI_Comm {
 ## Constants
 
   - **MPI\_COMM\_NULL**  
-    TBD
+    The value used for invalid communicator handles.
 
   - **MPI\_COMM\_WORLD**  
-    TBD
+    An initial intra-communicator of all processes.
 
   - **MPI\_COMM\_SELF**  
-    TBD
+    Communicator that contains only the calling process.
 
 ## Requirements
 
