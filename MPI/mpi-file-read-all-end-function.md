@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_File\_read\_all\_end function
 
-TBD
+Complete a split collective read using individual file pointer.
 
 ## Syntax
 
@@ -32,17 +32,19 @@ int MPIAPI MPI_File_read_all_end(
 ## Parameters
 
   - *file*  
-    TBD
+    File handle.
 
   - *buf* \[out\]  
-    TBD
+    Initial address of buffer.
 
   - *status* \[out\]  
-    TBD
+    Status object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
