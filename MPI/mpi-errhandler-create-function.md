@@ -31,14 +31,14 @@ int MPIAPI MPI_Errhandler_create(
 ## Parameters
 
   - *function* \[in\]  
-    TBD
+    User defined error handling procedure.
 
   - *errhandler* \[out\]  
-    TBD
+    MPI error handler.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
 
 ## Fortran
 
