@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_File\_read\_ordered\_begin function
 
-TBD
+Begins a split collective read using shared file pointer.
 
 ## Syntax
 
@@ -33,20 +33,22 @@ int MPIAPI MPI_File_read_ordered_begin(
 ## Parameters
 
   - *file*  
-    TBD
+    File handle.
 
   - *buf* \[out\]  
-    TBD
+    Initial address of buffer.
 
   - *count*  
-    TBD
+    Number of elements in buffer.
 
   - *datatype*  
-    TBD
+    Datatype of each buffer element.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
