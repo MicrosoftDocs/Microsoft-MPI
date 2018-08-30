@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_File\_call\_errhandler function
 
-TBD
+Calls the error handler installed on a file.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_File_call_errhandler(
 ## Parameters
 
   - *file*  
-    TBD
+    MPI file with error handler.
 
   - *errorcode*  
-    TBD
+    Error code.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
