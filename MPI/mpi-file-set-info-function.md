@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_File\_set\_info function
 
-TBD
+Sets new values for the hints associated with a file.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_File_set_info(
 ## Parameters
 
   - *file*  
-    TBD
+    File handle.
 
   - *info*  
-    TBD
+    Info object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
