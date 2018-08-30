@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_File\_c2f function
 
-TBD
+Translates a C file handle to a Fortran file handle.
 
 ## Syntax
 
@@ -30,11 +30,11 @@ MPI_Fint MPIAPI MPI_File_c2f(
 ## Parameters
 
   - *file*  
-    TBD
+    C file handle.
 
 ## Return value
 
-TBD
+Fortran file handle.
 
 ## Requirements
 
