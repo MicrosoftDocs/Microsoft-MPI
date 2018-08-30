@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_File\_get\_info function
 
-TBD
+Returns the hints for a file that are actually being used by MPI.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_File_get_info(
 ## Parameters
 
   - *file*  
-    TBD
+    File handle.
 
   - *info* \[out\]  
-    TBD
+    Info object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
