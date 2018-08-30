@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_File\_get\_amode function
 
-TBD
+Returns the file access mode.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_File_get_amode(
 ## Parameters
 
   - *file*  
-    TBD
+    File handle.
 
   - *amode* \[out\]  
-    TBD
+    Access mode.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
