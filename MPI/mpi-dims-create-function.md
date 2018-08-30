@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Dims\_create function
 
-TBD
+Creates a division of processors in a cartesian grid.
 
 ## Syntax
 
@@ -32,17 +32,19 @@ int MPIAPI MPI_Dims_create(
 ## Parameters
 
   - *nnodes*  
-    TBD
+    Number of nodes in a grid.
 
   - *ndims*  
-    TBD
+    Number of cartesian dimensions.
 
   - *dims*  
-    TBD
+    Integer array of size  *ndims* specifying the number of nodes in each dimension.  A value of 0 indicates that [**MPI\_Dims\_create**](mpi-dims-create-function.md) should fill in a suitable value.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
