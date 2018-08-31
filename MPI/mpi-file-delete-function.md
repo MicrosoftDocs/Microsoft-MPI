@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_File\_delete function
 
-TBD
+Deletes a file.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_File_delete(
 ## Parameters
 
   - *filename* \[in\]  
-    TBD
+    Name of file to delete.
 
   - *info*  
-    TBD
+    Info object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

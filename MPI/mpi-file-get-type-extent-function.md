@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_File\_get\_type\_extent function
 
-TBD
+Returns the extent of datatype in the file.
 
 ## Syntax
 
@@ -32,17 +32,19 @@ int MPIAPI MPI_File_get_type_extent(
 ## Parameters
 
   - *file*  
-    TBD
+    File handle.
 
   - *datatype*  
-    TBD
+    Datatype.
 
   - *extent* \[out\]  
-    TBD
+    Extent of the datatype.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

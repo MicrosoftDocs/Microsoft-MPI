@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_File\_get\_atomicity function
 
-TBD
+Returns the atomicity mode.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_File_get_atomicity(
 ## Parameters
 
   - *file*  
-    TBD
+    File handle.
 
   - *flag* \[out\]  
-    TBD
+    True if atomic mode, false if nonatomic mode.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

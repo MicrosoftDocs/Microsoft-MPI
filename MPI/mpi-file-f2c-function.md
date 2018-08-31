@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_File\_f2c function
 
-TBD
+Translates a Fortran file handle to a C file handle.
 
 ## Syntax
 
@@ -30,11 +30,11 @@ MPI_File MPIAPI MPI_File_f2c(
 ## Parameters
 
   - *file*  
-    TBD
+    Fortran file handle.
 
 ## Return value
 
-TBD
+C file handle.
 
 ## Requirements
 

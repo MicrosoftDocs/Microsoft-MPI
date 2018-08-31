@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_File\_set\_errhandler function
 
-TBD
+Sets the error handler for an MPI file.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_File_set_errhandler(
 ## Parameters
 
   - *file*  
-    TBD
+    MPI file.
 
   - *errhandler*  
-    TBD
+    New error handler for file.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

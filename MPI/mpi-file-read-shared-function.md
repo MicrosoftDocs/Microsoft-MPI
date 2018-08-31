@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_File\_read\_shared function
 
-TBD
+Read using shared file pointer.
 
 ## Syntax
 
@@ -34,23 +34,25 @@ int MPIAPI MPI_File_read_shared(
 ## Parameters
 
   - *file*  
-    TBD
+    File handle.
 
   - *buf* \[out\]  
-    TBD
+    Initial address of buffer.
 
   - *count*  
-    TBD
+    Number of elements in buffer.
 
   - *datatype*  
-    TBD
+    Datatype of each buffer element.
 
   - *status* \[out\]  
-    TBD
+    Status object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

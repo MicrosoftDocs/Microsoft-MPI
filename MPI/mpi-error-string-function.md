@@ -19,7 +19,7 @@ dev_langs:
 
 # MPI\_Error\_string function
 
-TBD
+Returns a string for a given error code.
 
 ## Syntax
 
@@ -34,17 +34,19 @@ int MPIAPI MPI_Error_string(
 ## Parameters
 
   - *errorcode*  
-    TBD
+    Error code returned by an MPI routine or an MPI error class.
 
   - *string*  
-    TBD
+    Text that corresponds to the errorcode.
 
   - *resultlen* \[out\]  
-    TBD
+    Length of string.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

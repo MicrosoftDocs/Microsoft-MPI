@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_File\_get\_byte\_offset function
 
-TBD
+Returns the absolute byte position in the file corresponding to "offset" etypes relative to the current view.
 
 ## Syntax
 
@@ -32,17 +32,19 @@ int MPIAPI MPI_File_get_byte_offset(
 ## Parameters
 
   - *file*  
-    TBD
+    File handle.
 
   - *offset*  
-    TBD
+    Offset.
 
   - *disp* \[out\]  
-    TBD
+    Absolute byte position of offset.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

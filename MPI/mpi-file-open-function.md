@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_File\_open function
 
-TBD
+Opens a file.
 
 ## Syntax
 
@@ -34,23 +34,25 @@ int MPIAPI MPI_File_open(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator.
 
   - *filename* \[in\]  
-    TBD
+    Name of file to open.
 
   - *amode*  
-    TBD
+    File access mode.
 
   - *info*  
-    TBD
+    Info object.
 
   - *newfile* \[out\]  
-    TBD
+    File handle.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

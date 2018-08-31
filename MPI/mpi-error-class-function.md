@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Error\_class function
 
-TBD
+Converts an error code into an error class.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Error_class(
 ## Parameters
 
   - *errorcode*  
-    TBD
+    Error code returned by an MPI routine.
 
   - *errorclass* \[out\]  
-    TBD
+    Error class associated with *errorcode*.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

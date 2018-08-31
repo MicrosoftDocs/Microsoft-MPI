@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_File\_get\_position function
 
-TBD
+Returns the current position of the individual file pointer in etype units relative to the current view.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_File_get_position(
 ## Parameters
 
   - *file*  
-    TBD
+    File handle.
 
   - *offset* \[out\]  
-    TBD
+    Offset of individual file pointer.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

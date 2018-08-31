@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Free\_mem function
 
-TBD
+Frees the memory allocated with [**MPI\_Alloc\_mem**](mpi-alloc-mem-function.md).
 
 ## Syntax
 
@@ -30,11 +30,13 @@ int MPIAPI MPI_Free_mem(
 ## Parameters
 
   - *base* \[in\]  
-    TBD
+    Initial address of memory segment allocated by [**MPI\_Alloc\_mem**](mpi-alloc-mem-function.md).
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

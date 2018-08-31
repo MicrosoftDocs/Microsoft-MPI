@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_File\_write\_ordered\_end function
 
-TBD
+Completes a split collective write using shared file pointer.
 
 ## Syntax
 
@@ -32,17 +32,19 @@ int MPIAPI MPI_File_write_ordered_end(
 ## Parameters
 
   - *file*  
-    TBD
+    File handle.
 
   - *buf* \[in\]  
-    TBD
+    Initial address of buffer.
 
   - *status* \[out\]  
-    TBD
+    Status object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

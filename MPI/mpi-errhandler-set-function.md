@@ -32,14 +32,14 @@ MPIAPI MPI_Errhandler_set(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator to set the error handler for.
 
   - *errhandler*  
-    TBD
+    New MPI error handler for communicator.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
 
 ## Fortran
 

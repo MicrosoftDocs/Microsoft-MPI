@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_File\_set\_size function
 
-TBD
+Sets the file size.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_File_set_size(
 ## Parameters
 
   - *file*  
-    TBD
+    File handle.
 
   - *size*  
-    TBD
+    Size to truncate or expand file.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

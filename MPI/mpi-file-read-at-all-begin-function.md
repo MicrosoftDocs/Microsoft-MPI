@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_File\_read\_at\_all\_begin function
 
-TBD
+Begins a split collective read using explict offset.
 
 ## Syntax
 
@@ -34,23 +34,25 @@ int MPIAPI MPI_File_read_at_all_begin(
 ## Parameters
 
   - *file*  
-    TBD
+    File handle.
 
   - *offset*  
-    TBD
+    File offset.
 
   - *buf* \[out\]  
-    TBD
+    Initial address of buffer.
 
   - *count*  
-    TBD
+    Number of elements in buffer.
 
   - *datatype*  
-    TBD
+    Datatype of each buffer element.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

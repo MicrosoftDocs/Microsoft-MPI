@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Errhandler\_free function
 
-TBD
+Frees an MPI-style errorhandler.
 
 ## Syntax
 
@@ -30,11 +30,13 @@ int MPIAPI MPI_Errhandler_free(
 ## Parameters
 
   - *errhandler*  
-    TBD
+    MPI error handler.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
