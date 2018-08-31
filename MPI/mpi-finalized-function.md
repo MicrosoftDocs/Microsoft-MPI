@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Finalized function
 
-TBD
+Indicates whether [**MPI\_Finalize**](mpi-finalize-function.md) has been called.
 
 ## Syntax
 
@@ -30,11 +30,13 @@ int MPIAPI MPI_Finalized(
 ## Parameters
 
   - *flag* \[out\]  
-    TBD
+    Flag is true if [**MPI\_Finalize**](mpi-finalize-function.md) has been called and false otherwise.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
