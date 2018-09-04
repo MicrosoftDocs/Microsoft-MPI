@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Get\_version function
 
-TBD
+Returns the version number of MPI.
 
 ## Syntax
 
@@ -31,14 +31,14 @@ int MPIAPI MPI_Get_version(
 ## Parameters
 
   - *version* \[out\]  
-    TBD
+    Version of MPI.
 
   - *subversion* \[out\]  
-    TBD
+    Subversion of MPI.
 
 ## Return value
 
-TBD
+**MPI\_SUCCESS**
 
 ## Fortran
 
