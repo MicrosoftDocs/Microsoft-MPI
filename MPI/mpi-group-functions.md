@@ -25,7 +25,7 @@ mtps_version: v=VS.85
     A group constructor that is used to define a new group by deleting ranks from an existing group.
 
   - [**MPI\_Group\_free**](mpi-group-free-function.md)  
-    TBD
+    Frees a group.
 
   - [**MPI\_Group\_incl**](mpi-group-incl-function.md)  
     Creates a new group that contains a subset of the processes in an existing group.
