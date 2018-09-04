@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Grequest\_start function
 
-TBD
+Creates and returns a user-defined request.
 
 ## Syntax
 
@@ -34,23 +34,25 @@ int MPIAPI MPI_Grequest_start(
 ## Parameters
 
   - *query\_fn* \[in\]  
-    TBD
+    Callback function invoked when request status is queried.
 
   - *free\_fn* \[in\]  
-    TBD
+    Callback function invoked when request is freed.
 
   - *cancel\_fn* \[in\]  
-    TBD
+    Callback function invoked when request is cancelled.
 
   - *extra\_state* \[in, optional\]  
-    TBD
+    Extra state passed to the above functions.
 
   - *request* \[out\]  
-    TBD
+    Generalized request.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
@@ -58,6 +60,14 @@ TBD
         INTEGER REQUEST, IERROR
         EXTERNAL QUERY_FN, FREE_FN, CANCEL_FN
         INTEGER (KIND=MPI_ADDRESS_KIND) EXTRA_STATE
+
+## Remarks
+
+The return values from the callback functions must be a valid MPI error code or class.  This value may either be the return value from any MPI routine (with one exception noted below) or any of the MPI error classes. For portable programs, **MPI\_ERR\_OTHER** may be used; to provide more specific information, create a new MPI error class or code with [**MPI\_Add\_error\_class**](mpi-add-error-class-function.md) or [**MPI\_Add\_error\_code**](mpi-add-error-code-function.md) and return that value.
+
+The MPI standard is not clear on the return values from the callback routines. However, there are notes in the standard that imply that these are MPI error codes.  For example, pages 169 line 46 through page 170, line 1 require that the *free_fn* return an MPI error code that may be used in the MPI completion functions when they return **MPI\_ERR\_IN\_STATUS**.
+
+The one special case is the error value returned by [**MPI\_Comm\_dup**](mpi-comm-dup-function.md) when the attribute callback routine returns a failure.  The MPI standard is not clear on what values may be used to indicate an error return.  Further, the Intel MPI test suite made use of non-zero values to indicate failure, and expected these values to be returned by the [**MPI\_Comm\_dup**](mpi-comm-dup-function.md) when the attribute routines encountered an error.  Such error values may not be valid MPI error codes or classes.  Because of this, it is the user's responsibility to either use valid MPI error codes in return from the attribute callbacks, if those error codes are to be returned by a generalized request callback, or to detect and convert those error codes to valid MPI error codes (recall that MPI error classes are valid error codes).
 
 ## Requirements
 
