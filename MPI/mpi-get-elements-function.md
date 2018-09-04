@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Get\_elements function
 
-TBD
+Returns the number of basic elements in a datatype.
 
 ## Syntax
 
@@ -32,22 +32,28 @@ int MPIAPI MPI_Get_elements(
 ## Parameters
 
   - *status* \[in\]  
-    TBD
+    Return status of receive operation.
 
   - *datatype*  
-    TBD
+    Datatype used by receive operation.
 
   - *count* \[out\]  
-    TBD
+    Number of received basic elements.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_GET_ELEMENTS(STATUS, DATATYPE, COUNT, IERROR)
         INTEGER STATUS(MPI_STATUS_SIZE), DATATYPE, COUNT, IERROR
+
+## Remarks
+
+If the size of the datatype is zero and the amount of data returned as determined by *status* is also zero, this routine will return a count of zero.
 
 ## Requirements
 
