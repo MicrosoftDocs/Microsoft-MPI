@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Info\_free function
 
-TBD
+Frees an info object.
 
 ## Syntax
 
@@ -30,11 +30,13 @@ int MPIAPI MPI_Info_free(
 ## Parameters
 
   - *info* \[in, out\]  
-    TBD
+    Info object to be freed.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
