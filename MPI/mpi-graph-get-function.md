@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Graph\_get function
 
-TBD
+Retrieves graph topology information associated with a communicator.
 
 ## Syntax
 
@@ -34,23 +34,25 @@ int MPIAPI MPI_Graph_get(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator with graph structure.
 
   - *maxindex*  
-    TBD
+    Length of the *index* vector in the calling program.
 
   - *maxedges*  
-    TBD
+    Length of the *edges* vector in the calling program.
 
   - *index*  
-    TBD
+    Array of integers containing the graph structure.
 
   - *edges*  
-    TBD
+    Array of integers containing the graph structure.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
