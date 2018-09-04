@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Info\_dup function
 
-TBD
+Returns a duplicate of the info object.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Info_dup(
 ## Parameters
 
   - *info*  
-    TBD
+    Info object.
 
   - *newinfo* \[out\]  
-    TBD
+    Duplicate of info object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
