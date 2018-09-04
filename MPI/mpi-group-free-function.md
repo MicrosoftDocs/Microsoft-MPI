@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Group\_free function
 
-TBD
+Frees a group.
 
 ## Syntax
 
@@ -30,7 +30,7 @@ int MPIAPI MPI_Group_free(
 ## Parameters
 
   - *group*  
-    TBD
+    Group to free.
 
 ## Return value
 
