@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Get function
 
-TBD
+Gets data from a memory window on a remote process.
 
 ## Syntax
 
@@ -37,32 +37,34 @@ int MPIAPI MPI_Get(
 ## Parameters
 
   - *origin\_addr* \[out\]  
-    TBD
+    Address of the buffer in which to receive the data.
 
   - *origin\_count*  
-    TBD
+    Number of entries in origin buffer.
 
   - *origin\_datatype*  
-    TBD
+    Datatype of each entry in origin buffer.
 
   - *target\_rank*  
-    TBD
+    Rank of target.
 
   - *target\_disp*  
-    TBD
+    Displacement from window start to the beginning of the target buffer.
 
   - *target\_count*  
-    TBD
+    Number of entries in target buffer.
 
   - *datatype*  
-    TBD
+    Datatype of each entry in target buffer.
 
   - *win*  
-    TBD
+    Window object used for communication.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
