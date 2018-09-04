@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Intercomm\_create function
 
-TBD
+Creates an intercommuncator from two intracommunicators.
 
 ## Syntax
 
@@ -35,26 +35,28 @@ int MPIAPI MPI_Intercomm_create(
 ## Parameters
 
   - *local\_comm*  
-    TBD
+    Local (intra)communicator.
 
   - *local\_leader*  
-    TBD
+    Rank in local_comm of leader (often 0).
 
   - *peer\_comm*  
-    TBD
+    Communicator used to communicate between a designated process in the other communicator. Significant only at the process in *local_comm* with rank *local_leader*.
 
   - *remote\_leader*  
-    TBD
+    Rank in peer_comm of remote leader (often 0).
 
   - *tag*  
-    TBD
+    Message tag to use in constructing intercommunicator; if multiple [**MPI\_Intercomm\_create**](mpi-intercomm-create-function.md) are being made, they should use different tags (more precisely, ensure that the local and remote leaders are using different tags for each [**MPI\_Intercomm\_create**](mpi-intercomm-create-function.md)).
 
   - *newintercomm* \[out\]  
-    TBD
+    Created intercommunicator.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
