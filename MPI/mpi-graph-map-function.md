@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Graph\_map function
 
-TBD
+Maps process to graph topology information.
 
 ## Syntax
 
@@ -34,23 +34,25 @@ int MPIAPI MPI_Graph_map(
 ## Parameters
 
   - *comm*  
-    TBD
+    Input communicator.
 
   - *nnodes*  
-    TBD
+    Number of graph nodes.
 
   - *index*  
-    TBD
+    Integer array specifying the graph structure.
 
   - *edges* \[in\]  
-    TBD
+    Integer array specifying the graph structure.
 
   - *newrank* \[out\]  
-    TBD
+    Reordered rank of the calling process; **MPI\_UNDEFINED** if the calling process does not belong to graph.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
