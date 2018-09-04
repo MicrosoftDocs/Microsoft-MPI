@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Info\_create function
 
-TBD
+Creates a new info object.
 
 ## Syntax
 
@@ -30,11 +30,13 @@ int MPIAPI MPI_Info_create(
 ## Parameters
 
   - *info* \[out\]  
-    TBD
+    Info object created.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
