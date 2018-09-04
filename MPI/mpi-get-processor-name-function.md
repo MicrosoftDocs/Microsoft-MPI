@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Get\_processor\_name function
 
-TBD
+Gets the name of the processor.
 
 ## Syntax
 
@@ -31,20 +31,26 @@ int MPIAPI MPI_Get_processor_name(
 ## Parameters
 
   - *name*  
-    TBD
+    A unique specifier for the actual (as opposed to virtual) node. This must be an array of size at least **MPI\_MAX\_PROCESSOR\_NAME**.
 
   - *resultlen* \[out\]  
-    TBD
+    Length (in characters) of the name.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_GET_PROCESSOR_NAME( NAME, RESULTLEN, IERROR)
         CHARACTER*(*) NAME
         INTEGER RESULTLEN,IERROR
+
+## Remarks
+
+  The name returned should identify a particular piece of hardware; the exact format is implementation defined.  This name may or may not be the same as might be returned by 'gethostname', 'uname', or 'sysinfo'.
 
 ## Requirements
 
