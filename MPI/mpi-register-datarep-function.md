@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Register\_datarep function
 
-TBD
+Register a set of user-provided data conversion functions.
 
 ## Syntax
 
@@ -34,23 +34,25 @@ int MPIAPI MPI_Register_datarep(
 ## Parameters
 
   - *datarep* \[in\]  
-    TBD
+    Data representation identifier.
 
   - *read\_conversion\_fn* \[in, optional\]  
-    TBD
+    Function invoked to convert from file representation to native representation.
 
   - *write\_conversion\_fn* \[in, optional\]  
-    TBD
+    Function invoked to convert from native representation to file representation.
 
   - *dtype\_file\_extent\_fn* \[in\]  
-    TBD
+    Function invoked to get the extent of a datatype as represented in the file.
 
   - *extra\_state* \[in, optional\]  
-    TBD
+    Extra state that is passed to the conversion functions.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
