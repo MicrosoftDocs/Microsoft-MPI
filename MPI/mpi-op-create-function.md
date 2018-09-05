@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Op\_create function
 
-TBD
+Creates a user-defined combination function handle.
 
 ## Syntax
 
@@ -32,17 +32,19 @@ int MPIAPI MPI_Op_create(
 ## Parameters
 
   - *function* \[in\]  
-    TBD
+    User defined function.
 
   - *commute*  
-    TBD
+    True if commutative, false otherwise.
 
   - *op* \[out\]  
-    TBD
+    Operation object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
