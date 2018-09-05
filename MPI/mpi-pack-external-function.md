@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Pack\_external function
 
-TBD
+Packs a datatype into contiguous memory, using the external32 format.
 
 ## Syntax
 
@@ -36,29 +36,31 @@ int MPIAPI MPI_Pack_external(
 ## Parameters
 
   - *datarep*  
-    TBD
+    Data representation.
 
   - *inbuf* \[in\]  
-    TBD
+    Start address of the input buffer.
 
   - *incount*  
-    TBD
+    Number of input data items.
 
   - *datatype*  
-    TBD
+    Datatype of each input data item.
 
   - *outbuf*  
-    TBD
+    Start address of the output buffer.
 
   - *outsize*  
-    TBD
+    Output buffer size, in bytes.
 
   - *position*  
-    TBD
+    Current position in buffer, in bytes.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
