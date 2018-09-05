@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Scan function
 
-TBD
+Computes the scan (partial reductions) of data on a collection of processes.
 
 ## Syntax
 
@@ -35,26 +35,28 @@ int MPIAPI MPI_Scan(
 ## Parameters
 
   - *sendbuf* \[in\]  
-    TBD
+    Starting address of send buffer.
 
   - *recvbuf* \[out\]  
-    TBD
+    Starting address of receive buffer.
 
   - *count*  
-    TBD
+    Number of elements in input buffer.
 
   - *datatype*  
-    TBD
+    Datatype of elements of input buffer.
 
   - *op*  
-    TBD
+    Operation.
 
   - *comm*  
-    TBD
+    Communicator.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
