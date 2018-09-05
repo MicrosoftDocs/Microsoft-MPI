@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Probe function
 
-TBD
+Blocking test for a message.
 
 ## Syntax
 
@@ -33,20 +33,22 @@ int MPIAPI MPI_Probe(
 ## Parameters
 
   - *source*  
-    TBD
+    Source rank, or **MPI\_ANY\_SOURCE**.
 
   - *tag*  
-    TBD
+    Tag value, or **MPI\_ANY\_TAG**.
 
   - *comm*  
-    TBD
+    Communicator.
 
   - *status* \[out\]  
-    TBD
+    Status object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
