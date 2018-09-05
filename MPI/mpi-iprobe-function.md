@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Iprobe function
 
-TBD
+Nonblocking test for a message.
 
 ## Syntax
 
@@ -34,23 +34,25 @@ int MPIAPI MPI_Iprobe(
 ## Parameters
 
   - *source*  
-    TBD
+    Source rank, or  **MPI\_ANY\_SOURCE**.
 
   - *tag*  
-    TBD
+    Tag value, or **MPI\_ANY\_TAG**.
 
   - *comm*  
-    TBD
+    Communicator.
 
   - *flag* \[out\]  
-    TBD
+    True if a message with the specified source, tag, and communicator is available.
 
   - *status* \[out\]  
-    TBD
+    Status object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
