@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Publish\_name function
 
-TBD
+Publish a service name for use with [**MPI\_Comm\_connect**](mpi-comm-connect-function.md).
 
 ## Syntax
 
@@ -32,17 +32,19 @@ int MPIAPI MPI_Publish_name(
 ## Parameters
 
   - *service\_name* \[in\]  
-    TBD
+    Service name to associate with the port.
 
   - *info*  
-    TBD
+    Implementation-specific information.
 
   - *port\_name* \[in\]  
-    TBD
+    Port name.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
