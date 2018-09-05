@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Pack\_external\_size function
 
-TBD
+Returns the upper bound on the amount of space needed to pack a message using [**MPI\_Pack\_external**](mpi-pack-external-function.md).
 
 ## Syntax
 
@@ -33,20 +33,22 @@ int MPIAPI MPI_Pack_external_size(
 ## Parameters
 
   - *datarep*  
-    TBD
+    Data representation.
 
   - *incount*  
-    TBD
+    Number of input data items.
 
   - *datatype*  
-    TBD
+    Datatype of each input data item.
 
   - *size* \[out\]  
-    TBD
+    Output buffer size, in bytes.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
