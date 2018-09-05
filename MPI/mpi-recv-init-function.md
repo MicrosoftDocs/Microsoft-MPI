@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Recv\_init function
 
-TBD
+Creates a persistent request for a receive.
 
 ## Syntax
 
@@ -36,29 +36,31 @@ int MPIAPI MPI_Recv_init(
 ## Parameters
 
   - *buf* \[out\]  
-    TBD
+    Initial address of receive buffer.
 
   - *count*  
-    TBD
+    Number of elements received.
 
   - *datatype*  
-    TBD
+    Type of each element.
 
   - *source*  
-    TBD
+    Rank of source, or **MPI\_ANY\_SOURCE**.
 
   - *tag*  
-    TBD
+    Message tag, or **MPI\_ANY\_TAG**.
 
   - *comm*  
-    TBD
+    Communicator.
 
   - *request* \[out\]  
-    TBD
+    Communication request.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
