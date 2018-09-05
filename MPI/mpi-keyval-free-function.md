@@ -31,11 +31,13 @@ MPIAPI MPI_Keyval_free(
 ## Parameters
 
   - *keyval*  
-    TBD
+    Frees the integer key value.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
