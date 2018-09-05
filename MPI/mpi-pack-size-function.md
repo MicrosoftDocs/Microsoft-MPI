@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Pack\_size function
 
-TBD
+Returns the upper bound on the amount of space needed to pack a message.
 
 ## Syntax
 
@@ -33,20 +33,22 @@ int MPIAPI MPI_Pack_size(
 ## Parameters
 
   - *incount*  
-    TBD
+    Count argument to packing call.
 
   - *datatype*  
-    TBD
+    Datatype argument to packing call.
 
   - *comm*  
-    TBD
+    Communicator argument to packing call.
 
   - *size* \[out\]  
-    TBD
+    Upper bound on size of packed message, in bytes.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
