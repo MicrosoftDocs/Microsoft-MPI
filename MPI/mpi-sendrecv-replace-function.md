@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Sendrecv\_replace function
 
-TBD
+Sends and receives using a single buffer.
 
 ## Syntax
 
@@ -38,35 +38,37 @@ int MPIAPI MPI_Sendrecv_replace(
 ## Parameters
 
   - *buf*  
-    TBD
+    Initial address of send and receive buffer.
 
   - *count*  
-    TBD
+    Number of elements in send and receive buffer.
 
   - *datatype*  
-    TBD
+    Type of elements in send and receive buffer.
 
   - *dest*  
-    TBD
+    Rank of destination.
 
   - *sendtag*  
-    TBD
+    Send message tag.
 
   - *source*  
-    TBD
+    Rank of source.
 
   - *recvtag*  
-    TBD
+    Receive message tag.
 
   - *comm*  
-    TBD
+    Communicator.
 
   - *status* \[out\]  
-    TBD
+    Status object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
