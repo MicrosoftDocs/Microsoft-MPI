@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Query\_thread function
 
-TBD
+Returns the level of thread support provided by the MPI library.
 
 ## Syntax
 
@@ -30,11 +30,13 @@ int MPIAPI MPI_Query_thread(
 ## Parameters
 
   - *provided* \[out\]  
-    TBD
+    Level of thread support provided.  This is the same value that would be returned in the *provided* argument in [**MPI\_Init\_thread**](mpi-init-thread-function.md).
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
