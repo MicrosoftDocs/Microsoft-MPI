@@ -20,7 +20,7 @@ dev_langs:
 
 # MPI\_Op\_free function
 
-TBD
+Frees a user-defined combination function handle.
 
 ## Syntax
 
@@ -33,16 +33,22 @@ int MPIAPI MPI_Op_free(
 ## Parameters
 
   - *op*  
-    TBD
+    Operation.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_OP_FREE(OP, IERROR)
         INTEGER OP, IERROR
+
+## Remarks
+
+*op* is set to **MPI\_OP\_NULL** on exit.
 
 ## Requirements
 
