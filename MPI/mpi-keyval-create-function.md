@@ -34,20 +34,22 @@ MPIAPI MPI_Keyval_create(
 ## Parameters
 
   - *copy\_fn* \[in\]  
-    MPI\_Copy\_function
+    Copy callback function for *keyval*.
 
   - *delete\_fn* \[in\]  
-    TBD
+    Delete callback function for *keyval*.
 
   - *keyval* \[out\]  
-    TBD
+    Key value for future access.
 
   - *extra\_state* \[in, optional\]  
-    TBD
+    Extra state for callback functions.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
