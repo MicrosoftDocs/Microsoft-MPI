@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Reduce\_scatter function
 
-TBD
+Combines values and scatters the results.
 
 ## Syntax
 
@@ -35,26 +35,28 @@ int MPIAPI MPI_Reduce_scatter(
 ## Parameters
 
   - *sendbuf* \[in\]  
-    TBD
+    Starting address of send buffer.
 
   - *recvbuf* \[out\]  
-    TBD
+    Starting address of receive buffer.
 
   - *recvcounts* \[in\]  
-    TBD
+    Integer array specifying the number of elements in result distributed to each process.
 
   - *datatype*  
-    TBD
+    Datatype of elements of input buffer.
 
   - *op*  
-    TBD
+    Operation.
 
   - *comm*  
-    TBD
+    Communicator.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
