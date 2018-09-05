@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Info\_get\_nthkey function
 
-TBD
+Returns the nth defined key in info object.
 
 ## Syntax
 
@@ -32,17 +32,19 @@ int MPIAPI MPI_Info_get_nthkey(
 ## Parameters
 
   - *info*  
-    TBD
+    Info object.
 
   - *n*  
-    TBD
+    Key number.
 
   - *key*  
-    TBD
+    Key. The maximum number of characters is **MPI\_MAX\_INFO\_KEY**.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

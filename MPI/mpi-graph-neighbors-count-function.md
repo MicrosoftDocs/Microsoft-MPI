@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Graph\_neighbors\_count function
 
-TBD
+Returns the number of neighbors of a node associated with a graph topology.
 
 ## Syntax
 
@@ -32,17 +32,19 @@ int MPIAPI MPI_Graph_neighbors_count(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator with graph topology.
 
   - *rank*  
-    TBD
+    Rank of process in group of *comm*.
 
   - *nneighbors* \[out\]  
-    TBD
+    Number of neighbors of specified process.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

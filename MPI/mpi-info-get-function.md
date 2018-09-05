@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Info\_get function
 
-TBD
+Retrieves the value associated with a key.
 
 ## Syntax
 
@@ -34,23 +34,25 @@ int MPIAPI MPI_Info_get(
 ## Parameters
 
   - *info*  
-    TBD
+    Info object.
 
   - *key* \[in\]  
-    TBD
+    Key.
 
   - *valuelen*  
-    TBD
+    Length of value argument.
 
   - *value*  
-    TBD
+    Value.
 
   - *flag* \[out\]  
-    TBD
+    True if key defined, false if not.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

@@ -13,29 +13,29 @@ mtps_version: v=VS.85
 ## In this section
 
   - [**MPI\_Info\_create**](mpi-info-create-function.md)  
-    TBD
+    Creates a new info object.
 
   - [**MPI\_Info\_delete**](mpi-info-delete-function.md)  
-    TBD
+    Deletes a (key,value) pair from info object.
 
   - [**MPI\_Info\_dup**](mpi-info-dup-function.md)  
-    TBD
+    Returns a duplicate of the info object.
 
   - [**MPI\_Info\_free**](mpi-info-free-function.md)  
-    TBD
+    Frees an info object.
 
   - [**MPI\_Info\_get**](mpi-info-get-function.md)  
-    TBD
+    Retrieves the value associated with a key.
 
   - [**MPI\_Info\_get\_nkeys**](mpi-info-get-nkeys-function.md)  
-    TBD
+    Returns the number of currently defined keys in an info object.
 
   - [**MPI\_Info\_get\_nthkey**](mpi-info-get-nthkey-function.md)  
-    TBD
+    Returns the *n*-th defined key in an info object.
 
   - [**MPI\_Info\_get\_valuelen**](mpi-info-get-valuelen-function.md)  
-    TBD
+    Retrieves the length of the value associated with a key.
 
   - [**MPI\_Info\_set**](mpi-info-set-function.md)  
-    TBD
+    Adds a (key,value) pair to the info object.
 

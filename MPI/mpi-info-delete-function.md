@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Info\_delete function
 
-TBD
+Deletes a (key,value) pair from info.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Info_delete(
 ## Parameters
 
   - *info*  
-    TBD
+    Info object.
 
   - *key* \[in\]  
-    TBD
+    Key to delete.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

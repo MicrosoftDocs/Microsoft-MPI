@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Info\_get\_valuelen function
 
-TBD
+Retrieves the length of the value associated with a key.
 
 ## Syntax
 
@@ -33,20 +33,22 @@ int MPIAPI MPI_Info_get_valuelen(
 ## Parameters
 
   - *info*  
-    TBD
+    Info object.
 
   - *key* \[in\]  
-    TBD
+    Key.
 
   - *valuelen* \[out\]  
-    TBD
+    Length of value argument.
 
   - *flag* \[out\]  
-    TBD
+    True if key defined, false if not.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

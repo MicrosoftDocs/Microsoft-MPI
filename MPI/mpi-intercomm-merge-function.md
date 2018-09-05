@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Intercomm\_merge function
 
-TBD
+Creates an intracommuncator from an intercommunicator.
 
 ## Syntax
 
@@ -32,17 +32,19 @@ int MPIAPI MPI_Intercomm_merge(
 ## Parameters
 
   - *intercomm*  
-    TBD
+    Intercommunicator.
 
   - *high*  
-    TBD
+    Used to order the groups within comm when creating the new communicator.  This is a boolean value; the group that sets high true has its processes ordered *after* the group that sets this value to false.  If all processes in the intercommunicator provide the same value, the choice of which group is ordered first is arbitrary.
 
   - *newintracomm* \[out\]  
-    TBD
+    Created intracommunicator.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Graph\_neighbors function
 
-TBD
+Returns the neighbors of a node associated with a graph topology.
 
 ## Syntax
 
@@ -33,20 +33,22 @@ int MPIAPI MPI_Graph_neighbors(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator with graph topology.
 
   - *rank*  
-    TBD
+    Rank of process in group of comm.
 
   - *maxneighbors*  
-    TBD
+    Size of array neighbors.
 
   - *neighbors*  
-    TBD
+    Ranks of processes that are neighbors to specified process.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

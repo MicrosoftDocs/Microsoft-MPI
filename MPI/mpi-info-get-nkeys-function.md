@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Info\_get\_nkeys function
 
-TBD
+Returns the number of currently defined keys in info object.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Info_get_nkeys(
 ## Parameters
 
   - *info*  
-    TBD
+    Info object.
 
   - *nkeys* \[out\]  
-    TBD
+    Number of defined keys.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

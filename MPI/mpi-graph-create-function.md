@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Graph\_create function
 
-TBD
+Makes a new communicator to which topology information has been attached.
 
 ## Syntax
 
@@ -35,32 +35,40 @@ int MPIAPI MPI_Graph_create(
 ## Parameters
 
   - *comm\_old*  
-    TBD
+    Input communicator without topology.
 
   - *nnodes*  
-    TBD
+    Number of nodes in graph.
 
   - *index*  
-    TBD
+    Array of integers describing node degrees.
 
   - *edges* \[in\]  
-    TBD
+    Array of integers describing graph edges.
 
   - *reorder*  
-    TBD
+    Ranking may be reordered (true) or not (false).
 
   - *comm\_cart* \[out\]  
-    TBD
+    Communicator with graph topology added.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_GRAPH_CREATE(COMM_OLD, NNODES, INDEX, EDGES, REORDER, COMM_GRAPH, IERROR)
         INTEGER COMM_OLD, NNODES, INDEX(*), EDGES(*), COMM_GRAPH, IERROR
         LOGICAL REORDER
+
+## Remarks
+
+Each process must provide a description of the entire graph, not just the neigbors of the calling process.
+
+MSMPI currently ignores the *reorder* info.
 
 ## Requirements
 

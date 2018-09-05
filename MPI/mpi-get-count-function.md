@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Get\_count function
 
-TBD
+Gets the number of "top level" elements.
 
 ## Syntax
 
@@ -32,22 +32,28 @@ int MPIAPI MPI_Get_count(
 ## Parameters
 
   - *status* \[in\]  
-    TBD
+    Return status of receive operation.
 
   - *datatype*  
-    TBD
+    Datatype of each receive buffer element.
 
   - *count* \[out\]  
-    TBD
+    Number of received elements.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_GET_COUNT(STATUS, DATATYPE, COUNT, IERROR)
         INTEGER STATUS(MPI_STATUS_SIZE), DATATYPE, COUNT, IERROR
+
+## Remarks
+
+If the size of the datatype is zero, this routine will return a count of zero.  If the amount of data in *status* is not an exact multiple of the size of *datatype* (so that *count* would not be integral), a *count* of **MPI\_UNDEFINED** is returned instead.
 
 ## Requirements
 
