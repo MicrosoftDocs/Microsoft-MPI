@@ -13,44 +13,44 @@ mtps_version: v=VS.85
 ## In this section
 
   - [**MPI\_Accumulate**](mpi-accumulate-function.md)  
-    TBD
+    Accumulates data into the target process using remote memory access.
 
   - [**MPI\_Get**](mpi-get-function.md)  
-    TBD
+    Gets data from a memory window on a remote process.
 
   - [**MPI\_Put**](mpi-put-function.md)  
-    TBD
+    Puts data into a memory window on a remote process.
 
   - [**MPI\_Win\_complete**](mpi-win-complete-function.md)  
-    TBD
+    Completes an RMA operations begun after an [**MPI\_Win\_start**](mpi-win-start-function.md).
 
   - [**MPI\_Win\_create**](mpi-win-create-function.md)  
-    TBD
+    Creates an MPI Window object for one-sided communication.
 
   - [**MPI\_Win\_fence**](mpi-win-fence-function.md)  
-    TBD
+    Performs an MPI fence synchronization on a MPI window.
 
   - [**MPI\_Win\_free**](mpi-win-free-function.md)  
-    TBD
+    Frees an MPI RMA window object.
 
   - [**MPI\_Win\_get\_group**](mpi-win-get-group-function.md)  
-    TBD
+    Gets the MPI Group of the window object.
 
   - [**MPI\_Win\_lock**](mpi-win-lock-function.md)  
-    TBD
+    Begins an RMA access epoch at the target process.
 
   - [**MPI\_Win\_post**](mpi-win-post-function.md)  
-    TBD
+    Starts an RMA exposure epoch.
 
   - [**MPI\_Win\_start**](mpi-win-start-function.md)  
-    TBD
+    Starts an RMA access epoch.
 
   - [**MPI\_Win\_test**](mpi-win-test-function.md)  
-    TBD
+    Tests whether an RMA exposure epoch has completed.
 
   - [**MPI\_Win\_unlock**](mpi-win-unlock-function.md)  
-    TBD
+    Completes an RMA access epoch at the target process.
 
   - [**MPI\_Win\_wait**](mpi-win-wait-function.md)  
-    TBD
+    Completes an RMA exposure epoch begun with [**MPI\_Win\_post**](mpi-win-post-function.md).
 
