@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Type\_get\_true\_extent function
 
-TBD
+Get the true lower bound and extent for a datatype.
 
 ## Syntax
 
@@ -32,23 +32,29 @@ int MPIAPI MPI_Type_get_true_extent(
 ## Parameters
 
   - *datatype*  
-    TBD
+    Datatype to get information on.
 
   - *true\_lb* \[out\]  
-    TBD
+    True lower bound of datatype.
 
   - *true\_extent* \[out\]  
-    TBD
+    True size of datatype.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_TYPE_GET_TRUE_EXTENT(DATATYPE, TRUE_LB, TRUE_EXTENT, IERROR)
         INTEGER DATATYPE, IERROR
         INTEGER(KIND = MPI_ADDRESS_KIND) TRUE_LB, TRUE_EXTENT
+
+## Remarks
+
+*true\_lb* returns the offset of the lowest unit of store which is addressed by the datatype, i.e., the lower bound of the corresponding typemap, ignoring explicit lower bound markers. *true\_extent* returns the true size of the datatype, i.e., the extent of the corresponding typemap, ignoring explicit lower bound and upper bound markers, and performing no rounding for alignment.
 
 ## Requirements
 
