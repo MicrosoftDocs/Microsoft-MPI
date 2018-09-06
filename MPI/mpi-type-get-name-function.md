@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Type\_get\_name function
 
-TBD
+Get the print name for a datatype.
 
 ## Syntax
 
@@ -32,17 +32,19 @@ int MPIAPI MPI_Type_get_name(
 ## Parameters
 
   - *type*  
-    TBD
+    Datatype whose name is to be returned.
 
   - *type\_name*  
-    TBD
+    The name previously stored on the datatype, or a empty string if no such name exists.
 
   - *resultlen* \[out\]  
-    TBD
+    Length of returned name.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
