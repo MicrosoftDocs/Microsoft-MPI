@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Type\_get\_attr function
 
-TBD
+Retrieves attribute value by key.
 
 ## Syntax
 
@@ -33,20 +33,22 @@ int MPIAPI MPI_Type_get_attr(
 ## Parameters
 
   - *type*  
-    TBD
+    Datatype to which the attribute is attached.
 
   - *type\_keyval*  
-    TBD
+    Key value.
 
   - *attribute\_val* \[out\]  
-    TBD
+    Attribute value, unless *flag* is false.
 
   - *flag* \[out\]  
-    TBD
+    False if no attribute is associated with the key.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
