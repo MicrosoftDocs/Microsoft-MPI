@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Type\_get\_extent function
 
-TBD
+Gets the lower bound and extent for a datatype.
 
 ## Syntax
 
@@ -32,17 +32,19 @@ int MPIAPI MPI_Type_get_extent(
 ## Parameters
 
   - *datatype*  
-    TBD
+    Datatype to get information on.
 
   - *lb* \[out\]  
-    TBD
+    Lower bound of datatype.
 
   - *extent* \[out\]  
-    TBD
+    Extent of datatype.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
