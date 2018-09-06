@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Type\_get\_contents function
 
-TBD
+Gets the contents of the type.
 
 ## Syntax
 
@@ -36,29 +36,31 @@ int MPIAPI MPI_Type_get_contents(
 ## Parameters
 
   - *datatype*  
-    TBD
+    Datatype to access.
 
   - *max\_integers*  
-    TBD
+    Number of elements in *array\_of\_integers*.
 
   - *max\_addresses*  
-    TBD
+    Number of elements in *array\_of\_addresses*.
 
   - *max\_datatypes*  
-    TBD
+    Number of elements in *array\_of\_datatypes*.
 
   - *array\_of\_integers*  
-    TBD
+    Contains integer arguments used in constructing the datatype.
 
   - *array\_of\_addresses*  
-    TBD
+    Contains address arguments used in constructing the datatype.
 
   - *array\_of\_datatypes*  
-    TBD
+    Contains datatype arguments used in constructing the datatype.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
