@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Type\_create\_f90\_complex function
 
-TBD
+Return a predefined type that matches the specified range.
 
 ## Syntax
 
@@ -32,22 +32,26 @@ int MPIAPI MPI_Type_create_f90_complex(
 ## Parameters
 
   - *p*  
-    TBD
-
   - *r*  
-    TBD
+    Decimal range desired.
 
   - *newtype* \[out\]  
-    TBD
+    A predefine MPI Datatype that matches the range.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_TYPE_CREATE_F90_COMPLEX(P, R, NEWTYPE, IERROR)
         INTEGER P, R, NEWTYPE, IERROR
+
+## Remarks
+
+This function returns a predefined MPI datatype that matches a **COMPLEX** variable of **KIND** *selected\_real\_kind\(p, r\)*. Either *p* or *r* may be omitted from calls to *selected\_real\_kind\(p, r\)* (but not both). Analogously, either *p* or *r* may be set to **MPI\_UNDEFINED**. Matching rules for datatypes created by this function are analogous to the matching rules for datatypes created by **MPI\_TYPE\_CREATE\_F90_REAL**.
 
 ## Requirements
 
