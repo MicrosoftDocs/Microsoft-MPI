@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Request\_free function
 
-TBD
+Frees a communication request object.
 
 ## Syntax
 
@@ -30,16 +30,24 @@ int MPIAPI MPI_Request_free(
 ## Parameters
 
   - *request*  
-    TBD
+    Communication request.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_REQUEST_FREE(REQUEST, IERROR)
         INTEGER REQUEST, IERROR
+
+## Remarks
+
+This routine is normally used to free inactive persistent requests created with either [**MPI\_Recv\_init**](mpi-recv-init-function.md) or [**MPI\_Send\_init**](mpi-send-init-function.md) and friends.  It is also permissible to free an active request.  However, once freed, the request can no longer be used in a wait or test routine (e.g., [**MPI\_Wait**](mpi-wait-function.md)) to determine completion.
+
+This routine may also be used to free a non-persistent requests such as those created with [**MPI\_Irecv**](mpi-irecv-function.md) or [**MPI\_Isend**](mpi-isend-function.md) and friends.  Like active persistent requests, once freed, the request can no longer be used with test/wait routines to determine completion.
 
 ## Requirements
 

@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Put function
 
-TBD
+Put data into a memory window on a remote process.
 
 ## Syntax
 
@@ -29,7 +29,7 @@ int MPIAPI MPI_Put(
        int          target_rank,
        MPI_Aint     target_disp,
        int          target_count,
-       MPI_Datatype datatype,
+       MPI_Datatype target_datatype,
        MPI_Win      win
 );
 ```
@@ -37,32 +37,34 @@ int MPIAPI MPI_Put(
 ## Parameters
 
   - *origin\_addr* \[in\]  
-    TBD
+    Initial address of origin buffer.
 
   - *origin\_count*  
-    TBD
+    Number of entries in origin buffer.
 
   - *origin\_datatype*  
-    TBD
+    Datatype of each entry in origin buffer.
 
   - *target\_rank*  
-    TBD
+    Rank of target.
 
   - *target\_disp*  
-    TBD
+    Displacement from start of window to target buffer.
 
   - *target\_count*  
-    TBD
+    Number of entries in target buffer.
 
-  - *datatype*  
-    TBD
+  - *target\_datatype*  
+    Datatype of each entry in target buffer.
 
   - *win*  
-    TBD
+    Window object used for communication.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

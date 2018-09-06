@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Is\_thread\_main function
 
-TBD
+Returns a flag indicating whether this thread called [**MPI\_Init**](mpi-init-function.md) or [**MPI\_Init\_thread**](mpi-init-thread-function.md).
 
 ## Syntax
 
@@ -30,11 +30,13 @@ int MPIAPI MPI_Is_thread_main(
 ## Parameters
 
   - *flag* \[out\]  
-    TBD
+    Flag is true if [**MPI\_Init**](mpi-init-function.md) or [**MPI\_Init\_thread**](mpi-init-thread-function.md) has been called by this thread and false otherwise.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

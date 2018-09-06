@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Request\_get\_status function
 
-TBD
+Nondestructive test for the completion of a request.
 
 ## Syntax
 
@@ -32,23 +32,29 @@ int MPIAPI MPI_Request_get_status(
 ## Parameters
 
   - *request*  
-    TBD
+    Communication request.
 
   - *flag* \[out\]  
-    TBD
+    True if operation has completed.
 
   - *status* \[out\]  
-    TBD
+    Status object, or **MPI\_STATUS\_IGNORE**.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_REQUEST_GET_STATUS( REQUEST, FLAG, STATUS, IERROR)
         INTEGER REQUEST, STATUS(MPI_STATUS_SIZE), IERROR
         LOGICAL FLAG
+
+## Remarks
+
+Unlike [**MPI\_Test**](mpi-test-function.md), [**MPI\_Request\_get\_status**](mpi-request-get-status-function.md) does not deallocate or deactivate the request.  A call to one of the test/wait routines or [**MPI\_Request\_free**](mpi-request-free-function.md) should be made to release the request object.
 
 ## Requirements
 

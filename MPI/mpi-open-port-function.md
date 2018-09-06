@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Open\_port function
 
-TBD
+Establishes an address that can be used to establish connections between groups of MPI processes.
 
 ## Syntax
 
@@ -31,20 +31,32 @@ int MPIAPI MPI_Open_port(
 ## Parameters
 
   - *info*  
-    TBD
+    Implementation-specific information on how to establish a port for [**MPI\_Comm\_accept**](mpi-comm-accept-function.md).
 
   - *port\_name*  
-    TBD
+    Newly established port.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_OPEN_PORT(INFO, PORT_NAME, IERROR)
         CHARACTER*(*) PORT_NAME
         INTEGER INFO, IERROR
+
+## Remarks
+
+MPI copies a system-supplied port name into *port_name*. *port_name* identifies the newly opened port and can be used by a client to contact the server. The maximum size string that may be supplied by the system is **MPI\_MAX\_PORT\_NAME**.
+
+Reserved Info Key Values:
+- ip_port - Value contains IP port number at which to establish a port.
+- ip_address - Value contains IP address at which to establish a port.
+
+If the address is not a valid IP address of the host on which the [**MPI\_Open\_port**](mpi-open-port-function.md) call is made, the results are undefined.
 
 ## Requirements
 

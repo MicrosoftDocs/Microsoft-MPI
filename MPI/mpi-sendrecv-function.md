@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Sendrecv function
 
-TBD
+Sends and receives a message.
 
 ## Syntax
 
@@ -41,44 +41,46 @@ int MPIAPI MPI_Sendrecv(
 ## Parameters
 
   - *sendbuf* \[in\]  
-    TBD
+    Initial address of send buffer.
 
   - *sendcount*  
-    TBD
+    Number of elements in send buffer.
 
   - *sendtype*  
-    TBD
+    Type of elements in send buffer.
 
   - *dest*  
-    TBD
+    Rank of destination.
 
   - *sendtag*  
-    TBD
+    Send tag.
 
   - *recvbuf* \[out\]  
-    TBD
+    Initial address of receive buffer.
 
   - *recvcount*  
-    TBD
+    Number of elements in receive buffer.
 
   - *recvtype*  
-    TBD
+    Type of elements in receive buffer.
 
   - *source*  
-    TBD
+    Rank of source.
 
   - *recvtag*  
-    TBD
+    Receive tag.
 
   - *comm*  
-    TBD
+    Communicator.
 
   - *status* \[out\]  
-    TBD
+    Status object that refers to the receive operation.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Reduce\_local function
 
-TBD
+Applies a reduction operator to local arguments.
 
 ## Syntax
 
@@ -34,23 +34,25 @@ int MPIAPI MPI_Reduce_local(
 ## Parameters
 
   - *inbuf* \[in\]  
-    TBD
+    Address of the input buffer.
 
   - *inoutbuf*  
-    TBD
+    Address of input-output buffer.
 
   - *count*  
-    TBD
+    Number of elements in each buffer.
 
   - *datatype*  
-    TBD
+    Datatype of elements in the buffers.
 
   - *op*  
-    TBD
+    Reduction operation.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

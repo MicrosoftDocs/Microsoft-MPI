@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Status\_c2f function
 
-TBD
+Converts from a C status (which is a structure) to a Fortran status (which is an array of integers).
 
 ## Syntax
 
@@ -31,14 +31,14 @@ int MPIAPI MPI_Status_c2f(
 ## Parameters
 
   - *status* \[in\]  
-    TBD
+    C status.
 
   - *f\_status* \[out\]  
-    TBD
+    Fortran status.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
 
 ## Requirements
 

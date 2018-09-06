@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Send\_init function
 
-TBD
+Create a persistent request for a standard send.
 
 ## Syntax
 
@@ -36,29 +36,31 @@ int MPIAPI MPI_Send_init(
 ## Parameters
 
   - *buf* \[in\]  
-    TBD
+    Initial address of send buffer.
 
   - *count*  
-    TBD
+    Number of elements sent.
 
   - *datatype*  
-    TBD
+    Type of each element.
 
   - *dest*  
-    TBD
+    Rank of destination.
 
   - *tag*  
-    TBD
+    Message tag.
 
   - *comm*  
-    TBD
+    Communicator.
 
   - *request* \[out\]  
-    TBD
+    Communication request.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

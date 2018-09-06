@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Lookup\_name function
 
-TBD
+Looks up a port given a service name.
 
 ## Syntax
 
@@ -32,23 +32,29 @@ int MPIAPI MPI_Lookup_name(
 ## Parameters
 
   - *service\_name*  
-    TBD
+    Service name.
 
   - *info*  
-    TBD
+    Implementation-specific information.
 
   - *port\_name*  
-    TBD
+    Port name.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_LOOKUP_NAME(SERVICE_NAME, INFO, PORT_NAME, IERROR)
         CHARACTER*(*) SERVICE_NAME, PORT_NAME
         INTEGER INFO, IERROR
+
+## Remarks
+
+If the *service_name* is found, MPI copies the associated value into *port_name*.  The maximum size string that may be supplied by the system is **MPI\_MAX\_PORT\_NAME**.
 
 ## Requirements
 

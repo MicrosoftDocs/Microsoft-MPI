@@ -16,19 +16,19 @@ mtps_version: v=VS.85
     Sends data to a specified process in buffered mode.
 
   - [**MPI\_Bsend\_init**](mpi-bsend-init-function.md)  
-    TBD
+    Builds a handle for a buffered send.
 
   - [**MPI\_Cancel**](mpi-cancel-function.md)  
-    TBD
+    Cancels a communication request.
 
   - [**MPI\_Get\_count**](mpi-get-count-function.md)  
-    TBD
+    Gets the number of "top level" elements.
 
   - [**MPI\_Ibsend**](mpi-ibsend-function.md)  
     Initiates a buffered mode send operation and returns a handle to the communication operation.
 
   - [**MPI\_Iprobe**](mpi-iprobe-function.md)  
-    TBD
+    Nonblocking test for a message.
 
   - [**MPI\_Improbe**](mpi-improbe-function.md)  
     Probes for a message in a non-blocking way. Provides a mechanism to receive the specific message that was matched regardless of intervening probe/receive operations. The matched message is de-queued off the receive queue, giving the application an opportunity to decide how to receive the message based on the information returned by the non-blocking matching probe operation. The matched message is then received using the [**MPI\_Mrecv**](mpi-mrecv-function.md) or [**MPI\_Imrecv**](mpi-imrecv-function.md) function.
@@ -55,64 +55,64 @@ mtps_version: v=VS.85
     Performs a blocking receive for a message matched by [**MPI\_Mprobe**](mpi-mprobe-function.md) or [**MPI\_Improbe**](mpi-improbe-function.md).
 
   - [**MPI\_Probe**](mpi-probe-function.md)  
-    TBD
+    Blocking test for a message.
 
   - [**MPI\_Recv**](mpi-recv-function.md)  
     Performs a receive operation and does not return until a matching message is received.
 
   - [**MPI\_Recv\_init**](mpi-recv-init-function.md)  
-    TBD
+    Create a persistent request for a receive.
 
   - [**MPI\_Request\_free**](mpi-request-free-function.md)  
-    TBD
+    Frees a communication request object.
 
   - [**MPI\_Request\_get\_status**](mpi-request-get-status-function.md)  
-    TBD
+    Nondestructive test for the completion of a request.
 
   - [**MPI\_Rsend**](mpi-rsend-function.md)  
     Performs a ready mode send operation and returns when the send buffer can be safely reused.
 
   - [**MPI\_Rsend\_init**](mpi-rsend-init-function.md)  
-    TBD
+    Creates a persistent request for a ready send.
 
   - [**MPI\_Send**](mpi-send-function.md)  
     Performs a standard mode send operation and returns when the send buffer can be safely reused.
 
   - [**MPI\_Send\_init**](mpi-send-init-function.md)  
-    TBD
+    Creates a persistent request for a standard send.
 
   - [**MPI\_Sendrecv**](mpi-sendrecv-function.md)  
-    TBD
+    Sends and receives a message.
 
   - [**MPI\_Sendrecv\_replace**](mpi-sendrecv-replace-function.md)  
-    TBD
+    Sends and receives using a single buffer.
 
   - [**MPI\_Ssend**](mpi-ssend-function.md)  
     Performs a synchronous mode send operation and returns when the send buffer can be safely reused.
 
   - [**MPI\_Ssend\_init**](mpi-ssend-init-function.md)  
-    TBD
+    Creates a persistent request for a synchronous send.
 
   - [**MPI\_Start**](mpi-start-function.md)  
-    TBD
+    Initiates a communication with a persistent request handle.
 
   - [**MPI\_Startall**](mpi-startall-function.md)  
-    TBD
+    Starts a collection of persistent requests.
 
   - [**MPI\_Test**](mpi-test-function.md)  
     Tests an outstanding operation for completion.
 
   - [**MPI\_Test\_cancelled**](mpi-test-cancelled-function.md)  
-    TBD
+    Tests to see if a request was cancelled.
 
   - [**MPI\_Testall**](mpi-testall-function.md)  
-    TBD
+    Tests for the completion of all previously initiated requests.
 
   - [**MPI\_Testany**](mpi-testany-function.md)  
-    TBD
+    Tests for completion of any previdously initiated requests.
 
   - [**MPI\_Testsome**](mpi-testsome-function.md)  
-    TBD
+    Tests for completion of some of previously initiated requests.
 
   - [**MPI\_Wait**](mpi-wait-function.md)  
     Completes an outstanding operation.
@@ -124,7 +124,7 @@ mtps_version: v=VS.85
     Completes one out of several outstanding operations.
 
   - [**MPI\_Waitsome**](mpi-waitsome-function.md)  
-    TBD
+    Waits for some of given MPI requests to complete.
 
   - [**MSMPI\_Queuelock\_acquire**](msmpi-queuelock-acquire-function.md)  
     Acquires the Microsoft MPI library global lock.

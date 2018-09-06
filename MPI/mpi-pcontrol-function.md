@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Pcontrol function
 
-TBD
+Controls profiling.
 
 ## Syntax
 
@@ -31,19 +31,23 @@ int MPIAPI MPI_Pcontrol(
 ## Parameters
 
   - *level*  
-    TBD
+    Profiling level.
 
   - *...*  
-    TBD
+    Other arguments (see remarks).
 
 ## Return value
 
-TBD
+**MPI\_SUCCESS**
 
 ## Fortran
 
     MPI_PCONTROL(LEVEL)
         INTEGER LEVEL
+
+## Remarks
+
+This routine provides a common interface for profiling control.  The interpretation of *level* and any other arguments is left to the profiling library.  The intention is that a profiling library will provide a replacement for this routine and define the interpretation of the parameters.
 
 ## Requirements
 

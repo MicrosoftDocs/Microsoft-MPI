@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Status\_f2c function
 
-TBD
+Converts from a Fortran status (which is an array of integers) to a C status (which is a structure). The conversion occurs on all the information in status, including that which is hidden. That is, no status information is lost in the conversion.
 
 ## Syntax
 
@@ -31,14 +31,20 @@ int MPIAPI MPI_Status_f2c(
 ## Parameters
 
   - *f\_status* \[in\]  
-    TBD
+    Fortran status.
 
   - *status* \[out\]  
-    TBD
+    C status.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+## Remarks
+
+If *f\_status* is a valid Fortran status, but not the Fortran value of **MPI\_STATUS\_IGNORE** or **MPI\_STATUSES\_IGNORE**, then [**MPI\_Status\_f2c**](mpi-status-f2c-function.md) returns in *c\_status* a valid C status with the same content. If *f\_status* is the Fortran value of **MPI\_STATUS\_IGNORE** or **MPI\_STATUSES\_IGNORE**, or if *f\_status* is not a valid Fortran status, then the call is erroneous.
+
+The C status has the same source, tag and error code values as the Fortran status, and returns the same answers when queried for count, elements, and cancellation. The conversion function may be called with a Fortran status argument that has an undefined error field, in which case the value of the error field in the C status argument is undefined
 
 ## Requirements
 

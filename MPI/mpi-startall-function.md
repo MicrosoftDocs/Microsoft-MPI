@@ -20,7 +20,7 @@ dev_langs:
 
 # MPI\_Startall function
 
-TBD
+Starts a collection of persistent requests.
 
 ## Syntax
 
@@ -34,19 +34,25 @@ int MPIAPI MPI_Startall(
 ## Parameters
 
   - *count*  
-    TBD
+    Size of the request array.
 
   - *array\_of\_requests*  
-    TBD
+    Array of requests.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_STARTALL(COUNT, ARRAY_OF_REQUESTS, IERROR)
         INTEGER COUNT, ARRAY_OF_REQUESTS(*), IERROR
+
+## Remarks
+
+Unlike [**MPI\_Waitall**](mpi-waitall-function.md), [**MPI\_Startall**](mpi-startall-function.md) does not provide a mechanism for returning multiple errors nor pinpointing the request(s) involved. Futhermore, the behavior of [**MPI\_Startall**](mpi-startall-function.md) after an error occurs is not defined by the MPI standard.  If well-defined error reporting and behavior are required, multiple calls to [**MPI\_Start**](mpi-start-function.md) should be used instead.
 
 ## Requirements
 
