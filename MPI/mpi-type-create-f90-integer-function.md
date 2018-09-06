@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Type\_create\_f90\_integer function
 
-TBD
+Returns a predefined type that matches the specified range.
 
 ## Syntax
 
@@ -31,19 +31,25 @@ int MPIAPI MPI_Type_create_f90_integer(
 ## Parameters
 
   - *r*  
-    TBD
+    Decimal range (number of digits) desired.
 
   - *newtype* \[out\]  
-    TBD
+    A predefine MPI Datatype that matches the range.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_TYPE_CREATE_F90_INTEGER(R, NEWTYPE, IERROR)
         INTEGER R, NEWTYPE, IERROR
+
+## Remarks
+
+This function returns a predefined MPI datatype that matches a INTEGER variable of *KIND selected_int_kind\(r\)*. Matching rules for datatypes created by this function are analogous to the matching rules for datatypes created by [**MPI\_Type\_create\_f90\_real**](mpi-type-create-f90-real-function.md).
 
 ## Requirements
 
