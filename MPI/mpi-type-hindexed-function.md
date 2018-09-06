@@ -33,17 +33,19 @@ MPIAPI MPI_Type_hindexed(
 ## Parameters
 
   - *count*  
-    TBD
+    Number of blocks - also number of entries in *array\_of\_displacements* and *array\_of\_blocklengths*
 
   - *oldtype*  
-    TBD
+    Old datatype.
 
   - *newtype* \[out\]  
-    TBD
+    New datatype.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
