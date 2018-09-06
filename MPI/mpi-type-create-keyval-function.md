@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Type\_create\_keyval function
 
-TBD
+Creates an attribute keyval for MPI datatypes.
 
 ## Syntax
 
@@ -33,20 +33,22 @@ int MPIAPI MPI_Type_create_keyval(
 ## Parameters
 
   - *type\_copy\_attr\_fn* \[in\]  
-    TBD
+    Copy callback function for *type\_keyval*.
 
   - *type\_delete\_attr\_fn* \[in\]  
-    TBD
+    Delete callback function for *type\_keyval*.
 
   - *type\_keyval* \[out\]  
-    TBD
+    Key value for future access.
 
   - *extra\_state* \[in, optional\]  
-    TBD
+    Extra state for callback functions.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
@@ -55,6 +57,13 @@ TBD
         EXTERNAL TYPE_COPY_ATTR_FN, TYPE_DELETE_ATTR_FN
         INTEGER TYPE_KEYVAL, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) EXTRA_STATE
+
+## Remarks
+
+Default copy and delete functions are available.  These are
+- **MPI\_TYPE\_NULL\_COPY\_FN**   - empty copy function
+- **MPI\_TYPE\_NULL\_DELETE\_FN** - empty delete function
+- **MPI\_TYPE\_DUP\_FN**          - simple dup function
 
 ## Requirements
 
