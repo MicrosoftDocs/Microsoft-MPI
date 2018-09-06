@@ -32,14 +32,16 @@ MPIAPI MPI_Type_lb(
 ## Parameters
 
   - *datatype*  
-    TBD
+    Datatype.
 
   - *displacement* \[out\]  
-    TBD
+    Displacement of lower bound from origin, in bytes.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
