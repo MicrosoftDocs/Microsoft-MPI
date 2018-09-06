@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Type\_create\_darray function
 
-TBD
+Creates a datatype representing a distributed array.
 
 ## Syntax
 
@@ -39,38 +39,40 @@ int MPIAPI MPI_Type_create_darray(
 ## Parameters
 
   - *size*  
-    TBD
+    Size of process group.
 
   - *rank*  
-    TBD
+    Rank in process group.
 
   - *ndims*  
-    TBD
+    Number of array dimensions as well as process grid dimensions.
 
   - *array\_of\_gszies*  
-    TBD
+    Number of elements of type *oldtype* in each dimension of global array.
 
   - *array\_of\_distribs*  
-    TBD
+    Distribution of array in each dimension.
 
   - *array\_of\_dargs*  
-    TBD
+    Distribution argument in each dimension.
 
   - *array\_of\_psizes*  
-    TBD
+    Size of process grid in each dimension.
 
   - *order*  
-    TBD
+    Array storage order flag.
 
   - *oldtype*  
-    TBD
+    Old datatype.
 
   - *newtype* \[out\]  
-    TBD
+    New datatype.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
