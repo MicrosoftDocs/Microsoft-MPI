@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 # MPI\_Testany function
 
-TBD
+Tests for completion of any previdously initiated requests.
 
 ## Syntax
 
