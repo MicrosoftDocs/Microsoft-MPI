@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Test\_cancelled function
 
-TBD
+Tests to see if a request was cancelled.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Test_cancelled(
 ## Parameters
 
   - *status* \[in\]  
-    TBD
+    Status object.
 
   - *flag* \[out\]  
-    TBD
+    True if the request was cancelled, false otherwise.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
