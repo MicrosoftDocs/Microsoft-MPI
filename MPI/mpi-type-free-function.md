@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Type\_free function
 
-TBD
+Frees the datatype.
 
 ## Syntax
 
@@ -30,11 +30,13 @@ int MPIAPI MPI_Type_free(
 ## Parameters
 
   - *datatype*  
-    TBD
+    Datatype that is freed.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
