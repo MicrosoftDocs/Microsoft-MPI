@@ -656,10 +656,6 @@
           href: mpi-file-c2f-function.md
         - name: MPI_File_f2c
           href: mpi-file-f2c-function.md
-        - name: MPI_Keyval_create
-          href: mpi-keyval-create-function.md
-        - name: MPI_Keyval_free
-          href: mpi-keyval-free-function.md
         - name: MPI_Pcontrol
           href: mpi-pcontrol-function.md
         - name: MPI_Status_c2f
@@ -672,24 +668,12 @@
           href: mpi-type-create-f90-integer-function.md
         - name: MPI_Type_create_f90_real
           href: mpi-type-create-f90-real-function.md
-        - name: MPI_Type_extent
-          href: mpi-type-extent-function.md
         - name: MPI_Type_get_name
           href: mpi-type-get-name-function.md
-        - name: MPI_Type_hindexed
-          href: mpi-type-hindexed-function.md
-        - name: MPI_Type_hvector
-          href: mpi-type-hvector-function.md
-        - name: MPI_Type_lb
-          href: mpi-type-lb-function.md
         - name: MPI_Type_match_size
           href: mpi-type-match-size-function.md
         - name: MPI_Type_set_name
           href: mpi-type-set-name-function.md
-        - name: MPI_Type_struct
-          href: mpi-type-struct-function.md
-        - name: MPI_Type_ub
-          href: mpi-type-ub-function.md
         - name: MPI_Win_get_name
           href: mpi-win-get-name-function.md
         - name: MPI_Win_set_name
