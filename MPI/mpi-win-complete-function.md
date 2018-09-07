@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_complete function
 
-TBD
+Completes all RMA operations initiated after an [**MPI\_Win\_start**](mpi-win-start-function.md).
 
 ## Syntax
 
@@ -30,11 +30,13 @@ int MPIAPI MPI_Win_complete(
 ## Parameters
 
   - *win*  
-    TBD
+    Window object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
