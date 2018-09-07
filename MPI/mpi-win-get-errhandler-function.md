@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_get\_errhandler function
 
-TBD
+Gets the error handler for the MPI RMA window.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Win_get_errhandler(
 ## Parameters
 
   - *win*  
-    TBD
+    Window object.
 
   - *errhandler* \[out\]  
-    TBD
+    Error handler currently associated with window object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
