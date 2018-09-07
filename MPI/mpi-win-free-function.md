@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_free function
 
-TBD
+Frees an MPI window object.
 
 ## Syntax
 
@@ -30,16 +30,22 @@ int MPIAPI MPI_Win_free(
 ## Parameters
 
   - *win* \[in, out\]  
-    TBD
+    Window object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_WIN_FREE(WIN, IERROR)
         INTEGER WIN, IERROR
+
+## Remarks
+
+If successfully freed, *win* is set to **MPI\_WIN\_NULL**.
 
 ## Requirements
 
