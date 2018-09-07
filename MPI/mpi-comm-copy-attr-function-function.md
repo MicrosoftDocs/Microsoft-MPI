@@ -38,26 +38,26 @@ int MPI_Comm_copy_attr_function(
 ## Parameters
 
   - *oldcomm*  
-    TBD
+    Original communicator.
 
   - *comm\_keyval*  
-    TBD
+    Key value.
 
   - *extra\_state* \[in, optional\]  
-    TBD
+    Extra state.
 
   - *attribute\_val\_in* \[in\]  
-    TBD
+    Source attribute value.
 
   - *attribute\_val\_out* \[out\]  
-    TBD
+    Destination attribute value.
 
   - *flag* \[out\]  
-    TBD
+    If the returned value of *flag* is 0 or **FALSE**, then the attribute is deleted in the duplicated communicator. Otherwise (*flag* = 1 or **TRUE**), the new attribute value is set to the value returned in *attribute\_val\_out*.
 
 ## Return value
 
-TBD
+The function returns **MPI\_SUCCESS** on success and an error code on failure.
 
 ## Fortran
 
@@ -67,6 +67,10 @@ TBD
         INTEGER(KIND=MPI_ADDRESS_KIND) EXTRA_STATE, ATTRIBUTE_VAL_IN,
             ATTRIBUTE_VAL_OUT
         LOGICAL FLAG
+
+## Remarks
+
+The *comm\_copy\_attr\_fn* function is invoked when a communicator is duplicated by [**MPI\_Comm\_dup**](mpi-comm-dup-function.md).
 
 ## Requirements
 
