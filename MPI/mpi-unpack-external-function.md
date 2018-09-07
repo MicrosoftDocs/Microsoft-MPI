@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Unpack\_external function
 
-TBD
+Unpack a buffer (packed with [**MPI\_Pack\_external**](mpi-pack-external-function.md)) according to a datatype into contiguous memory.
 
 ## Syntax
 
@@ -36,29 +36,31 @@ int MPIAPI MPI_Unpack_external(
 ## Parameters
 
   - *datarep*  
-    TBD
+    Data representation.
 
   - *inbuf*  
-    TBD
+    Start address of the input buffer.
 
   - *insize*  
-    TBD
+    Input buffer size, in bytes.
 
   - *position*  
-    TBD
+    Current position in buffer, in bytes.
 
   - *outbuf* \[out\]  
-    TBD
+    Start address of the output buffer.
 
   - *outcount*  
-    TBD
+    Number of output data items.
 
   - *datatype*  
-    TBD
+    Datatype of output data item.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
