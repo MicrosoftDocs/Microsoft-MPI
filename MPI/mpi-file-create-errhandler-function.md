@@ -23,8 +23,8 @@ Creates a file error handler.
 
 ``` c++
 int MPIAPI MPI_File_create_errhandler(
-  _In_  MPI_File_errhandler_fn *function,
-  _Out_ MPI_Errhandler         *errhandler
+  _In_  MPI_File_errhandler_function *function,
+  _Out_ MPI_Errhandler               *errhandler
 );
 ```
 
