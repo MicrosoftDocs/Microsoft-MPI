@@ -42,17 +42,8 @@ mtps_version: v=VS.85
   - [**MPI\_Comm\_set\_errhandler**](mpi-comm-set-errhandler-function.md)  
     Sets the error handler for a communicator.
 
-  - [**MPI\_Errhandler\_create**](mpi-errhandler-create-function.md)  
-    This function is deprecated in MPI-2 and removed from MPI-3. It is replaced by the [**MPI\_Comm\_create\_errhandler**](mpi-comm-create-errhandler-function.md) function.
-
   - [**MPI\_Errhandler\_free**](mpi-errhandler-free-function.md)  
     Sets the error handler for a communicator.
-
-  - [**MPI\_Errhandler\_get**](mpi-errhandler-get-function.md)  
-    This function is deprecated in MPI-2 and removed from MPI-3. It is replaced by the [**MPI\_Comm\_get\_errhandler**](mpi-comm-get-errhandler-function.md) function.
-
-  - [**MPI\_Errhandler\_set**](mpi-errhandler-set-function.md)  
-    This function is deprecated in MPI-2 and removed from MPI-3. It is replaced by the [**MPI\_Comm\_set\_errhandler**](mpi-comm-set-errhandler-function.md) function.
 
   - [**MPI\_Error\_class**](mpi-error-class-function.md)  
     Converts an error code to an error class.
