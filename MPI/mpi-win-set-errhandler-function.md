@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_set\_errhandler function
 
-TBD
+Sets error handler for MPI windows object.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Win_set_errhandler(
 ## Parameters
 
   - *win*  
-    TBD
+    Window object.
 
   - *errhandler*  
-    TBD
+    New error handler for the window object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
