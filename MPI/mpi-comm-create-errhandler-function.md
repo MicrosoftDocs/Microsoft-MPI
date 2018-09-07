@@ -23,8 +23,8 @@ Create a communicator error handler.
 
 ``` c++
 int MPIAPI MPI_Comm_create_errhandler(
-  _In_  MPI_Comm_errhandler_fn *function,
-  _Out_ MPI_Errhandler         *errhandler
+  _In_  MPI_Comm_errhandler_function *function,
+  _Out_ MPI_Errhandler               *errhandler
 );
 ```
 
