@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Unpublish\_name function
 
-TBD
+Unpublish a service name published with [**MPI\_Publish\_name**](mpi-publish-name-function.md).
 
 ## Syntax
 
@@ -32,17 +32,19 @@ int MPIAPI MPI_Unpublish_name(
 ## Parameters
 
   - *service\_name* \[in\]  
-    TBD
+    Service name string.
 
   - *info*  
-    TBD
+    Implementation-specific information.
 
   - *port\_name* \[in\]  
-    TBD
+    Port name string.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
