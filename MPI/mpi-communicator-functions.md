@@ -34,17 +34,17 @@ mtps_version: v=VS.85
     Partitions the group that is associated with the specified communicator into a specified number of disjoint subgroups.
 
   - [**MPI\_Comm\_remote\_group**](mpi-comm-remote-group-function.md)  
-    TBD
+    Accesses the remote group associated with the given inter-communicator.
 
   - [**MPI\_Comm\_remote\_size**](mpi-comm-remote-size-function.md)  
-    TBD
+    Determines the size of the remote group associated with an inter-communictor.
 
   - [**MPI\_Comm\_test\_inter**](mpi-comm-test-inter-function.md)  
-    TBD
+    Tests to see if a comm is an inter-communicator.
 
   - [**MPI\_Intercomm\_create**](mpi-intercomm-create-function.md)  
-    TBD
+    Creates an intercommuncator from two intracommunicators.
 
   - [**MPI\_Intercomm\_merge**](mpi-intercomm-merge-function.md)  
-    TBD
+    Creates an intracommuncator from an intercommunicator.
 
