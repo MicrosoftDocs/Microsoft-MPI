@@ -388,14 +388,8 @@
           href: mpi-comm-get-errhandler-function.md
         - name: MPI_Comm_set_errhandler
           href: mpi-comm-set-errhandler-function.md
-        - name: MPI_Errhandler_create
-          href: mpi-errhandler-create-function.md
         - name: MPI_Errhandler_free
           href: mpi-errhandler-free-function.md
-        - name: MPI_Errhandler_get
-          href: mpi-errhandler-get-function.md
-        - name: MPI_Errhandler_set
-          href: mpi-errhandler-set-function.md
         - name: MPI_Error_class
           href: mpi-error-class-function.md
         - name: MPI_Error_string
@@ -650,14 +644,6 @@
       - name: MPI Miscellaneous Functions
         href: mpi-miscellaneous-functions.md
         items:
-        - name: MPI_Address
-          href: mpi-address-function.md
-        - name: MPI_Attr_delete
-          href: mpi-attr-delete-function.md
-        - name: MPI_Attr_get
-          href: mpi-attr-get-function.md
-        - name: MPI_Attr_put
-          href: mpi-attr-put-function.md
         - name: MPI_Buffer_attach
           href: mpi-buffer-attach-function.md
         - name: MPI_Buffer_detach
