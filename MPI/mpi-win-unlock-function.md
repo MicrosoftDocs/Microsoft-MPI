@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_unlock function
 
-TBD
+Completes an RMA access epoch at the target process.
 
 ## Syntax
 
@@ -31,19 +31,25 @@ int MPIAPI MPI_Win_unlock(
 ## Parameters
 
   - *rank*  
-    TBD
+    Rank of target.
 
   - *win*  
-    TBD
+    Window object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_WIN_UNLOCK(RANK, WIN, IERROR)
         INTEGER RANK, WIN, IERROR
+
+## Remarks
+
+Completes an RMA access epoch started by a call to [**MPI\_Win\_lock**](mpi-win-lock-function.md) on window *win*. RMA operations issued during this period will have completed both at the origin and at the target when the call returns.
 
 ## Requirements
 
