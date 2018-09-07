@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Type\_create\_f90\_real function
 
-TBD
+Returns a predefined type that matches the specified range.
 
 ## Syntax
 
@@ -32,22 +32,30 @@ int MPIAPI MPI_Type_create_f90_real(
 ## Parameters
 
   - *p*  
-    TBD
+    Number of decimal digits in mantissa.
 
   - *r*  
-    TBD
+    Decimal exponent range desired.
 
   - *newtype* \[out\]  
-    TBD
+    A predefine MPI Datatype that matches the range.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_TYPE_CREATE_F90_REAL(P, R, NEWTYPE, IERROR)
         INTEGER P, R, NEWTYPE, IERROR
+
+## Remark
+
+This function returns a predefined MPI datatype that matches a REAL variable of *KIND selected\_real\_kind\(p, r\)*. In the model described above it returns a handle for the element *D\(p, r\)*. Either *p* or *r* may be omitted from calls to *selected\_real\_kind\(p, r\)* (but not both). Analogously, either *p* or *r* may be set to **MPI\_UNDEFINED**. In communication, an MPI datatype **A** returned by [**MPI\_Type\_create\_f90\_real**](mpi-type-create-f90-real-function.md) matches a datatype **B** if and only if **B** was returned by [**MPI\_Type\_create\_f90\_real**](mpi-type-create-f90-real-function.md) called with the same values for *p* and *r* or B is a duplicate of such a datatype.
+
+If there is no corresponding type for the specified range, the call is erroneous. This implementation sets *newtype* to **MPI\_DATATYPE\_NULL** and returns an error of class **MPI\_ERR\_ARG**.
 
 ## Requirements
 

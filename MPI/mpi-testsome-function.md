@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Testsome function
 
-TBD
+ Tests for some of given requests to complete.
 
 ## Syntax
 
@@ -34,29 +34,35 @@ int MPIAPI MPI_Testsome(
 ## Parameters
 
   - *incount*  
-    TBD
+    The number of entries in *array\_of\_requests* parameter.
 
   - *array\_of\_requests*  
-    TBD
+    An array of **MPI\_Request** handles of outstanding operations.
 
   - *outcount* \[out\]  
-    TBD
+    The number of completed requests.
 
   - *array\_of\_indices*  
-    TBD
+    Array of indices in the *array\_of\_requests* of operations that completed. The *array\_of\_requests* is indexed from zero in C, and from one in Fortran.
 
   - *array\_of\_statuses*  
-    TBD
+    Array of status objects for operations that completed, or **MPI\_STATUSES\_IGNORE**.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_TESTSOME(INCOUNT, ARRAY_OF_REQUESTS, OUTCOUNT, ARRAY_OF_INDICES, ARRAY_OF_STATUSES, IERROR)
         INTEGER INCOUNT, ARRAY_OF_REQUESTS(*), OUTCOUNT, ARRAY_OF_INDICES(*),
         ARRAY_OF_STATUSES(MPI_STATUS_SIZE,*), IERROR
+
+## Remarks
+
+While it is possible to list a request handle more than once in the *array\_of\_requests*, such an action is considered erroneous and may cause the program to unexecpectedly terminate or produce incorrect results.
 
 ## Requirements
 

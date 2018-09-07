@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Type\_dup function
 
-TBD
+Duplicates a datatype.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Type_dup(
 ## Parameters
 
   - *type*  
-    TBD
+    Datatype to duplicate.
 
   - *newtype* \[out\]  
-    TBD
+    Copy of type.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

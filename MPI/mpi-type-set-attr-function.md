@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Type\_set\_attr function
 
-TBD
+Stores attribute value associated with a key.
 
 ## Syntax
 
@@ -32,23 +32,31 @@ int MPIAPI MPI_Type_set_attr(
 ## Parameters
 
   - *type*  
-    TBD
+    MPI Datatype to which attribute will be attached.
 
   - *type\_keyval*  
-    TBD
+    Key value, as returned by  [**MPI\_Type\_create\_keyval**](mpi-type-create-keyval-function.md).
 
   - *attribute\_val* \[in\]  
-    TBD
+    Attribute value.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_TYPE_SET_ATTR(DATATYPE, TYPE_KEYVAL, ATTRIBUTE_VAL, IERROR)
         INTEGER DATATYPE, TYPE_KEYVAL, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) ATTRIBUTE_VAL
+
+## Remarks
+
+The datatype of the attribute value depends on whether C or Fortran is being used. In C, an attribute value is a void pointer; in Fortran, it is an address-sized integer.
+
+If an attribute is already present, the delete function (specified when the corresponding keyval was created) will be called.
 
 ## Requirements
 

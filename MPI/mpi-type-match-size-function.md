@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Type\_match\_size function
 
-TBD
+Finds an MPI datatype matching a specified size.
 
 ## Syntax
 
@@ -32,17 +32,19 @@ int MPIAPI MPI_Type_match_size(
 ## Parameters
 
   - *typeclass*  
-    TBD
+    Generic type specifier.
 
   - *size*  
-    TBD
+    Size of representation in bytes.
 
   - *type* \[out\]  
-    TBD
+    Datatype with correct type, size.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

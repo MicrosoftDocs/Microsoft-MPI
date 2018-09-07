@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Type\_commit function
 
-TBD
+Commits the datatype.
 
 ## Syntax
 
@@ -30,16 +30,22 @@ int MPIAPI MPI_Type_commit(
 ## Parameters
 
   - *datatype* \[in\]  
-    TBD
+    Datatype to commit.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_TYPE_COMMIT(DATATYPE, IERROR)
         INTEGER DATATYPE, IERROR
+
+## Remarks
+
+A datatype object has to be committed before it can be used in a communication. As an argument in datatype constructors, uncommitted and also committed datatypes can be used. There is no need to commit basic datatypes. They are *pre-committed*.
 
 ## Requirements
 

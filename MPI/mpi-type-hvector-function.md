@@ -35,23 +35,25 @@ MPIAPI MPI_Type_hvector(
 ## Parameters
 
   - *count*  
-    TBD
+    Number of blocks.
 
   - *blocklength*  
-    TBD
+    Number of elements in each block.
 
   - *stride*  
-    TBD
+    Number of bytes between start of each block.
 
   - *oldtype*  
-    TBD
+    Old datatype.
 
   - *newtype* \[out\]  
-    TBD
+    New datatype.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Type\_delete\_attr function
 
-TBD
+Deletes an attribute value associated with a key on a datatype.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Type_delete_attr(
 ## Parameters
 
   - *datatype*  
-    TBD
+    MPI datatype to which attribute is attached.
 
   - *type\_keyval*  
-    TBD
+    The key value of the attribute to delete.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
