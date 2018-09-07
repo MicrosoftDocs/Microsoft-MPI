@@ -16,7 +16,7 @@ dev_langs:
 
 # MSMPI\_Get\_bsend\_overhead function
 
-TBD
+Returns the size of the overhead required for Bsend buffers.
 
 ## Syntax
 
@@ -30,7 +30,7 @@ This function has no parameters.
 
 ## Return value
 
-TBD
+The required overhead for Bsend operations.
 
 ## Requirements
 
