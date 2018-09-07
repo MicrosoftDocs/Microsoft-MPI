@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_wait function
 
-TBD
+Completes an RMA exposure epoch begun with [**MPI\_Win\_post**](mpi-win-post-function.md).
 
 ## Syntax
 
@@ -30,16 +30,22 @@ int MPIAPI MPI_Win_wait(
 ## Parameters
 
   - *win*  
-    TBD
+    Window object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_WIN_WAIT(WIN, IERROR)
         INTEGER WIN, IERROR
+
+## Remarks
+
+Completes an RMA exposure epoch started by a call to [**MPI\_Win\_post**](mpi-win-post-function.md) on win. This call matches calls to [**MPI\_Win\_complete**](mpi-win-complete-function.md) issued by each of the origin processes that were granted access to the window during this epoch. The call to [**MPI\_Win\_wait**](mpi-win-wait-function.md) will block until all matching calls to [**MPI\_Win\_complete**](mpi-win-complete-function.md) have occurred. This guarantees that all these origin processes have completed their RMA accesses to the local window. When the call returns, all these RMA accesses will have completed at the target window.
 
 ## Requirements
 
