@@ -16,5 +16,5 @@ mtps_version: v=VS.85
     An opaque structure representing a thread in the Microsoft MPI lock queue.
 
   - [**MPI\_Status**](mpi-status-structure.md)  
-    TBD
+    Structure that represents the status of the received message.
 
