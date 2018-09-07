@@ -13,14 +13,14 @@ mtps_version: v=VS.85
 ## In this section
 
   - [**MPI\_Comm**](mpi-comm-enumeration.md)  
-    TBD
+    Predefined MPI communicators.
 
   - [**MPI\_Op**](mpi-op-enumeration.md)  
-    TBD
+    Predefined MPI operations.
 
   - [**MPI\_Datatype**](mpi-datatype-enumeration.md)  
-    TBD
+    Predefined MPI datatypes.
 
   - [**MPI Error**](mpi-error.md)  
-    TBD
+    Predefined MPI errors.
 
