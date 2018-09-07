@@ -20,7 +20,7 @@ dev_langs:
 
 # MPI\_Datarep\_conversion\_function callback function
 
-TBD
+This function is a place holder for the user-defind functions to converts from file data representation to native representation and vice versa. 
 
 ## Syntax
 
@@ -38,26 +38,26 @@ int MPI_Datarep_conversion_function(
 ## Parameters
 
   - *userbuf*  
-    TBD
+    Native buffer.
 
   - *datatype*  
-    TBD
+    Datatype of the elements.
 
   - *count*  
-    TBD
+    Number of elements.
 
   - *filebuf*  
-    TBD
+    File buffer.
 
   - *position*  
-    TBD
+    Position in the read buffer.
 
   - *extra\_state* \[in\]  
-    TBD
+    Extra state.
 
 ## Return value
 
-TBD
+The conversion functions should return an error code. If the returned error code has a value other than **MPI\_SUCCESS**, the implementation will raise an error in the class **MPI\_ERR\_CONVERSION**.
 
 ## Fortran
 
