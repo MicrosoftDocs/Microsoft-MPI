@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_lock function
 
-TBD
+Begins an RMA access epoch at the target process.
 
 ## Syntax
 
@@ -33,25 +33,38 @@ int MPIAPI MPI_Win_lock(
 ## Parameters
 
   - *lock\_type*  
-    TBD
+    Indicates whether other processes may access the target window at the same time (if **MPI\_LOCK\_SHARED**) or not (**MPI\_LOCK\_EXCLUSIVE**).
 
   - *rank*  
-    TBD
+    Rank of locked window.
 
   - *assert*  
-    TBD
+    Used to optimize this call; zero may be used as a default.
 
   - *win*  
-    TBD
+    Window object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_WIN_LOCK(LOCK_TYPE, RANK, ASSERT, WIN, IERROR)
         INTEGER LOCK_TYPE, RANK, ASSERT, WIN, IERROR
+
+## Remarks
+
+The name of this routine is misleading.  In particular, this routine need not block, except when the target process is the calling process.
+
+Implementations may restrict the use of RMA communication that is synchronized by lock calls to windows in memory allocated by [**MPI\_Alloc\_mem**](mpi-alloc-mem-function.md). Locks can be used portably only in such memory.
+
+The *assert* argument is used to indicate special conditions for the fence that an implementation may use to optimize the [**MPI\_Win\_fence**](mpi-win-fence-function.md) operation.  The value zero is always correct.  Other assertion values may be **OR**ed together.  Assertions that are valid for [**MPI\_Win\_fence**](mpi-win-fence-function.md) are:
+
+- **MPI\_MODE\_NOCHECK** - no other process holds, or will attempt to acquire a conflicting lock, while the caller holds the window lock. This is useful when mutual exclusion is achieved by other means, but the coherence operations that may be attached to the lock and unlock calls are still required.
+
 
 ## Requirements
 
