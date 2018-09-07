@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_call\_errhandler function
 
-TBD
+Call the error handler installed on a window object.
 
 ## Syntax
 
@@ -31,19 +31,25 @@ int MPIAPI MPI_Win_call_errhandler(
 ## Parameters
 
   - *win*  
-    TBD
+    Window with error handler.
 
   - *errcode*  
-    TBD
+    Error code.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_WIN_CALL_ERRHANDLER(WIN, ERRORCODE, IERROR)
         INTEGER WIN, ERRORCODE, IERROR
+
+## Remarks
+
+Assuming the input parameters are valid, when the error handler is set to **MPI\_ERRORS\_RETURN**, this routine will always return **MPI\_SUCCESS**.
 
 ## Requirements
 
