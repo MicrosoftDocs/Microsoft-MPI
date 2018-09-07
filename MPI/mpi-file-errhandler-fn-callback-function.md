@@ -15,14 +15,14 @@ dev_langs:
 - C
 ---
 
-# MPI\_File\_errhandler\_fn callback function
+# MPI\_File\_errhandler\_function callback function
 
-*MPI\_File\_errhandler\_fn* is a placeholder for the application-defined function name.
+*MPI\_File\_errhandler\_function* is a placeholder for the application-defined function name.
 
 ## Syntax
 
 ``` c++
-void MPI_File_errhandler_fn(
+void MPI_File_errhandler_function(
   _In_    MPI_File *file,
   _Inout_  int     *errcode,
                    ...
@@ -32,17 +32,12 @@ void MPI_File_errhandler_fn(
 ## Parameters
 
   - *file* \[in\]  
-    TBD
+    File in use.
 
   - *errcode* \[in, out\]  
-    TBD
+    Error code to be returned.
 
   - *...*  
-    TBD
-
-## Return value
-
-TBD
 
 ## Fortran
 
