@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_create function
 
-TBD
+Creates an MPI Window object for one-sided communication.
 
 ## Syntax
 
@@ -35,26 +35,28 @@ int MPIAPI MPI_Win_create(
 ## Parameters
 
   - *base* \[in\]  
-    TBD
+    Initial address of the memory window.
 
   - *size*  
-    TBD
+    Size of the memory window in bytes.
 
   - *disp\_unit*  
-    TBD
+    Local unit size for displacements, in bytes.
 
   - *info*  
-    TBD
+    Info argument.
 
   - *comm*  
-    TBD
+    Communicator.
 
   - *win* \[out\]  
-    TBD
+    Window object returned by the call.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
@@ -62,6 +64,10 @@ TBD
         <type> BASE(*)
         INTEGER(KIND=MPI_ADDRESS_KIND) SIZE
         INTEGER DISP_UNIT, INFO, COMM, WIN, IERROR
+
+## Remarks
+
+The call is collective on an intracommunicator. [**MPI\_Win\_create**](mpi-win-create-function.md) allows each process to specify a window in its memory that is made accessible to accesses by remote processes. The call returns an opaque object that represents the group of processes that own and access the set of windows, and the attributes of each window, as specified by the initialization call.
 
 ## Requirements
 
