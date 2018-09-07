@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_get\_group function
 
-TBD
+Gets the MPI Group of the window object.
 
 ## Syntax
 
@@ -31,10 +31,10 @@ int MPIAPI MPI_Win_get_group(
 ## Parameters
 
   - *win*  
-    TBD
+    Window object.
 
   - *group* \[out\]  
-    TBD
+    Group of processes that share access to the window.
 
 ## Return value
 
@@ -44,6 +44,10 @@ TBD
 
     MPI_WIN_GET_GROUP(WIN, GROUP, IERROR)
         INTEGER WIN, GROUP, IERROR
+
+## Remarks
+
+The group is a duplicate of the group from the communicator used to create the MPI window, and should be freed with [**MPI\_Group\_free**](mpi-group-free-function.md) when it is no longer needed.  This group can be used to form the group of neighbors for the routines [**MPI\_Win\_post**](mpi-win-post-function.md) and [**MPI\_Win\_start**](mpi-win-start-function.md).
 
 ## Requirements
 
