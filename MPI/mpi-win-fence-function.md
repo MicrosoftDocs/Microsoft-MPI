@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_fence function
 
-TBD
+Performs an MPI fence synchronization on an MPI window.
 
 ## Syntax
 
@@ -31,19 +31,30 @@ int MPIAPI MPI_Win_fence(
 ## Parameters
 
   - *assert*  
-    TBD
+    Program assertion.
 
   - *win*  
-    TBD
+    Window object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_WIN_FENCE(ASSERT, WIN, IERROR)
         INTEGER ASSERT, WIN, IERROR
+
+## Remarks
+
+The *assert* argument is used to indicate special conditions for the fence that an implementation may use to optimize the [**MPI\_Win\_fence**](mpi-win-fence-function.md) operation.  The value zero is always correct.  Other assertion values may be **OR**ed together.  Assertions that are valid for [**MPI\_Win\_fence**](mpi-win-fence-function.md) are:
+
+- **MPI\_MODE\_NOSTORE** - the local window was not updated by local stores (or local get or receive calls) since last synchronization.
+- **MPI\_MODE\_NOPUT** - the local window will not be updated by put or accumulate calls after the fence call, until the ensuing (fence) synchronization.
+- **MPI\_MODE\_NOPRECEDE** - the fence does not complete any sequence of locally issued RMA calls. If this assertion is given by any process in the window group, then it must be given by all processes in the group.
+- **MPI\_MODE\_NOSUCCEED** - the fence does not start any sequence of locally issued RMA calls. If the assertion is given by any process in the window group, then it must be given by all processes in the group.
 
 ## Requirements
 
