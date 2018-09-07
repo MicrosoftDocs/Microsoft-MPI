@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_create\_keyval function
 
-TBD
+Creates an attribute keyval for MPI window objects.
 
 ## Syntax
 
@@ -33,20 +33,22 @@ int MPIAPI MPI_Win_create_keyval(
 ## Parameters
 
   - *win\_copy\_attr\_fn* \[in\]  
-    TBD
+    Copy callback function for *win\_keyval*.
 
   - *win\_delete\_attr\_fn* \[in\]  
-    TBD
+    Delete callback function for *win\_keyval*.
 
   - *win\_keyval* \[out\]  
-    TBD
+    Key value for future access.
 
   - *extra\_state* \[in, optional\]  
-    TBD
+    Extra state for callback functions.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
@@ -55,6 +57,14 @@ TBD
         EXTERNAL WIN_COPY_ATTR_FN, WIN_DELETE_ATTR_FN
         INTEGER WIN_KEYVAL, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) EXTRA_STATE
+
+## Remarks
+
+Default copy and delete functions are available.  These are
+- **MPI\_WIN\_NULL\_COPY\_FN**   - empty copy function
+- **MPI\_WIN\_NULL\_DELETE\_FN** - empty delete function
+- **MPI\_WIN\_DUP\_FN**          - simple dup function
+
 
 ## Requirements
 
