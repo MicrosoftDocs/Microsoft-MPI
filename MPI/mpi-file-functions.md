@@ -169,8 +169,8 @@ mtps_version: v=VS.85
     Register a set of user-provided data conversion.
 
   - [*MPI\_Datarep\_conversion\_function*](mpi-datarep-conversion-function-callback-function.md)  
-    TBD
+    This function is a place holder for the user-defind functions to converts from file data representation to native representation and vice versa.
 
   - [*MPI\_Datarep\_extent\_function*](mpi-datarep-extent-function-callback-function.md)  
-    TBD
+    This function is a placeholder for user-defined extent callback functions.
 
