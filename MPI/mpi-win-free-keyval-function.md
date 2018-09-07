@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_free\_keyval function
 
-TBD
+Frees an attribute key for MPI RMA windows.
 
 ## Syntax
 
@@ -30,11 +30,13 @@ int MPIAPI MPI_Win_free_keyval(
 ## Parameters
 
   - *win\_keyval* \[in, out\]  
-    TBD
+    Key value.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
