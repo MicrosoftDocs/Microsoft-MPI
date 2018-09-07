@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_start function
 
-TBD
+Starts an RMA access epoch for MPI window.
 
 ## Syntax
 
@@ -32,22 +32,31 @@ int MPIAPI MPI_Win_start(
 ## Parameters
 
   - *group*  
-    TBD
+    Group of target processes.
 
   - *assert*  
-    TBD
+    Used to optimize this call; zero may be used as a default.
 
   - *win*  
-    TBD
+    Window object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_WIN_START(GROUP, ASSERT, WIN, IERROR)
         INTEGER GROUP, ASSERT, WIN, IERROR
+
+## Remarks
+
+The *assert* argument is used to indicate special conditions for the fence that an implementation may use to optimize the [**MPI\_Win\_start**](mpi-win-start-function.md) operation.  The value zero is always correct.  Other assertion values may be or''ed together.  Assertions tha are valid for [**MPI\_Win\_start**](mpi-win-start-function.md) are:
+
+- MPI_MODE_NOCHECK - the matching calls to [**MPI\_Win\_post**](mpi-win-post-function.md) have already completed on all target processes when the call to [**MPI\_Win\_start**](mpi-win-start-function.md) is made. The nocheck option can be specified in a start call if and only if it is specified in each matching post call. This is similar to the optimization of ready-send that may save a handshake when the handshake is implicit in the code. (However, ready-send is matched by a regular receive, whereas both start and post must specify the nocheck option.)
+
 
 ## Requirements
 
