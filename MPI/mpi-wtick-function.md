@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Wtick function
 
-TBD
+Returns the resolution of [**MPI\_Wtime**](mpi-wtime-function.md).
 
 ## Syntax
 
@@ -31,7 +31,7 @@ This function has no parameters.
 
 ## Return value
 
-TBD
+Time in seconds of resolution of [**MPI\_Wtime**](mpi-wtime-function.md).
 
 ## Fortran
 
