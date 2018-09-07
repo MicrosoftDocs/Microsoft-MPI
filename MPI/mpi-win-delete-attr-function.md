@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_delete\_attr function
 
-TBD
+Deletes an attribute value associated with a key on a MPI window object.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Win_delete_attr(
 ## Parameters
 
   - *win*  
-    TBD
+    Window from which the attribute is deleted.
 
   - *win\_keyval*  
-    TBD
+    Key value.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
