@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_get\_attr function
 
-TBD
+Get attribute cached on an MPI window object.
 
 ## Syntax
 
@@ -33,20 +33,22 @@ int MPIAPI MPI_Win_get_attr(
 ## Parameters
 
   - *win*  
-    TBD
+    Window to which the attribute is attached.
 
   - *win\_keyval*  
-    TBD
+    Key value.
 
   - *attribute\_val* \[out\]  
-    TBD
+    Attribute value, unless *flag* is false.
 
   - *flag* \[out\]  
-    TBD
+    False if no attribute is associated with the key.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
@@ -54,6 +56,16 @@ TBD
         INTEGER WIN, WIN_KEYVAL, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) ATTRIBUTE_VAL
         LOGICAL FLAG
+
+## Remarks
+
+The following attributes are predefined for all MPI Window objects:
+
+- **MPI\_WIN\_BASE** - window base address.
+- **MPI\_WIN\_SIZE** - window size, in bytes.
+- **MPI\_WIN\_DISP\_UNIT** - displacement unit associated with the window.
+- **MPI\_WIN\_CREATE\_FLAVOR** - how the window was created.
+- **MPI\_WIN\_MODEL** - memory model for the window.
 
 ## Requirements
 
