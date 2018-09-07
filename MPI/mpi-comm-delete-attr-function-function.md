@@ -36,20 +36,20 @@ int MPI_Comm_delete_attr_function(
 ## Parameters
 
   - *comm*  
-    TBD
+    Communicator.
 
   - *comm\_keyval*  
-    TBD
+    Key value.
 
   - *attribute\_val* \[in\]  
-    TBD
+    Pointer to attribute value.
 
   - *extra\_state* \[in, optional\]  
-    TBD
+    Extra state.
 
 ## Return value
 
-TBD
+The function returns **MPI\_SUCCESS** on success and an error code on failure (in which case [**MPI\_Comm\_free**](mpi-comm-free-function.md) will fail).
 
 ## Fortran
 
@@ -57,6 +57,10 @@ TBD
                 EXTRA_STATE, IERROR)
         INTEGER COMM, COMM_KEYVAL, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) ATTRIBUTE_VAL, EXTRA_STATE
+
+## Remarks
+
+This function is invoked when a communicator is deleted by [**MPI\_Comm\_free**](mpi-comm-free-function.md) or when a call is made explicitly to [**MPI\_Comm\_delete\_attr**](mpi-comm-delete-attr-function.md).
 
 ## Requirements
 
