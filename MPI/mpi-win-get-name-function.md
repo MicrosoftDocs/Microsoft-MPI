@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_get\_name function
 
-TBD
+Gets the print name associated with the MPI window object.
 
 ## Syntax
 
@@ -32,17 +32,19 @@ int MPIAPI MPI_Win_get_name(
 ## Parameters
 
   - *win*  
-    TBD
+    Window whose name is to be returned.
 
   - *win\_name*  
-    TBD
+    The name previously stored on the window, or a empty string if no such name exists.
 
   - *resultlen* \[out\]  
-    TBD
+    Length of returned name.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

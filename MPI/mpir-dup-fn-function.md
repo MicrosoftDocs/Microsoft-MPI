@@ -16,7 +16,7 @@ dev_langs:
 
 # MPIR\_Dup\_fn function
 
-TBD
+Simple-mindedly copies the attributes.
 
 ## Syntax
 
@@ -34,26 +34,26 @@ int MPIAPI MPIR_Dup_fn(
 ## Parameters
 
   - *oldcomm*  
-    TBD
+    Communicator, ignored in current implementation.
 
   - *keyval*  
-    TBD
+    Key value, ignored in current implementation.
 
   - *extra\_state* \[in, optional\]  
-    TBD
+    Extra state, ignored in current implementation.
 
   - *attribute\_val\_in* \[in\]  
-    TBD
+    Source value.
 
   - *attribute\_val\_out* \[out\]  
-    TBD
+    Destination value.
 
   - *flag* \[out\]  
-    TBD
+    Indicates if the copy was sucessfull.
 
 ## Return value
 
-TBD
+**MPI\_SUCCESS**.
 
 ## Requirements
 

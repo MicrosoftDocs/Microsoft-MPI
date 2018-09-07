@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_set\_attr function
 
-TBD
+Stores attribute value associated with a key.
 
 ## Syntax
 
@@ -32,23 +32,31 @@ int MPIAPI MPI_Win_set_attr(
 ## Parameters
 
   - *win*  
-    TBD
+    MPI window object to which attribute will be attached.
 
   - *win\_keyval*  
-    TBD
+    Key value, as returned by [**MPI\_Win\_create\_keyval**](mpi-win-create-keyval-function.md).
 
   - *attribute\_val* \[in\]  
-    TBD
+    Attribute value.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_WIN_SET_ATTR(WIN, WIN_KEYVAL, ATTRIBUTE_VAL, IERROR)
         INTEGER WIN, WIN_KEYVAL, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) ATTRIBUTE_VAL
+
+## Remarks
+
+The datatype of the attribute value depends on whether C or Fortran is being used. In C, an attribute value is a void pointer; in Fortran, it is an address-sized integer.
+
+If an attribute is already present, the delete function (specified when the corresponding keyval was created) will be called.
 
 ## Requirements
 

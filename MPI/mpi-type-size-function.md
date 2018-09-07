@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Type\_size function
 
-TBD
+Returns the number of bytes occupied by entries in the datatype.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Type_size(
 ## Parameters
 
   - *datatype*  
-    TBD
+    Datatype.
 
   - *size* \[out\]  
-    TBD
+    Size of the *datatype*.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Wtime function
 
-TBD
+Returns an elapsed time on the calling processor.
 
 ## Syntax
 
@@ -31,11 +31,17 @@ This function has no parameters.
 
 ## Return value
 
-TBD
+Time in seconds since an arbitrary time in the past.
 
 ## Fortran
 
     DOUBLE PRECISION MPI_WTIME()
+
+## Remarks
+
+This is intended to be a high-resolution, elapsed (or wall) clock. See [**MPI\_Wtick**](mpi-wtick-function.md) to determine the resolution of [**MPI\_Wtime**](mpi-wtime-function.md). If the attribute **MPI\_WTIME\_IS\_GLOBAL** is defined and true, then the value is synchronized across all processes in **MPI\_COMM\_WORLD**.
+
+This is a function, declared as **DOUBLE PRECISION MPI\_WTIME()** in Fortran.
 
 ## Requirements
 

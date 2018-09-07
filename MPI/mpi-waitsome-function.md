@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Waitsome function
 
-TBD
+Completes some out of several outstanding operations.
 
 ## Syntax
 
@@ -34,29 +34,42 @@ int MPIAPI MPI_Waitsome(
 ## Parameters
 
   - *incount*  
-    TBD
+    The number of entries in the *array\_of\_requests* parameter.
 
   - *array\_of\_requests*  
-    TBD
+    An array of **MPI\_Request** handles of outstanding operations.
 
   - *outcount* \[out\]  
-    TBD
+    The number of completed requests.
 
   - *array\_of\_indices*  
-    TBD
+    Array of indices in the *array\_of\_requests* of operations that completed. The *array\_of\_requests* is indexed from zero in C, and from one in Fortran.
 
   - *array\_of\_statuses*  
-    TBD
+    Array of status objects for operations that completed, or **MPI\_STATUSES\_IGNORE**.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_WAITSOME(INCOUNT, ARRAY_OF_REQUESTS, OUTCOUNT, ARRAY_OF_INDICES, ARRAY_OF_STATUSES, IERROR)
         INTEGER INCOUNT, ARRAY_OF_REQUESTS(*), OUTCOUNT, ARRAY_OF_INDICES(*),
         ARRAY_OF_STATUSES(MPI_STATUS_SIZE,*), IERROR
+
+## Remarks
+
+The array of indicies are in the range *0* to *incount - 1* for C and in the range *1* to *incount* for Fortran.
+
+**NULL** requests are ignored; if all requests are **NULL**, then the routine returns with *outcount* set to **MPI\_UNDEFINED**.
+
+While it is possible to list a request handle more than once in the *array\_of\_requests*, such an action is considered erroneous and may cause the program to unexecpectedly terminate or produce incorrect results.
+
+[**MPI\_Waitsome**](mpi-waitsome-function.md) provides an interface much like the Unix 'select' or 'poll' calls and, in a high qualilty implementation, indicates all of the requests that have completed when [**MPI\_Waitsome**](mpi-waitsome-function.md) is called. However, [**MPI\_Waitsome**](mpi-waitsome-function.md) only guarantees that at least one request has completed; there is no guarantee that **all** completed requests will be returned, or that the entries in *array\_of\_indices* will be in increasing order. Also, requests that are completed while [**MPI\_Waitsome**](mpi-waitsome-function.md) is executing may or may not be returned, depending on the timing of the completion of the message.
+
 
 ## Requirements
 

@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Type\_set\_name function
 
-TBD
+Sets datatype name.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Type_set_name(
 ## Parameters
 
   - *type*  
-    TBD
+    Datatype whose identifier is to be set.
 
   - *type\_name*  
-    TBD
+    The character string which is set as the name.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

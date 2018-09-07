@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_test function
 
-TBD
+Test whether an RMA exposure epoch has completed.
 
 ## Syntax
 
@@ -31,20 +31,26 @@ int MPIAPI MPI_Win_test(
 ## Parameters
 
   - *win*  
-    TBD
+    Window object.
 
   - *flag* \[out\]  
-    TBD
+    Success flag.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_WIN_TEST(WIN, FLAG, IERROR)
         INTEGER WIN, IERROR
         LOGICAL FLAG
+
+## Remarks
+
+This is the nonblocking version of [**MPI\_Win\_wait**](mpi-win-wait-function.md).
 
 ## Requirements
 

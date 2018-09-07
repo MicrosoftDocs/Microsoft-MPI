@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_post function
 
-TBD
+Starts an RMA exposure epoch.
 
 ## Syntax
 
@@ -32,22 +32,32 @@ int MPIAPI MPI_Win_post(
 ## Parameters
 
   - *group*  
-    TBD
+    Group of origin processes.
 
   - *assert*  
-    TBD
+    Used to optimize this call; zero may be used as a default.
 
   - *win*  
-    TBD
+    Window object.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
     MPI_WIN_POST(GROUP, ASSERT, WIN, IERROR)
         INTEGER GROUP, ASSERT, WIN, IERROR
+
+## Remarks
+
+The *assert* argument is used to indicate special conditions for the post that an implementation may use to optimize the [**MPI\_Win\_post**](mpi-win-post-function.md) operation.  The value zero is always correct.  Other assertion values may be **OR**ed together.  Assertions that are valid for [**MPI\_Win\_post**](mpi-win-post-function.md) are:
+
+- **MPI\_MODE\_NOCHECK** - the matching calls to [**MPI\_Win\_start**](mpi-win-start-function.md) have not yet occurred on any origin processes when the call to [**MPI\_Win\_post**](mpi-win-post-function.md) is made. The nocheck option can be specified by a post call if and only if it is specified by each matching start call.
+- **MPI\_MODE\_NOSTORE** - the local window was not updated by local stores (or local get or receive calls) since last synchronization. This may avoid the need for cache synchronization at the post call.
+- **MPI\_MODE\_NOPUT** - the local window will not be updated by put or accumulate calls after the post call, until the ensuing (wait) synchronization. This may avoid the need for cache synchronization at the wait call.
 
 ## Requirements
 

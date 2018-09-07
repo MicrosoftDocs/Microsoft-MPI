@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Unpack function
 
-TBD
+Unpacks a buffer according to a datatype into contiguous memory.
 
 ## Syntax
 
@@ -36,29 +36,31 @@ int MPIAPI MPI_Unpack(
 ## Parameters
 
   - *inbuf*  
-    TBD
+    Start address of the input buffer.
 
   - *insize*  
-    TBD
+    Size of input buffer, in bytes.
 
   - *position*  
-    TBD
+    Current position in bytes.
 
   - *outbuf* \[out\]  
-    TBD
+    Start address of the output buffer.
 
   - *outcount*  
-    TBD
+    Number of items to be unpacked.
 
   - *datatype*  
-    TBD
+    Datatype of each output data item.
 
   - *comm*  
-    TBD
+    Communicator for packed message.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

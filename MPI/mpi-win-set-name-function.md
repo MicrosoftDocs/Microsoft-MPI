@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Win\_set\_name function
 
-TBD
+Sets the print name for an MPI window object.
 
 ## Syntax
 
@@ -31,14 +31,16 @@ int MPIAPI MPI_Win_set_name(
 ## Parameters
 
   - *win*  
-    TBD
+    Window whose identifier is to be set.
 
   - *win\_name* \[in\]  
-    TBD
+    The character string which is remembered as the name.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
+
+In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 

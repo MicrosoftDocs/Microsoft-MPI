@@ -16,7 +16,7 @@ dev_langs:
 
 # MSMPI\_Get\_version function
 
-TBD
+Returns the version number of the MSMPI feature set.
 
 ## Syntax
 
@@ -30,7 +30,7 @@ This function has no parameters.
 
 ## Return value
 
-TBD
+The version number of the MSMPI feature set.
 
 ## Requirements
 
