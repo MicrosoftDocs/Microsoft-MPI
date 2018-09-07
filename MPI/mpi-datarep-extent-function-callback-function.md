@@ -20,7 +20,7 @@ dev_langs:
 
 # MPI\_Datarep\_extent\_function callback function
 
-TBD
+This function is a placeholder for user-defined extent callback functions.
 
 ## Syntax
 
@@ -35,23 +35,27 @@ int MPI_Datarep_extent_function(
 ## Parameters
 
   - *datatype*  
-    TBD
+    Datatype.
 
   - *file\_extent* \[out\]  
-    TBD
+    The number of bytes required to store *datatype* in the file representation.
 
   - *extra\_state* \[in\]  
-    TBD
+    The same argument that was passed to the [**MPI\_Register\_datarep**](mpi-register-datarep-function.md) call.
 
 ## Return value
 
-TBD
+The extent callback functions return an error code.
 
 ## Fortran
 
     SUBROUTINE DATAREP_EXTENT_FUNCTION(DATATYPE, EXTENT, EXTRA_STATE, IERROR)
         INTEGER DATATYPE, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) EXTENT, EXTRA_STATE
+
+## Remarks
+
+MPI will only call this routine with predefined datatypes employed by the user.
 
 ## Requirements
 

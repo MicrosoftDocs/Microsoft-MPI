@@ -163,7 +163,7 @@ ROBOTS: INDEX,FOLLOW
 
 # MPI\_Datatype enumeration
 
-TBD
+The enumeration of predefined MPI datatypes.
 
 ## Syntax
 

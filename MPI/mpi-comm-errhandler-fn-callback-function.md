@@ -18,14 +18,14 @@ dev_langs:
 - C
 ---
 
-# MPI\_Comm\_errhandler\_fn callback function
+# MPI\_Comm\_errhandler\_function callback function
 
-*MPI\_Comm\_errhandler\_fn* is a placeholder for the application-defined function name.
+*MPI\_Comm\_errhandler\_function* is a placeholder for the application-defined function name.
 
 ## Syntax
 
 ``` c++
-void MPI_Comm_errhandler_fn(
+void MPI_Comm_errhandler_function(
   _In_    MPI_Comm *comm,
   _Inout_ int      *errcode,
                    ...
@@ -35,17 +35,13 @@ void MPI_Comm_errhandler_fn(
 ## Parameters
 
   - *comm* \[in\]  
-    TBD
+    Communicator in use.
 
   - *errcode* \[in, out\]  
-    TBD
+    Error code to be returned by the MPI routine that raised the error. If the routine would have returned **MPI\_ERR\_IN\_STATUS**, it is the error code returned in the status for the request that caused the error handler to be invoked.
 
   - *...*  
-    TBD
-
-## Return value
-
-TBD
+    The remaining arguments are “varargs” arguments whose number and meaning is implementation-dependent.
 
 ## Fortran
 

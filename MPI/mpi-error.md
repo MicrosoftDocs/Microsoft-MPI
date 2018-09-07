@@ -191,7 +191,7 @@ ROBOTS: INDEX,FOLLOW
 
 # MPI Error
 
-TBD
+Enumeration of predefined MPI error values.
 
 **MPI\_SUCCESS**
 

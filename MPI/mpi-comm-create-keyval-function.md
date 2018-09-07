@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Comm\_create\_keyval function
 
-Create a new attribute key
+Creates a new attribute key.
 
 ## Syntax
 

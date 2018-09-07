@@ -17,7 +17,7 @@ dev_langs:
 
 # MPI\_Grequest\_complete function
 
-TBD
+The call informs MPI that the operations represented by the generalized request are complete.
 
 ## Syntax
 
@@ -30,11 +30,11 @@ int MPIAPI MPI_Grequest_complete(
 ## Parameters
 
   - *request*  
-    TBD
+    Generalized request.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
 
 ## Fortran
 

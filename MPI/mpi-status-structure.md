@@ -18,7 +18,7 @@ dev_langs:
 
 # MPI\_Status structure
 
-TBD
+Structure that represents the status of the received message.
 
 ## Syntax
 
@@ -35,15 +35,23 @@ typedef struct _MPI_Status {
 ## Members
 
   - **count**  
-    TBD
+    Number of received entries.
 
   - **cancelled**
+    
+    Indication if the corresponding request was cancelled.
 
   - **MPI\_SOURCE**
+    
+    Source of the message.
 
   - **MPI\_TAG**
+    
+    Tag value of the message.
 
   - **MPI\_ERROR**
+    
+    Error, associated with the message.
 
 ## Remarks
 
