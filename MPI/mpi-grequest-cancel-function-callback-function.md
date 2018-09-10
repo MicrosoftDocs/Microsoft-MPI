@@ -34,14 +34,14 @@ int MPI_Grequest_cancel_function(
 ## Parameters
 
   - *extra\_state* \[in, optional\]  
-    TBD
+    Extra state.
 
   - *complete*  
-    TBD
+    MPI passes *complete=true* to the callback function if [**MPI\_Grequest\_complete**](mpi-grequest-complete-function.md) was already called on the request, and *complete=false* otherwise.
 
 ## Return value
 
-TBD
+All callback functions return an error code. The code is passed back and dealt with as appropriate for the error code by the MPI function that invoked the callback function.
 
 ## Fortran
 
@@ -49,6 +49,10 @@ TBD
         INTEGER IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) EXTRA_STATE
         LOGICAL COMPLETE
+
+## Remarks
+
+The the application-defined function with this signature is invoked to start the cancelation of a generalized request. It is called by [**MPI\_Cancel**](mpi-cancel-function.md).
 
 ## Requirements
 
