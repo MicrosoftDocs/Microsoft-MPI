@@ -36,16 +36,16 @@ void MPI_User_function(
 ## Parameters
 
   - *invec*  
-    TBD
+    Array of elements that the user function is combining.
 
   - *inoutvec*  
-    TBD
+    Array of elements that the user function is combining.
 
   - *len* \[in\]  
-    TBD
+    Length of *invec* and *inoutvec*.
 
   - *datatype* \[in\]  
-    TBD
+    A handle to the data type that was passed into the call to [**MPI\_Reduce**](mpi-reduce-function.md).
 
 ## Return value
 
@@ -56,6 +56,10 @@ TBD
     SUBROUTINE USER_FUNCTION(INVEC, INOUTVEC, LEN, DATATYPE)
         <type> INVEC(LEN), INOUTVEC(LEN)
         INTEGER LEN, DATATYPE
+
+## Remarks
+
+The user-defined operation is assumed to be associative. If *commute = true*, then the operation should be both commutative and associative. If *commute = false*, then the order of operands is fixed and is defined to be in ascending, process rank order, beginning with process zero. The order of evaluation can be changed, taking advantage of the associativity of the operation. If *commute = true* then the order of evaluation can be changed, taking advantage of commutativity and associativity.
 
 ## Requirements
 
