@@ -16,7 +16,7 @@ dev_langs:
 
 # MSMPI\_Request\_set\_apc function
 
-TBD
+Sets an APC callback to be invoked on the calling thread when the request completes.
 
 ## Syntax
 
@@ -31,17 +31,17 @@ int MPIAPI MSMPI_Request_set_apc(
 ## Parameters
 
   - *request*  
-    TBD
+    Communication request.
 
   - *callback\_fn* \[in\]  
-    TBD
+    APC callback function.
 
   - *callback\_status* \[in\]  
-    TBD
+    MPI status to pass to callback.
 
 ## Return value
 
-TBD
+Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
 
 ## Requirements
 
