@@ -47,10 +47,6 @@ void MPI_User_function(
   - *datatype* \[in\]  
     A handle to the data type that was passed into the call to [**MPI\_Reduce**](mpi-reduce-function.md).
 
-## Return value
-
-TBD
-
 ## Fortran
 
     SUBROUTINE USER_FUNCTION(INVEC, INOUTVEC, LEN, DATATYPE)
