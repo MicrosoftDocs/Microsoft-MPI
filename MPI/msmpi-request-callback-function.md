@@ -16,7 +16,7 @@ dev_langs:
 
 # MSMPI\_Request\_callback function
 
-TBD
+This is a placeholder for application-defined APC callback function.
 
 ## Syntax
 
@@ -29,11 +29,7 @@ void MSMPI_Request_callback(
 ## Parameters
 
   - *status* \[in\]  
-    TBD
-
-## Return value
-
-TBD
+    MPI status object.
 
 ## Requirements
 
