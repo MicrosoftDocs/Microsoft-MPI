@@ -36,20 +36,20 @@ int MPI_Type_delete_attr_function(
 ## Parameters
 
   - *datatype*  
-    TBD
+    Datatype.
 
   - *datatype\_keyval*  
-    TBD
+    Key value.
 
   - *attribute\_val* \[in\]  
-    TBD
+    Attribute value.
 
   - *extra\_state* \[in, optional\]  
-    TBD
+    Extra state.
 
 ## Return value
 
-TBD
+If an attribute delete function returns something other than **MPI\_SUCCESS**, then the call that caused it to be invoked (for example, [**MPI\_Type\_free**](mpi-type-free-function.md)), is erroneous.
 
 ## Fortran
 
