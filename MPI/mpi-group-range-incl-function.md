@@ -70,7 +70,7 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Remarks
 
-If ranges consist of the triplets (first1 , last1, stride1) , ..., (firstn, lastn, striden), then *newgroup* consists of the sequence of processes in *group* with ranks TBD.
+If ranges consist of the triplets (first1 , last1, stride1) , ..., (firstn, lastn, striden), then *newgroup* consists of the sequence of processes in *group* with ranks first1, first1 + stride1, ..., **RoundDown**((last1 - first1)/stride1)\*stride1, ..., firstn, firstn + striden, ..., **RoundDown**((lastn - firstn)/striden)\*striden.
 
 Each computed rank must be a valid rank in the new group, and all computed ranks must be distinct. Otherwise, the function returns an error.
 

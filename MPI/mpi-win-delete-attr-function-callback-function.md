@@ -20,7 +20,7 @@ dev_langs:
 
 # MPI\_Win\_delete\_attr\_function callback function
 
-**MPI\_Win\_delete\_attr\_function** is a placeholder for the application-defined function name.
+**MPI\_Win\_delete\_attr\_function** is a placeholder for the application-defined function name. This is a delete callback function for *win\_keyval*.
 
 ## Syntax
 
@@ -36,20 +36,20 @@ int MPI_Win_delete_attr_function(
 ## Parameters
 
   - *win*  
-    TBD
+    MPI window object.
 
   - *win\_keyval*  
-    TBD
+    Window key value.
 
   - *attribute\_val* \[in\]  
-    TBD
+    Attribute value.
 
   - *extra\_state* \[in, optional\]  
-    TBD
+    Extra state.
 
 ## Return value
 
-TBD
+If an attribute delete function returns anything other than **MPI\_SUCCESS**, then the call that caused it to be invoked (for example, [**MPI\_Win\_free**](mpi-win-free-function.md)), is erroneous.
 
 ## Fortran
 

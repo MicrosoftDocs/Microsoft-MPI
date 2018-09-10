@@ -20,7 +20,7 @@ dev_langs:
 
 # MPI\_Win\_copy\_attr\_function callback function
 
-**MPI\_Win\_copy\_attr\_function** is a placeholder for the application-defined function name.
+**MPI\_Win\_copy\_attr\_function** is a placeholder for the application-defined function name. It is a copy callback function for win_keyval.
 
 ## Syntax
 
@@ -38,26 +38,26 @@ int MPI_Win_copy_attr_function(
 ## Parameters
 
   - *oldwin*  
-    TBD
+    Old MPI window.
 
   - *win\_keyval*  
-    TBD
+    Window key value.
 
   - *extra\_state* \[in, optional\]  
-    TBD
+    Extra state.
 
   - *attribute\_val\_in* \[in\]  
-    TBD
+    Input value of the attribute.
 
   - *attribute\_val\_out* \[out\]  
-    TBD
+    Output value of the attribute.
 
   - *flag* \[out\]  
-    TBD
+    Flag value indicating if the copy was successful.
 
 ## Return value
 
-TBD
+If an attribute copy function returns anything other than **MPI\_SUCCESS**, then the call that caused it to be invoked is erroneous.
 
 ## Fortran
 

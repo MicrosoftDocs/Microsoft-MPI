@@ -57,7 +57,7 @@ ROBOTS: INDEX,FOLLOW
 
 # MPI\_Op enumeration
 
-TBD
+Enumeration of predefined MPI operations.
 
 ## Syntax
 

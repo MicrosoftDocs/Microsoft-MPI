@@ -38,26 +38,26 @@ int MPI_Type_copy_attr_function(
 ## Parameters
 
   - *olddatatype*  
-    TBD
+    Old datatype.
 
   - *datatype\_keyval*  
-    TBD
+    Key value to copy.
 
   - *extra\_state* \[in, optional\]  
-    TBD
+    Extra state.
 
   - *attribute\_val\_in* \[in\]  
-    TBD
+    Input attribute value.
 
   - *attribute\_val\_out* \[out\]  
-    TBD
+    Output attribute value.
 
   - *flag* \[out\]  
-    TBD
+    Value indicating the success of the copy operation.
 
 ## Return value
 
-TBD
+If an attribute copy function returns something other than **MPI\_SUCCESS**, then the call that caused it to be invoked (for example, [**MPI\_Type\_create\_keyval**](mpi-type-create-keyval-function.md)), is erroneous.
 
 ## Fortran
 
