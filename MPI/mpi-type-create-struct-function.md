@@ -74,7 +74,7 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Remarks
 
-This function replaces the [**MPI\_Type\_struct**](mpi-type-struct-function.md) function, which is deprecated.
+This function replaces the **MPI\_Type\_struct** function, which is deprecated.
 
 ## Requirements
 
