@@ -74,7 +74,7 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Remarks
 
-This function replaces the [**MPI\_Type\_hindexed**](mpi-type-hindexed-function.md), which is deprecated.
+This function replaces the **MPI\_Type\_hindexed**, which is deprecated.
 
 ## Requirements
 
