@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_size function
 TOCTitle: MPI_Comm_size function
 ms:assetid: de35aa91-5a27-41a7-9a26-ad0875c43390
@@ -66,7 +66,8 @@ This function enables the user to retrieve the group size with a single function
 
 This function is often used with the [**MPI\_Comm\_rank**](mpi-comm-rank-function.md) function to determine the amount of concurrency that is available for a specific library or program. The **MPI\_Comm\_rank** function indicates the rank of the process that calls it in the range from 0 to *size*-1, where *size* is retrieved by using the **MPI\_Comm\_size** function.
 
-**Note**  There is no standard way to change the number of processes after initialization has taken place.
+> [!NOTE]
+> There is no standard way to change the number of processes after initialization has taken place.
 
  
 
