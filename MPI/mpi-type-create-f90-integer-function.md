@@ -44,8 +44,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_TYPE_CREATE_F90_INTEGER(R, NEWTYPE, IERROR)
         INTEGER R, NEWTYPE, IERROR
+```
 
 ## Remarks
 
