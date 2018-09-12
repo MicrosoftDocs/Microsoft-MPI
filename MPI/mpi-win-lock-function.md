@@ -52,8 +52,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_WIN_LOCK(LOCK_TYPE, RANK, ASSERT, WIN, IERROR)
         INTEGER LOCK_TYPE, RANK, ASSERT, WIN, IERROR
+```
 
 ## Remarks
 
