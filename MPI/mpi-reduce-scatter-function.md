@@ -60,9 +60,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_REDUCE_SCATTER(SENDBUF, RECVBUF, RECVCOUNTS, DATATYPE, OP, COMM, IERROR)
         <type> SENDBUF(*), RECVBUF(*)
         INTEGER RECVCOUNTS(*), DATATYPE, OP, COMM, IERROR
+```
 
 ## Requirements
 
