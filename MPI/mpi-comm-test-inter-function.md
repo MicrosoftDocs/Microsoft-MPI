@@ -44,9 +44,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_COMM_TEST_INTER(COMM, FLAG, IERROR)
         INTEGER COMM, IERROR
         LOGICAL FLAG
+```
 
 ## Requirements
 
