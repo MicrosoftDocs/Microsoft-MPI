@@ -41,9 +41,11 @@ All callback functions return an error code. The code is passed back and dealt w
 
 ## Fortran
 
+``` FORTRAN
     SUBROUTINE GREQUEST_FREE_FUNCTION(EXTRA_STATE, IERROR)
         INTEGER IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) EXTRA_STATE
+```
 
 ## Remarks
 
