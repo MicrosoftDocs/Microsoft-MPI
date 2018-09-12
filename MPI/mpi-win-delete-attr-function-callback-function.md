@@ -53,10 +53,12 @@ If an attribute delete function returns anything other than **MPI\_SUCCESS**, th
 
 ## Fortran
 
+``` FORTRAN
     SUBROUTINE WIN_DELETE_ATTR_FUNCTION(WIN, WIN_KEYVAL, ATTRIBUTE_VAL,
                 EXTRA_STATE, IERROR)
         INTEGER WIN, WIN_KEYVAL, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) ATTRIBUTE_VAL, EXTRA_STATE
+```
 
 ## Requirements
 
