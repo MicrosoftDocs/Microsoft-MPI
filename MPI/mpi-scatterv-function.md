@@ -97,9 +97,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_SCATTERV(SENDBUF, SENDCOUNT, DISPLS, SENDTYPE, RECVBUF, RECVCOUNT, RECVTYPE, ROOT, COMM, IERROR)
         <type> SENDBUF(*), RECVBUF(*)
         INTEGER SENDCOUNT, SENDTYPE, DISPLS(*), RECVCOUNT(*), RECVTYPE, ROOT, COMM, IERROR
+```
 
 ## Remarks
 
