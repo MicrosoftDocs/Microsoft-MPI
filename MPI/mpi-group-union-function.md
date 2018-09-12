@@ -61,8 +61,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_GROUP_UNION(GROUP1, GROUP2, NEWGROUP, IERROR)
         INTEGER GROUP1, GROUP2, NEWGROUP, IERROR 
+```
 
 ## Remarks
 
