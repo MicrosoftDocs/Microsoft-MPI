@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_create_subarray function
 TOCTitle: MPI_Type_create_subarray function
 ms:assetid: 27B8E756-94C6-43A9-ACDD-A583419C40A5
@@ -78,7 +78,8 @@ The row-major order in which all the elements for a given row are stored contigu
 
 The column-major order in which all the elements for a given column are stored contiguously.
 
-**Note**  Both C and Fortran programs can use either order. The defined values reflect typical usage.
+> [!NOTE]
+> Both C and Fortran programs can use either order. The defined values reflect typical usage.
 
  
 
