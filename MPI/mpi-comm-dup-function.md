@@ -57,8 +57,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_COMM_DUP(COMM,NEWCOMM,IERROR)
         INTEGER COMM, NEWCOMM, IERROR
+```
 
 ## Remarks
 
