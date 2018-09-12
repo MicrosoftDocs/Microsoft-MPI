@@ -1,4 +1,4 @@
-﻿---
+---
 title: MSMPI_Lock_queue structure
 TOCTitle: MSMPI_Lock_queue structure
 ms:assetid: F33F11EA-F1D9-4E3C-AB02-A810F19CA02D
@@ -54,7 +54,8 @@ typedef struct _MSMPI_Lock_queue {
 
 Each thread calling the [**MSMPI\_Queuelock\_acquire**](msmpi-queuelock-acquire-function.md) creates a unique instance of a **MSMPI\_Lock\_queue** structure. We recommend that you allocate the **MSMPI\_Lock\_queue** structure on the thread’s stack.
 
-**Important**  This structure must be treated as opaque by callers.
+> [!IMPORTANT]
+> This structure must be treated as opaque by callers.
 
  
 
