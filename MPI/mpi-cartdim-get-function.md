@@ -44,8 +44,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_CARTDIM_GET(COMM, NDIMS, IERROR)
         INTEGER COMM, NDIMS, IERROR
+```
 
 ## Requirements
 
