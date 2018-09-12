@@ -47,8 +47,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_STARTALL(COUNT, ARRAY_OF_REQUESTS, IERROR)
         INTEGER COUNT, ARRAY_OF_REQUESTS(*), IERROR
+```
 
 ## Remarks
 
