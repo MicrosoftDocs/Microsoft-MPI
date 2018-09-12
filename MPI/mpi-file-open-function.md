@@ -56,9 +56,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_FILE_OPEN(COMM, FILENAME, AMODE, INFO, FH, IERROR)
         CHARACTER*(*) FILENAME
         INTEGER COMM, AMODE, INFO, FH, IERROR
+```
 
 ## Requirements
 
