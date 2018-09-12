@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Reduce function
 TOCTitle: MPI_Reduce function
 ms:assetid: 2b048e6f-e398-4910-95b3-08b8933f696a
@@ -93,7 +93,8 @@ Some applications cannot ignore the non-associative nature of floating-point ope
 2.  Apply the reduction operation in the required order, for example, by using the [**MPI\_Reduce\_local**](mpi-reduce-local-function.md) function.
 3.  If required, broadcast or scatter the result to the other processes.
 
-**Note**  It is possible to supply different user-defined operations to the **MPI\_Reduce** function in each process. The function does not define which operations are used on which operands in this case. You cannot make any assumptions about how the **MPI\_Reduce** function is implemented. It is safest to specify the same operation in each process.
+> [!NOTE]
+> It is possible to supply different user-defined operations to the **MPI\_Reduce** function in each process. The function does not define which operations are used on which operands in this case. You cannot make any assumptions about how the **MPI\_Reduce** function is implemented. It is safest to specify the same operation in each process.
 
  
 
