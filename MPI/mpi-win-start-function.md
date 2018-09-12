@@ -48,8 +48,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_WIN_START(GROUP, ASSERT, WIN, IERROR)
         INTEGER GROUP, ASSERT, WIN, IERROR
+```
 
 ## Remarks
 
