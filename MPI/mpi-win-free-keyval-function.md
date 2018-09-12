@@ -40,8 +40,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_WIN_FREE_KEYVAL(WIN_KEYVAL, IERROR)
         INTEGER WIN_KEYVAL, IERROR
+```
 
 ## Requirements
 
