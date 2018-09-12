@@ -44,9 +44,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_FILE_SET_SIZE(FH, SIZE, IERROR)
         INTEGER FH, IERROR
         INTEGER(KIND=MPI_OFFSET_KIND) SIZE
+```
 
 ## Requirements
 
