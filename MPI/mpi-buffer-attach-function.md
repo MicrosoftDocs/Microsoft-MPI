@@ -45,9 +45,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_BUFFER_ATTACH(BUFFER, SIZE, IERROR)
         <type> BUFFER(*)
         INTEGER SIZE, IERROR
+```
 
 ## Requirements
 
