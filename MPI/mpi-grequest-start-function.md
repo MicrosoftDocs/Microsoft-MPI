@@ -56,10 +56,12 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_GREQUEST_START(QUERY_FN, FREE_FN, CANCEL_FN, EXTRA_STATE, REQUEST, IERROR)
         INTEGER REQUEST, IERROR
         EXTERNAL QUERY_FN, FREE_FN, CANCEL_FN
         INTEGER (KIND=MPI_ADDRESS_KIND) EXTRA_STATE
+```
 
 ## Remarks
 
