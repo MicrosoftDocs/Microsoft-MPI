@@ -48,8 +48,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_CART_RANK(COMM, COORDS, RANK, IERROR)
         INTEGER COMM, COORDS(*), RANK, IERROR
+```
 
 ## Requirements
 
