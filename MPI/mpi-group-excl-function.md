@@ -65,8 +65,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_GROUP_EXCL(GROUP, N, RANKS, NEWGROUP, IERROR)
         INTEGER GROUP, N, RANKS(*), NEWGROUP, IERROR
+```
 
 ## Remarks
 
