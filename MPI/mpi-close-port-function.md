@@ -40,9 +40,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_CLOSE_PORT(PORT_NAME, IERROR)
         CHARACTER*(*) PORT_NAME
         INTEGER IERROR
+```
 
 ## Requirements
 
