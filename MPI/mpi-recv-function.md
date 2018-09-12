@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Recv function
 TOCTitle: MPI_Recv function
 ms:assetid: 3268d295-b055-4960-bee4-6ba9dbe50904
@@ -89,7 +89,8 @@ If the received message is shorter than the buffer, only the part of the buffer 
 
 Processes can send messages to themselves. However, it is unsafe to do so with the blocking send and receive operations, [**MPI\_Send**](mpi-send-function.md) and **MPI\_Recv**, because these blocking send and receive operations can cause a deadlock.
 
-**Note**  There is an asymmetry between send and receive operations. A receive operation can accept messages from an arbitrary sender, but a send operation must specify a unique receiver. This implements a push style of communication, where data transfer is effected by the sender, rather than a pull style where data transfer is effected by the receiver.
+> [!NOTE]  
+> There is an asymmetry between send and receive operations. A receive operation can accept messages from an arbitrary sender, but a send operation must specify a unique receiver. This implements a push style of communication, where data transfer is effected by the sender, rather than a pull style where data transfer is effected by the receiver.
 
  
 
