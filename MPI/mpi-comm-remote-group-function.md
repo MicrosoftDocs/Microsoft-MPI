@@ -44,8 +44,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_COMM_REMOTE_GROUP(COMM, GROUP, IERROR)
         INTEGER COMM, GROUP, IERROR
+```
 
 ## Requirements
 
