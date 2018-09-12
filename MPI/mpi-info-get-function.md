@@ -56,10 +56,12 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_INFO_GET(INFO, KEY, VALUELEN, VALUE, FLAG, IERROR)
         INTEGER INFO, VALUELEN, IERROR
         CHARACTER*(*) KEY, VALUE
         LOGICAL FLAG
+```
 
 ## Requirements
 
