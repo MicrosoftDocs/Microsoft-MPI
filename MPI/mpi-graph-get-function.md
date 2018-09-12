@@ -56,8 +56,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_GRAPH_GET(COMM, MAXINDEX, MAXEDGES, INDEX, EDGES, IERROR)
         INTEGER COMM, MAXINDEX, MAXEDGES, INDEX(*), EDGES(*), IERROR
+```
 
 ## Requirements
 
