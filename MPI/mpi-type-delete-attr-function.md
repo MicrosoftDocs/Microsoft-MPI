@@ -44,8 +44,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_TYPE_DELETE_ATTR(DATATYPE, TYPE_KEYVAL, IERROR)
         INTEGER DATATYPE, TYPE_KEYVAL, IERROR
+```
 
 ## Requirements
 
