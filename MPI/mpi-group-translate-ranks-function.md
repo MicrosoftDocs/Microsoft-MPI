@@ -74,8 +74,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_GROUP_TRANSLATE_RANKS( GROUP1, N, RANKS1, GROUP2, RANKS2, IERROR)
         INTEGER GROUP1, N, RANKS1(*), GROUP2, RANKS2(*), IERROR
+```
 
 ## Requirements
 
