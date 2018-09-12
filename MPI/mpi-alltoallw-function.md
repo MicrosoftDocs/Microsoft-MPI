@@ -93,9 +93,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_ALLTOALLW(SENDBUF, SENDCOUNT, SDISPLS, SENDTYPE, RECVBUF, RECVCOUNTS, RDISPLS, RECVTYPE,COMM, IERROR)
         <type> SENDBUF(*), R.ECVBUF(*)
         INTEGER SENDCOUNT, SENDTYPES(*), SDISPLS(*), RECVCOUNTS(*), RDISPLS(*), RECVTYPE, COMM, IERROR
+```
 
 ## Remarks
 
