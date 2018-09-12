@@ -56,9 +56,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_REDUCE_LOCAL(INBUF, INOUTBUF, COUNT, DATATYPE, OP, IERROR)
         <type> INBUF(*), INOUTBUF(*)
         INTEGER COUNT, DATATYPE, OP, IERROR
+```
 
 ## Requirements
 
