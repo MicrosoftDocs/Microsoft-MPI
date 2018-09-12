@@ -60,9 +60,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_CART_CREATE(COMM_OLD, NDIMS, DIMS, PERIODS, REORDER, COMM_CART, IERROR)
         INTEGER COMM_OLD, NDIMS, DIMS(*), COMM_CART, IERROR
         LOGICAL PERIODS(*), REORDER
+```
 
 ## Requirements
 
