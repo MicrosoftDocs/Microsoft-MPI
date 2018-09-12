@@ -57,8 +57,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_GROUP_SIZE(GROUP, SIZE, IERROR)
         INTEGER GROUP, SIZE, IERROR 
+```
 
 ## Requirements
 
