@@ -44,8 +44,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_COMM_DELETE_ATTR(COMM, COMM_KEYVAL, IERROR)
         INTEGER COMM, COMM_KEYVAL, IERROR
+```
 
 ## Requirements
 
