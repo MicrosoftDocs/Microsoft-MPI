@@ -45,10 +45,12 @@ All callback functions return an error code. The code is passed back and dealt w
 
 ## Fortran
 
+``` FORTRAN
     SUBROUTINE GREQUEST_CANCEL_FUNCTION(EXTRA_STATE, COMPLETE, IERROR)
         INTEGER IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) EXTRA_STATE
         LOGICAL COMPLETE
+```
 
 ## Remarks
 
