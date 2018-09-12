@@ -1,4 +1,4 @@
-﻿---
+---
 title: Microsoft MPI Release Notes
 TOCTitle: Microsoft MPI Release Notes
 ms:assetid: C53BE921-FA3A-49EF-B771-20CAB2FAC955
@@ -14,7 +14,7 @@ This document contains the release notes for the current versions of Microsoft M
 
 ## MS-MPI v9.0.1 (March 2018)
 
-MS-MPI v9.0.1 includes the following improvements and fixes. Download MS-MPI v9.0.1 from the [Microsoft Download Center](http://go.microsoft.com/fwlink/p/?linkid=389556).
+MS-MPI v9.0.1 includes the following improvements and fixes. Download MS-MPI v9.0.1 from the [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?linkid=389556).
 
   - Fix for a bug in **mpiexec** code that causes a deadlock during startup on Windows 7 systems.
 
@@ -162,7 +162,7 @@ MS-MPI v6 includes the following new features, improvements, and fixes.
     
     The minimum supported server for this feature is Windows Server 2012. The minimum supported client for this feature is Windows 8.
 
-  - **New features from the** [MPI 3.0 standard](http://www.mpi-forum.org/docs/mpi-3.0/mpi30-report.pdf) including:
+  - **New features from the** [MPI 3.0 standard](https://www.mpi-forum.org/docs/mpi-3.0/mpi30-report.pdf) including:
     
       - Support for [**MPI\_Mprobe**](mpi-mprobe-function.md), [**MPI\_Mrecv**](mpi-mrecv-function.md), [**MPI\_Improbe**](mpi-improbe-function.md), and [**MPI\_Imrecv**](mpi-imrecv-function.md)
       - Support for **MPI\_COUNT**, to allow large datatypes to be properly represented in [**MPI\_STATUS**](mpi-status-structure.md) structures
@@ -186,7 +186,7 @@ We are deprecating the built in auto-tuning functionality in this version with t
 
 ##  Community resources
 
-  - [Windows HPC MPI Forum](http://social.microsoft.com/forums/en-us/home?forum=windowshpcmpi)
+  - [Windows HPC MPI Forum](https://social.microsoft.com/forums/en-us/home?forum=windowshpcmpi)
   - [Contact the MS-MPI Team](mailto:askmpi@microsoft.com)
 
 ## Related topics
