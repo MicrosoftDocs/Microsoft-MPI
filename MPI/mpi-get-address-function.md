@@ -44,10 +44,12 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_GET_ADDRESS(LOCATION, ADDRESS, IERROR)
         <type> LOCATION(*)
         INTEGER IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) ADDRESS
+```
 
 ## Requirements
 
