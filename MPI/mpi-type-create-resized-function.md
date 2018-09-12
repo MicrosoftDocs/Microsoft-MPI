@@ -52,9 +52,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_TYPE_CREATE_RESIZED(OLDTYPE, LB, EXTENT, NEWTYPE, IERROR)
         INTEGER OLDTYPE, NEWTYPE, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) LB, EXTENT
+```
 
 ## Requirements
 
