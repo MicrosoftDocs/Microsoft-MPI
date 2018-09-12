@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Alltoallw function
 TOCTitle: MPI_Alltoallw function
 ms:assetid: 6cb4cd3b-f69e-448b-bb46-b0f1fa794b09
@@ -99,7 +99,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Remarks
 
-**Important**  To allow maximum flexibility, the displacement of blocks within the send and receive buffers is specified in bytes.
+> [!IMPORTANT]  
+> To allow maximum flexibility, the displacement of blocks within the send and receive buffers is specified in bytes.
 
  
 
