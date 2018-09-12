@@ -101,7 +101,7 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Remarks
 
-> [!IMPORTANT]  
+> **Important** 
 > To allow maximum flexibility, the displacement of blocks within the send and receive buffers is specified in bytes.
 
  
