@@ -40,8 +40,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_ADD_ERROR_CLASS(ERRORCLASS, IERROR)
         INTEGER ERRORCLASS, IERROR
+```
 
 ## Requirements
 
