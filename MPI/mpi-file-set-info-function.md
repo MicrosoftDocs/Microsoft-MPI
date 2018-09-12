@@ -44,8 +44,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_FILE_SET_INFO(FH, INFO, IERROR)
         INTEGER FH, INFO, IERROR
+```
 
 ## Requirements
 
