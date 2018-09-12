@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Group_range_incl function
 TOCTitle: MPI_Group_range_incl function
 ms:assetid: c6e95b30-78ad-45a2-adcc-78cf343c8681
@@ -74,7 +74,8 @@ If ranges consist of the triplets (first1 , last1, stride1) , ..., (firstn, last
 
 Each computed rank must be a valid rank in the new group, and all computed ranks must be distinct. Otherwise, the function returns an error.
 
-**Note**  Note that you can set *first\[i\]* greater than *last\[i\]*, and *stride\[i\]* can be negative, but it cannot be zero.
+> [!NOTE]  
+> Note that you can set *first\[i\]* greater than *last\[i\]*, and *stride\[i\]* can be negative, but it cannot be zero.
 
  
 
