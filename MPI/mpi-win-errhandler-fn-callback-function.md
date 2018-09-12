@@ -42,8 +42,10 @@ void MPI_Win_errhandler_function(
 
 ## Fortran
 
+``` FORTRAN
     SUBROUTINE WIN_ERRHANDLER_FUNCTION(WIN, ERROR_CODE)
         INTEGER WIN, ERROR_CODE
+```
 
 ## Remarks
 
