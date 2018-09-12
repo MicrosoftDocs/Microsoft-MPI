@@ -44,8 +44,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_WIN_UNLOCK(RANK, WIN, IERROR)
         INTEGER RANK, WIN, IERROR
+```
 
 ## Remarks
 
