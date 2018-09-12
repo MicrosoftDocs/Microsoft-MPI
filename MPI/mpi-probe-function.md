@@ -52,8 +52,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_PROBE(SOURCE, TAG, COMM, STATUS, IERROR)
         INTEGER SOURCE, TAG, COMM, STATUS(MPI_STATUS_SIZE), IERROR
+```
 
 ## Requirements
 
