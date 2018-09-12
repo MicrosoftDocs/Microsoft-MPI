@@ -53,7 +53,7 @@
                                          "ms.author":  "dlepow",
                                          "ms.prod":  "windows-server-dev",
                                          "contributors_to_exclude": ["nivnar"],
-                                         "titleSuffix": "message passing interface"
+                                         "titleSuffix": "Message Passing Interface"
                                      },
                   "fileMetadata":  {
 
