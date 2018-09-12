@@ -55,8 +55,10 @@ int MPIAPI MPI_Init(
 
 ## Fortran
 
+``` FORTRAN
     MPI_INIT(IERROR)
         INTEGER IERROR
+```
 
 ## Remarks
 
