@@ -48,9 +48,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_ALLOC_MEM(SIZE, INFO, BASEPTR, IERROR)
         INTEGER INFO, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) SIZE, BASEPTR
+```
 
 ## Requirements
 
