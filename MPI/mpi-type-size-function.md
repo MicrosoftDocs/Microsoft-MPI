@@ -44,8 +44,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_TYPE_SIZE(DATATYPE, SIZE, IERROR)
         INTEGER DATATYPE, SIZE, IERROR
+```
 
 ## Requirements
 
