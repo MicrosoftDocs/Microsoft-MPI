@@ -52,9 +52,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_FILE_READ_ORDERED_BEGIN(FH, BUF, COUNT, DATATYPE, IERROR)
         <type> BUF(*)
         INTEGER FH, COUNT, DATATYPE, IERROR
+```
 
 ## Requirements
 
