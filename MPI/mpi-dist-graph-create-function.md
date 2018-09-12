@@ -85,11 +85,13 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_DIST_GRAPH_CREATE (COMM_OLD, N, SOURCES, DEGREES, DESTINATIONS, WEIGHTS,
     INFO, REORDER, COMM_DIST_GRAPH, IERROR)
         INTEGER COMM_OLD, N, SOURCES (*), DEGREES (*), DESTINATIONS (*),
     WEIGHTS (*), INFO, COMM_DIST_GRAPH, IERROR
         LOGICAL REORDER
+```
 
 ## Remarks
 
