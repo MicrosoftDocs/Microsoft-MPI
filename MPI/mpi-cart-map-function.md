@@ -56,9 +56,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_CART_MAP(COMM, NDIMS, DIMS, PERIODS, NEWRANK, IERROR)
         INTEGER COMM, NDIMS, DIMS(*), NEWRANK, IERROR
         LOGICAL PERIODS(*)
+```
 
 ## Requirements
 
