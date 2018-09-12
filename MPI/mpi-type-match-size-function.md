@@ -48,8 +48,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_TYPE_MATCH_SIZE(TYPECLASS, SIZE, DATATYPE, IERROR)
         INTEGER TYPECLASS, SIZE, DATATYPE, IERROR
+```
 
 ## Requirements
 
