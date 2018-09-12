@@ -44,9 +44,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_WIN_TEST(WIN, FLAG, IERROR)
         INTEGER WIN, IERROR
         LOGICAL FLAG
+```
 
 ## Remarks
 
