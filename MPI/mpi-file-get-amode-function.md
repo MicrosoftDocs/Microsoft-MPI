@@ -44,8 +44,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_FILE_GET_AMODE(FH, AMODE, IERROR)
         INTEGER FH, AMODE, IERROR
+```
 
 ## Requirements
 
