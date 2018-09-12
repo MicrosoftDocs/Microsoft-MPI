@@ -67,8 +67,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_COMM_SPLIT(COMM,COLOR,KEY,NEWCOMM,IERROR)
         INTEGER COMM, COLOR, KEY, NEWCOMM, IERROR
+```
 
 ## Remarks
 
