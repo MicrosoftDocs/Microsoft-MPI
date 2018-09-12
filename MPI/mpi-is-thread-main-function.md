@@ -40,9 +40,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_IS_THREAD_MAIN(FLAG, IERROR)
         LOGICAL FLAG
         INTEGER IERROR
+```
 
 ## Requirements
 
