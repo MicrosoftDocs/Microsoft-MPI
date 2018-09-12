@@ -44,9 +44,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_ADD_ERROR_STRING(ERRORCODE, STRING, IERROR)
         INTEGER ERRORCODE, IERROR
         CHARACTER*(*) STRING
+```
 
 ## Requirements
 
