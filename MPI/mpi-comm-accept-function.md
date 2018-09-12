@@ -56,9 +56,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_COMM_ACCEPT(PORT_NAME, INFO, ROOT, COMM, NEWCOMM, IERROR)
         CHARACTER*(*) PORT_NAME
         INTEGER INFO, ROOT, COMM, NEWCOMM, IERROR
+```
 
 ## Requirements
 
