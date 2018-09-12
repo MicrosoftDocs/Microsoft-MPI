@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Group_translate_ranks function
 TOCTitle: MPI_Group_translate_ranks function
 ms:assetid: 3c93c90e-2c99-4e37-8662-c7adea21f291
@@ -55,7 +55,8 @@ int MPIAPI MPI_Group_translate_ranks(
   - *ranks1*  
     Zero or more valid ranks in the first group.
     
-    **Note**  The **MPI\_PROC\_NULL** constant is valid for this parameter. The corresponding rank that is returned in the *ranks2* parameter is also **MPI\_PROC\_NULL**.
+    > [!NOTE]
+    > The **MPI\_PROC\_NULL** constant is valid for this parameter. The corresponding rank that is returned in the *ranks2* parameter is also **MPI\_PROC\_NULL**.
     
      
 
