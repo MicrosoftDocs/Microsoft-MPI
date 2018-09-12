@@ -73,9 +73,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_RSEND(BUF, COUNT, DATATYPE, DEST, TAG, COMM, IERROR)
         <type> BUF(*)
         INTEGER COUNT, DATATYPE, DEST, TAG, COMM, IERROR
+```
 
 ## Remarks
 
