@@ -48,8 +48,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_DIMS_CREATE(NNODES, NDIMS, DIMS, IERROR)
         INTEGER NNODES, NDIMS, DIMS(*), IERROR
+```
 
 ## Requirements
 
