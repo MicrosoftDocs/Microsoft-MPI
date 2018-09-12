@@ -69,9 +69,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_BCAST(BUFFER, COUNT, DATATYPE, ROOT, COMM, IERROR)
         <type> BUFFER(*)  
         INTEGER COUNT, DATATYPE, ROOT, COMM, IERROR
+```
 
 ## Remarks
 
