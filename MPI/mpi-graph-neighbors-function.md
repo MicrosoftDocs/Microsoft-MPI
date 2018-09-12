@@ -52,8 +52,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_GRAPH_NEIGHBORS(COMM, RANK, MAXNEIGHBORS, NEIGHBORS, IERROR)
         INTEGER COMM, RANK, MAXNEIGHBORS, NEIGHBORS(*), IERROR
+```
 
 ## Requirements
 
