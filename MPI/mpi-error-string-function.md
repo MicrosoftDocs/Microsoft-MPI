@@ -50,9 +50,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_ERROR_STRING(ERRORCODE, STRING, RESULTLEN, IERROR)
         INTEGER ERRORCODE, RESULTLEN, IERROR
         CHARACTER*(*) STRING
+```
 
 ## Requirements
 
