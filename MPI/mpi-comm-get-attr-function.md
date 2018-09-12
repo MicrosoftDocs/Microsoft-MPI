@@ -52,10 +52,12 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_COMM_GET_ATTR(COMM, COMM_KEYVAL, ATTRIBUTE_VAL, FLAG, IERROR)
         INTEGER COMM, COMM_KEYVAL, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) ATTRIBUTE_VAL
         LOGICAL FLAG
+```
 
 ## Remarks
 
