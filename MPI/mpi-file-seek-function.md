@@ -48,9 +48,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_FILE_SEEK(FH, OFFSET, WHENCE, IERROR)
         INTEGER FH, WHENCE, IERROR
         INTEGER(KIND=MPI_OFFSET_KIND) OFFSET
+```
 
 ## Requirements
 
