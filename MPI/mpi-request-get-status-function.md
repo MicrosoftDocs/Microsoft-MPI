@@ -48,9 +48,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_REQUEST_GET_STATUS( REQUEST, FLAG, STATUS, IERROR)
         INTEGER REQUEST, STATUS(MPI_STATUS_SIZE), IERROR
         LOGICAL FLAG
+```
 
 ## Remarks
 
