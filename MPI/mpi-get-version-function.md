@@ -42,8 +42,10 @@ int MPIAPI MPI_Get_version(
 
 ## Fortran
 
+``` FORTRAN
     MPI_GET_VERSION(VERSION, SUBVERSION, IERROR)
         INTEGER VERSION, SUBVERSION, IERROR
+```
 
 ## Requirements
 
