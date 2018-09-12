@@ -44,9 +44,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_FILE_DELETE(FILENAME, INFO, IERROR)
         CHARACTER*(*) FILENAME
         INTEGER INFO, IERROR
+```
 
 ## Requirements
 

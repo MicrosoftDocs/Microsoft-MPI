@@ -57,8 +57,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_IBARRIER(COMM, REQUEST, IERROR)
         INTEGER COMM, REQUEST, IERROR
+```
 
 ## Remarks
 

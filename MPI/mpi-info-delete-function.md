@@ -44,9 +44,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_INFO_DELETE(INFO, KEY, IERROR)
         INTEGER INFO, IERROR
         CHARACTER*(*) KEY
+```
 
 ## Requirements
 

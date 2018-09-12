@@ -44,9 +44,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_OPEN_PORT(INFO, PORT_NAME, IERROR)
         CHARACTER*(*) PORT_NAME
         INTEGER INFO, IERROR
+```
 
 ## Remarks
 

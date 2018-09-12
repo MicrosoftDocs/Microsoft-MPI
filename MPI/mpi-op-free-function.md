@@ -43,8 +43,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_OP_FREE(OP, IERROR)
         INTEGER OP, IERROR
+```
 
 ## Remarks
 

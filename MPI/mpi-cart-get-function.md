@@ -56,9 +56,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_CART_GET(COMM, MAXDIMS, DIMS, PERIODS, COORDS, IERROR)
         INTEGER COMM, MAXDIMS, DIMS(*), COORDS(*), IERROR
         LOGICAL PERIODS(*)
+```
 
 ## Requirements
 

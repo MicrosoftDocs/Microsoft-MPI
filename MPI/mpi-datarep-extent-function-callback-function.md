@@ -49,9 +49,11 @@ The extent callback functions return an error code.
 
 ## Fortran
 
+``` FORTRAN
     SUBROUTINE DATAREP_EXTENT_FUNCTION(DATATYPE, EXTENT, EXTRA_STATE, IERROR)
         INTEGER DATATYPE, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) EXTENT, EXTRA_STATE
+```
 
 ## Remarks
 

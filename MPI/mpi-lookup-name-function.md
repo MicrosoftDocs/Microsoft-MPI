@@ -48,9 +48,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_LOOKUP_NAME(SERVICE_NAME, INFO, PORT_NAME, IERROR)
         CHARACTER*(*) SERVICE_NAME, PORT_NAME
         INTEGER INFO, IERROR
+```
 
 ## Remarks
 

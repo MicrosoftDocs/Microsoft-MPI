@@ -86,8 +86,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_COMM_COMPARE(COMM1,COMM2,RESULT,IERROR)
         INTEGER COMM1, COMM1, RESULT, IERROR
+```
 
 ## Requirements
 

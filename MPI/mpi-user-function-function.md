@@ -49,9 +49,11 @@ void MPI_User_function(
 
 ## Fortran
 
+``` FORTRAN
     SUBROUTINE USER_FUNCTION(INVEC, INOUTVEC, LEN, DATATYPE)
         <type> INVEC(LEN), INOUTVEC(LEN)
         INTEGER LEN, DATATYPE
+```
 
 ## Remarks
 

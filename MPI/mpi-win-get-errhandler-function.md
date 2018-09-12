@@ -44,8 +44,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_WIN_GET_ERRHANDLER(WIN, ERRHANDLER, IERROR)
         INTEGER WIN, ERRHANDLER, IERROR
+```
 
 ## Requirements
 

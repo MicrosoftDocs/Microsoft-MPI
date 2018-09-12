@@ -48,9 +48,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_INTERCOMM_MERGE(INTERCOMM, HIGH, NEWINTRACOMM, IERROR)
         INTEGER INTERCOMM, NEWINTRACOMM, IERROR
         LOGICAL HIGH
+```
 
 ## Requirements
 

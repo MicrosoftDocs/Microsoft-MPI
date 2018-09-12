@@ -64,12 +64,14 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_PACK_EXTERNAL(DATAREP, INBUF, INCOUNT, DATATYPE, OUTBUF, OUTSIZE,
                 POSITION, IERROR)
         INTEGER INCOUNT, DATATYPE, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) OUTSIZE, POSITION
         CHARACTER*(*) DATAREP
         <type> INBUF(*), OUTBUF(*)
+```
 
 ## Requirements
 

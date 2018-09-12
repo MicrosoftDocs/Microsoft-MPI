@@ -57,8 +57,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_COMM_RANK(COMM,RANK,IERROR)
         INTEGER COMM, RANK, IERROR
+```
 
 ## Remarks
 

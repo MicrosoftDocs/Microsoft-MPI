@@ -44,8 +44,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_WIN_GET_GROUP(WIN, GROUP, IERROR)
         INTEGER WIN, GROUP, IERROR
+```
 
 ## Remarks
 

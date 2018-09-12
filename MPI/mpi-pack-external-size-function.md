@@ -52,10 +52,12 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_PACK_EXTERNAL_SIZE(DATAREP, INCOUNT, DATATYPE, SIZE, IERROR)
         INTEGER INCOUNT, DATATYPE, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) SIZE
         CHARACTER*(*) DATAREP
+```
 
 ## Requirements
 

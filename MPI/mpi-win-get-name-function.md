@@ -48,9 +48,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_WIN_GET_NAME(WIN, WIN_NAME, RESULTLEN, IERROR)
         INTEGER WIN, RESULTLEN, IERROR
         CHARACTER*(*) WIN_NAME
+```
 
 ## Requirements
 

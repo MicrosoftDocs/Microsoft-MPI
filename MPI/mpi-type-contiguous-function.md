@@ -61,8 +61,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_TYPE_CONTIGUOUS(COUNT, OLDTYPE, NEWTYPE, IERROR)
         INTEGER COUNT, OLDTYPE, NEWTYPE, IERROR
+```
 
 ## Remarks
 

@@ -52,11 +52,13 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_TYPE_CREATE_KEYVAL(TYPE_COPY_ATTR_FN, TYPE_DELETE_ATTR_FN, TYPE_KEYVAL,
                 EXTRA_STATE, IERROR)
         EXTERNAL TYPE_COPY_ATTR_FN, TYPE_DELETE_ATTR_FN
         INTEGER TYPE_KEYVAL, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) EXTRA_STATE
+```
 
 ## Remarks
 

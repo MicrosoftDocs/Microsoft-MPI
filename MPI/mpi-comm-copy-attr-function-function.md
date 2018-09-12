@@ -61,12 +61,14 @@ The function returns **MPI\_SUCCESS** on success and an error code on failure.
 
 ## Fortran
 
+``` FORTRAN
     SUBROUTINE COMM_COPY_ATTR_FUNCTION(OLDCOMM, COMM_KEYVAL, EXTRA_STATE,
                 ATTRIBUTE_VAL_IN, ATTRIBUTE_VAL_OUT, FLAG, IERROR)
         INTEGER OLDCOMM, COMM_KEYVAL, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) EXTRA_STATE, ATTRIBUTE_VAL_IN,
             ATTRIBUTE_VAL_OUT
         LOGICAL FLAG
+```
 
 ## Remarks
 

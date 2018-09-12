@@ -44,9 +44,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_GET_PROCESSOR_NAME( NAME, RESULTLEN, IERROR)
         CHARACTER*(*) NAME
         INTEGER RESULTLEN,IERROR
+```
 
 ## Remarks
 

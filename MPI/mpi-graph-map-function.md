@@ -56,8 +56,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_GRAPH_MAP(COMM, NNODES, INDEX, EDGES, NEWRANK, IERROR)
         INTEGER COMM, NNODES, INDEX(*), EDGES(*), NEWRANK, IERROR
+```
 
 ## Requirements
 

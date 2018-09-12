@@ -61,8 +61,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_COMM_CREATE(COMM,GROUP,NEWCOMM,IERROR)
         INTEGER COMM, GROUP, NEWCOMM, IERROR
+```
 
 ## Remarks
 

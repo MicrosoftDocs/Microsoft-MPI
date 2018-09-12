@@ -48,8 +48,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_GRAPHDIMS_GET(COMM, NNODES, NEDGES, IERROR)
         INTEGER COMM, NNODES, NEDGES, IERROR
+```
 
 ## Requirements
 

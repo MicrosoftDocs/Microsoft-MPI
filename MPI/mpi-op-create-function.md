@@ -48,10 +48,12 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_OP_CREATE( USER_FN, COMMUTE, OP, IERROR)
         EXTERNAL USER_FN
         LOGICAL COMMUTE
         INTEGER OP, IERROR
+```
 
 ## Requirements
 

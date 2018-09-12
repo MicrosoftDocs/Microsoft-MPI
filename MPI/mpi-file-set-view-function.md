@@ -61,10 +61,12 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_FILE_SET_VIEW(FH, DISP, ETYPE, FILETYPE, DATAREP, INFO, IERROR)
         INTEGER FH, ETYPE, FILETYPE, INFO, IERROR
         CHARACTER*(*) DATAREP
         INTEGER(KIND=MPI_OFFSET_KIND) DISP
+```
 
 ## Requirements
 

@@ -56,8 +56,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_CART_SHIFT(COMM, DIRECTION, DISP, RANK_SOURCE, RANK_DEST, IERROR)
         INTEGER COMM, DIRECTION, DISP, RANK_SOURCE, RANK_DEST, IERROR
+```
 
 ## Requirements
 

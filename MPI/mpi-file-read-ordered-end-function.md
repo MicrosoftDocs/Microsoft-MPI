@@ -48,9 +48,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_FILE_READ_ORDERED_END(FH, BUF, STATUS, IERROR)
         <type> BUF(*)
         INTEGER FH, STATUS(MPI_STATUS_SIZE), IERROR
+```
 
 ## Requirements
 

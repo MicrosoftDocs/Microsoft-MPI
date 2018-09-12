@@ -45,9 +45,11 @@ All callback functions return an error code. The code is passed back and dealt w
 
 ## Fortran
 
+``` FORTRAN
     SUBROUTINE GREQUEST_QUERY_FUNCTION(EXTRA_STATE, STATUS, IERROR)
         INTEGER STATUS(MPI_STATUS_SIZE), IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) EXTRA_STATE
+```
 
 ## Remarks
 

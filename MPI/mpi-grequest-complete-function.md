@@ -38,8 +38,10 @@ Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error cod
 
 ## Fortran
 
+``` FORTRAN
     MPI_GREQUEST_COMPLETE(REQUEST, IERROR)
         INTEGER REQUEST, IERROR
+```
 
 ## Requirements
 

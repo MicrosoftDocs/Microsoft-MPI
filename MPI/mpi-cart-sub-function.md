@@ -48,9 +48,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_CART_SUB(COMM, REMAIN_DIMS, NEWCOMM, IERROR)
         INTEGER COMM, NEWCOMM, IERROR
         LOGICAL REMAIN_DIMS(*)
+```
 
 ## Requirements
 

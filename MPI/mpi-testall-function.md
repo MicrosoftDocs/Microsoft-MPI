@@ -63,10 +63,12 @@ In Fortran the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_TESTALL(COUNT, ARRAY_OF_REQUESTS, FLAG, ARRAY_OF_STATUSES, IERROR)
         LOGICAL FLAG
         INTEGER COUNT, ARRAY_OF_REQUESTS(*),
         ARRAY_OF_STATUSES(MPI_STATUS_SIZE,*), IERROR
+```
 
 ## Requirements
 

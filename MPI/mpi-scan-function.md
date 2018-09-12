@@ -60,9 +60,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_SCAN(SENDBUF, RECVBUF, COUNT, DATATYPE, OP, COMM, IERROR)
         <type> SENDBUF(*), RECVBUF(*)
         INTEGER COUNT, DATATYPE, OP, COMM, IERROR
+```
 
 ## Requirements
 

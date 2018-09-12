@@ -65,9 +65,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_DIST_GRAPH_NEIGHBORS_COUNT (COMM, INDEGREE, OUTDEGREE, WEIGHTED, IERROR)
         INTEGER COMM, INDEGREE, OUTDEGREE, IERROR
         LOGICAL WEIGHTED
+```
 
 ## Requirements
 

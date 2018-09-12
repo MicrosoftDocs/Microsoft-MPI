@@ -61,12 +61,14 @@ If an attribute copy function returns anything other than **MPI\_SUCCESS**, then
 
 ## Fortran
 
+``` FORTRAN
     SUBROUTINE WIN_COPY_ATTR_FUNCTION(OLDWIN, WIN_KEYVAL, EXTRA_STATE,
                 ATTRIBUTE_VAL_IN, ATTRIBUTE_VAL_OUT, FLAG, IERROR)
         INTEGER OLDWIN, WIN_KEYVAL, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) EXTRA_STATE, ATTRIBUTE_VAL_IN,
             ATTRIBUTE_VAL_OUT
         LOGICAL FLAG
+```
 
 ## Requirements
 

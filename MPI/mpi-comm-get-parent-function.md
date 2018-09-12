@@ -40,8 +40,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_COMM_GET_PARENT(PARENT, IERROR)
         INTEGER PARENT, IERROR
+```
 
 ## Remarks
 

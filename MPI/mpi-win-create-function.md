@@ -60,10 +60,12 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_WIN_CREATE(BASE, SIZE, DISP_UNIT, INFO, COMM, WIN, IERROR)
         <type> BASE(*)
         INTEGER(KIND=MPI_ADDRESS_KIND) SIZE
         INTEGER DISP_UNIT, INFO, COMM, WIN, IERROR
+```
 
 ## Remarks
 

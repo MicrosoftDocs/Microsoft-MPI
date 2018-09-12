@@ -61,12 +61,14 @@ The conversion functions should return an error code. If the returned error code
 
 ## Fortran
 
+``` FORTRAN
     SUBROUTINE DATAREP_CONVERSION_FUNCTION(USERBUF, DATATYPE, COUNT, FILEBUF,
                 POSITION, EXTRA_STATE, IERROR)
         <TYPE> USERBUF(*), FILEBUF(*)
         INTEGER COUNT, DATATYPE, IERROR
         INTEGER(KIND=MPI_OFFSET_KIND) POSITION
         INTEGER(KIND=MPI_ADDRESS_KIND) EXTRA_STATE
+```
 
 ## Requirements
 

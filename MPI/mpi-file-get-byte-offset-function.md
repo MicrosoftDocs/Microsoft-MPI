@@ -48,9 +48,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_FILE_GET_BYTE_OFFSET(FH, OFFSET, DISP, IERROR)
         INTEGER FH, IERROR
         INTEGER(KIND=MPI_OFFSET_KIND) OFFSET, DISP
+```
 
 ## Requirements
 

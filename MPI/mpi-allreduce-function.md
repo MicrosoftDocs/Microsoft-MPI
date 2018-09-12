@@ -75,9 +75,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_ALLREDUCE(SENDBUF, RECVBUF, COUNT, DATATYPE, OP, COMM, IERROR)
         <type> SENDBUF(*), RECVBUF(*)
         INTEGER COUNT, DATATYPE, OP, COMM, IERROR
+```
 
 ## Remarks
 

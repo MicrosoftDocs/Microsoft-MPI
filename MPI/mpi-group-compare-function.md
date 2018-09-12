@@ -79,8 +79,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_GROUP_COMPARE(GROUP1, GROUP2, RESULT, IERROR)
         INTEGER GROUP1, GROUP2, RESULT, IERROR
+```
 
 ## Requirements
 

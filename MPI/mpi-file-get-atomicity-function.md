@@ -44,9 +44,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_FILE_GET_ATOMICITY(FH, FLAG, IERROR)
         INTEGER FH, IERROR
         LOGICAL FLAG
+```
 
 ## Requirements
 

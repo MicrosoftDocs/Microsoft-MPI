@@ -53,10 +53,12 @@ The function returns **MPI\_SUCCESS** on success and an error code on failure (i
 
 ## Fortran
 
+``` FORTRAN
     SUBROUTINE COMM_DELETE_ATTR_FUNCTION(COMM, COMM_KEYVAL, ATTRIBUTE_VAL,
                 EXTRA_STATE, IERROR)
         INTEGER COMM, COMM_KEYVAL, IERROR
         INTEGER(KIND=MPI_ADDRESS_KIND) ATTRIBUTE_VAL, EXTRA_STATE
+```
 
 ## Remarks
 

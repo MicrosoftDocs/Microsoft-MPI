@@ -40,8 +40,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_FILE_SYNC(FH, IERROR)
         INTEGER FH, IERROR
+```
 
 ## Requirements
 

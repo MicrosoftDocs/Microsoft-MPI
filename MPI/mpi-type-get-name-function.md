@@ -48,9 +48,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_TYPE_GET_NAME(DATATYPE, TYPE_NAME, RESULTLEN, IERROR)
         INTEGER DATATYPE, RESULTLEN, IERROR
         CHARACTER*(*) TYPE_NAME
+```
 
 ## Requirements
 

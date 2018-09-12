@@ -68,10 +68,12 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_GET(ORIGIN_ADDR, ORIGIN_COUNT, ORIGIN_DATATYPE, TARGET_RANK,
                 TARGET_DISP, TARGET_COUNT, TARGET_DATATYPE, WIN, IERROR)
         <type> ORIGIN_ADDR(*)
         INTEGER(KIND=MPI_ADDRESS_KIND) TARGET_DISP
+```
 
 ## Requirements
 

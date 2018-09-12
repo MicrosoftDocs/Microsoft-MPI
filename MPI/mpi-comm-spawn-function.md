@@ -68,11 +68,13 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_COMM_SPAWN(COMMAND, ARGV, MAXPROCS, INFO, ROOT, COMM, INTERCOMM,
                 ARRAY_OF_ERRCODES, IERROR)
         CHARACTER*(*) COMMAND, ARGV(*)
         INTEGER INFO, MAXPROCS, ROOT, COMM, INTERCOMM, ARRAY_OF_ERRCODES(*),
         IERROR
+```
 
 ## Requirements
 

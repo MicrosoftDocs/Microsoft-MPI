@@ -60,10 +60,12 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_FILE_READ_AT(FH, OFFSET, BUF, COUNT, DATATYPE, STATUS, IERROR)
         <type> BUF(*)
         INTEGER FH, COUNT, DATATYPE, STATUS(MPI_STATUS_SIZE), IERROR
         INTEGER(KIND=MPI_OFFSET_KIND) OFFSET
+```
 
 ## Requirements
 

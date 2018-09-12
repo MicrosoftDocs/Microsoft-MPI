@@ -42,8 +42,10 @@ int MPIAPI MPI_Pcontrol(
 
 ## Fortran
 
+``` FORTRAN
     MPI_PCONTROL(LEVEL)
         INTEGER LEVEL
+```
 
 ## Remarks
 

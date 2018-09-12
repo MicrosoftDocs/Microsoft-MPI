@@ -35,7 +35,9 @@ Time in seconds of resolution of [**MPI\_Wtime**](mpi-wtime-function.md).
 
 ## Fortran
 
+``` FORTRAN
     DOUBLE PRECISION MPI_WTICK()
+```
 
 ## Requirements
 

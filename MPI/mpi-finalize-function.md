@@ -48,8 +48,10 @@ This function has no parameters.
 
 ## Fortran
 
+``` FORTRAN
     MPI_FINALIZE(IERROR)
         INTEGER IERROR
+```
 
 ## Remarks
 

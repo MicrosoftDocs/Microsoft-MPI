@@ -45,8 +45,10 @@ void MPI_Comm_errhandler_function(
 
 ## Fortran
 
+``` FORTRAN
     SUBROUTINE COMM_ERRHANDLER_FUNCTION(COMM, ERROR_CODE)
         INTEGER COMM, ERROR_CODE
+```
 
 ## Remarks
 

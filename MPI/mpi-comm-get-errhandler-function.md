@@ -44,8 +44,10 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_COMM_GET_ERRHANDLER(COMM, ERRHANDLER, IERROR)
         INTEGER COMM, ERRHANDLER, IERROR
+```
 
 ## Requirements
 

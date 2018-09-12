@@ -69,9 +69,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_IMRECV(BUF, COUNT, DATATYPE, MESSAGE, REQUEST, IERROR)
         <type> BUF(*)
         INTEGER COUNT, DATATYPE, MESSAGE, REQUEST, IERROR
+```
 
 ## Remarks
 

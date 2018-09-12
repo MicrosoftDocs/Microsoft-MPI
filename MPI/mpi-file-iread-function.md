@@ -56,9 +56,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_FILE_IREAD(FH, BUF, COUNT, DATATYPE, REQUEST, IERROR)
         <type> BUF(*)
         INTEGER FH, COUNT, DATATYPE, REQUEST, IERROR
+```
 
 ## Requirements
 

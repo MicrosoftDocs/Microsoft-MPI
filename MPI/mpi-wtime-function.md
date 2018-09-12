@@ -35,7 +35,9 @@ Time in seconds since an arbitrary time in the past.
 
 ## Fortran
 
+``` FORTRAN
     DOUBLE PRECISION MPI_WTIME()
+```
 
 ## Remarks
 

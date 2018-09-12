@@ -44,9 +44,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_TEST_CANCELLED(STATUS, FLAG, IERROR)
         LOGICAL FLAG
         INTEGER STATUS(MPI_STATUS_SIZE), IERROR
+```
 
 ## Requirements
 

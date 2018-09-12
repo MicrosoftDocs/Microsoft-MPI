@@ -45,9 +45,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_BUFFER_DETACH(BUFFER_ADDR, SIZE, IERROR)
         <type> BUFFER_ADDR(*)
         INTEGER SIZE, IERROR
+```
 
 ## Requirements
 
