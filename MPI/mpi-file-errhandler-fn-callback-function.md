@@ -41,8 +41,10 @@ void MPI_File_errhandler_function(
 
 ## Fortran
 
+``` FORTRAN
     SUBROUTINE FILE_ERRHANDLER_FUNCTION(FILE, ERROR_CODE)
     INTEGER FILE, ERROR_CODE
+```
 
 ## Remarks
 
