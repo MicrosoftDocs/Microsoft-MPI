@@ -40,9 +40,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_FREE_MEM(BASE, IERROR)
         <type> BASE(*)
         INTEGER IERROR
+```
 
 ## Requirements
 
