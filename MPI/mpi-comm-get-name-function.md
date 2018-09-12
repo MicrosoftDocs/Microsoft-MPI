@@ -48,9 +48,11 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_COMM_GET_NAME(COMM, COMM_NAME, RESULTLEN, IERROR)
         INTEGER COMM, RESULTLEN, IERROR
         CHARACTER*(*) COMM_NAME
+```
 
 ## Requirements
 
