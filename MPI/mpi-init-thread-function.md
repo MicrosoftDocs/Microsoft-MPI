@@ -90,8 +90,10 @@ In Fortran the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_INIT_THREAD(REQUIRED, PROVIDED, IERROR)
         INTEGER REQUIRED, PROVIDED, IERROR
+```
 
 ## Remarks
 
