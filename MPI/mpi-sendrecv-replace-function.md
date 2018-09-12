@@ -72,11 +72,13 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Fortran
 
+``` FORTRAN
     MPI_SENDRECV_REPLACE(BUF, COUNT, DATATYPE, DEST, SENDTAG, SOURCE, RECVTAG,
             COMM, STATUS, IERROR)
         <type> BUF(*)
         INTEGER COUNT, DATATYPE, DEST, SENDTAG, SOURCE, RECVTAG, COMM,
         STATUS(MPI_STATUS_SIZE), IERROR
+```
 
 ## Requirements
 
