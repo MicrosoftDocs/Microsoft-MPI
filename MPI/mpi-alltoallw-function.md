@@ -101,10 +101,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Remarks
 
-> **Important** 
-> To allow maximum flexibility, the displacement of blocks within the send and receive buffers is specified in bytes.
-
- 
+> [!IMPORTANT]
+> To allow maximum flexibility, the displacement of blocks within the send and receive buffers is specified in bytes. 
 
 All parameters are significant on all processes. The *comm* parameter must be identical on all processes.
 
