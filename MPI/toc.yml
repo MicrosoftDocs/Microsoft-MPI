@@ -493,6 +493,8 @@
           href: mpi-win-complete-function.md
         - name: MPI_Win_create
           href: mpi-win-create-function.md
+        - name: MPI_Win_allocate
+          href: mpi-win-create-allocate.md
         - name: MPI_Win_fence
           href: mpi-win-fence-function.md
         - name: MPI_Win_free
