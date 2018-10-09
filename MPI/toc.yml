@@ -497,6 +497,14 @@
           href: mpi-win-allocate-function.md
         - name: MPI_Win_fence
           href: mpi-win-fence-function.md
+        - name: MPI_Win_flush
+          href: mpi-win-flush-function.md
+        - name: MPI_Win_flush_all
+          href: mpi-win-flush-all-function.md
+        - name: MPI_Win_flush_local
+          href: mpi-win-flush-local-function.md
+        - name: MPI_Win_flush_local_all
+          href: mpi-win-flush-local-all-function.md
         - name: MPI_Win_free
           href: mpi-win-free-function.md
         - name: MPI_Win_get_group
