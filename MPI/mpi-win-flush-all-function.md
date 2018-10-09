@@ -37,7 +37,7 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 ## Fortran
 
 ``` FORTRAN
-    MPI_WIN_FLUSH(WIN, IERROR)
+    MPI_WIN_FLUSH_ALL(WIN, IERROR)
         INTEGER WIN, IERROR
 ```
 
