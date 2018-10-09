@@ -13,7 +13,7 @@ dev_langs:
 
 # MPI\_Win\_flush\_all function
 
-Completes all RMA operations issued by the calling process to any target on the specified window prior to this call and in the specified window. The operations will have completed both at the origin and at the target when this call returns.
+Completes all RMA operations issued by the calling process to any target on the specified window prior to this call. In the specified window the operations will have completed both at the origin and at the target when this call returns.
 
 ## Syntax
 
