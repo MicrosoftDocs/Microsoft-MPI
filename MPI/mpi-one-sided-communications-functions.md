@@ -42,17 +42,26 @@ mtps_version: v=VS.85
   - [**MPI\_Win\_lock**](mpi-win-lock-function.md)  
     Begins an RMA access epoch at the target process.
 
+  - [**MPI\_Win\_lock\_all**](mpi-win-lock-all-function.md)  
+    Starts an RMA access epoch to all processes in window object.
+
   - [**MPI\_Win\_post**](mpi-win-post-function.md)  
     Starts an RMA exposure epoch.
 
   - [**MPI\_Win\_start**](mpi-win-start-function.md)  
     Starts an RMA access epoch.
 
+  - [**MPI\_Win\_sync**](mpi-win-sync-function.md)  
+    Synchronizes the private and public window copies of win.
+
   - [**MPI\_Win\_test**](mpi-win-test-function.md)  
     Tests whether an RMA exposure epoch has completed.
 
   - [**MPI\_Win\_unlock**](mpi-win-unlock-function.md)  
     Completes an RMA access epoch at the target process.
+
+  - [**MPI\_Win\_unlock\_all**](mpi-win-unlock-all-function.md)  
+    Completes a shared RMA access epoch started by a call to [**MPI\_Win\_lock\_all**](mpi-win-lock-all-function.md) on a window.
 
   - [**MPI\_Win\_wait**](mpi-win-wait-function.md)  
     Completes an RMA exposure epoch begun with [**MPI\_Win\_post**](mpi-win-post-function.md).
