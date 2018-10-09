@@ -27,6 +27,9 @@ mtps_version: v=VS.85
   - [**MPI\_Win\_create**](mpi-win-create-function.md)  
     Creates an MPI Window object for one-sided communication.
 
+  - [**MPI\_Win\_allocate**](mpi-win-allocate-function.md)  
+    Creates an MPI Window object that allocates memory.
+
   - [**MPI\_Win\_fence**](mpi-win-fence-function.md)  
     Performs an MPI fence synchronization on a MPI window.
 
