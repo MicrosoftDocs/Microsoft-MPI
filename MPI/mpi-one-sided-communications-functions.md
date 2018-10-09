@@ -36,6 +36,9 @@ mtps_version: v=VS.85
   - [**MPI\_Win\_flush**](mpi-win-flush-function.md)  
     Completes all outstanding RMA operations initiated by the calling process to the target rank.
 
+  - [**MPI\_Win\_flush\_all**](mpi-win-flush-all-function.md)  
+    Completes operations issued by the calling process to any target on the specified window.
+
   - [**MPI\_Win\_free**](mpi-win-free-function.md)  
     Frees an MPI RMA window object.
 
