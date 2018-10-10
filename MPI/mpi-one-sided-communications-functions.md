@@ -21,14 +21,23 @@ mtps_version: v=VS.85
   - [**MPI\_Put**](mpi-put-function.md)  
     Puts data into a memory window on a remote process.
 
+  - [**MPI\_Win\_allocate**](mpi-win-allocate-function.md)  
+    Creates an MPI Window object that allocates memory.
+
+  - [**MPI\_Win\_attach**](mpi-win-attach-function.md)  
+    Attaches a local memory region for remote access within the given window.
+
   - [**MPI\_Win\_complete**](mpi-win-complete-function.md)  
     Completes an RMA operations begun after an [**MPI\_Win\_start**](mpi-win-start-function.md).
 
   - [**MPI\_Win\_create**](mpi-win-create-function.md)  
     Creates an MPI Window object for one-sided communication.
 
-  - [**MPI\_Win\_allocate**](mpi-win-allocate-function.md)  
-    Creates an MPI Window object that allocates memory.
+  - [**MPI\_Win\_create\_dynamic**](mpi-win-create-dynamic-function.md)  
+    Creates a window that allows the user to dynamically control which memory is exposed by the window.
+
+  - [**MPI\_Win\_detach**](mpi-win-detach-function.md)  
+    Detaches a previously attached memory region.
 
   - [**MPI\_Win\_fence**](mpi-win-fence-function.md)  
     Performs an MPI fence synchronization on a MPI window.
