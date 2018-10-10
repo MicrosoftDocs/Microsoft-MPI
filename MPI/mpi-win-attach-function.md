@@ -27,13 +27,13 @@ int MPIAPI MPI_Win_attach(
 
 ## Parameters
 
-  - *win* \[in\]
+  - *win* \[in\]  
     Window object.
 
-  - *base*  \[in\]
+  - *base* \[in\]  
     Initial address of memory to be attached.
 
-  - *size*  \[in\]
+  - *size* \[in\]   
     Size of memory to be attached in bytes.
 
 ## Return value
