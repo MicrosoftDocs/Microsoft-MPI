@@ -47,6 +47,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 ``` FORTRAN
     MPI_WIN_ATTACH(WIN, BASE, SIZE, IERROR)
         INTEGER WIN, IERROR
+        <type> BASE(*)
+        INTEGER(KIND=MPI_ADDRESS_KIND) SIZE
 ```
 
 ## Remarks
