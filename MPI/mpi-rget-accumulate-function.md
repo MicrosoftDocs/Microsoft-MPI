@@ -1,24 +1,24 @@
 ﻿---
-title: MPI_Get_accumulate function
-TOCTitle: MPI_Get_accumulate function
+title: MPI_Rget_accumulate function
+TOCTitle: MPI_Rget_accumulate function
 mtps_version: v=VS.85
 f1_keywords:
-- MPI_GET_ACCUMULATE
-- mpif/MPI_Get_accumulate
-- mpi/MPI_GET_ACCUMULATE
+- MPI_RGET_ACCUMULATE
+- mpif/MPI_Rget_accumulate
+- mpi/MPI_RGET_ACCUMULATE
 dev_langs:
 - C++
 - C
 ---
 
-# MPI\_Get\_accumulate function
+# MPI\_Rget\_accumulate function
 
-Performs atomic read-modify-write and returns the data before the accumulate operation.
+Request-based RMA read-modify-write operation returns the data before the accumulate operation.
 
 ## Syntax
 
 ``` c++
-int MPIAPI MPI_Get_accumulate(
+int MPIAPI MPI_Rget_accumulate(
   _In_  void         *origin_addr,
         int          origin_count,
         MPI_Datatype origin_datatype,
@@ -30,7 +30,8 @@ int MPIAPI MPI_Get_accumulate(
         int          target_count,
         MPI_Datatype datatype,
         MPI_Op       op,
-        MPI_Win      win
+        MPI_Win      win,
+  _Out_ MPI_Request  *request
 );
 ```
 
@@ -72,6 +73,9 @@ int MPIAPI MPI_Get_accumulate(
   - *win*  
     window object
 
+  - *request* \[out\]  
+    RMA request
+
 ## Return value
 
 Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error code.
@@ -81,19 +85,17 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 ## Fortran
 
 ``` FORTRAN
-    MPI_GET_ACCUMULATE(ORIGIN_ADDR, ORIGIN_COUNT, ORIGIN_DATATYPE, RESULT_ADDR, RESULT_COUNT, RESULT_DATATYPE,
-                TARGET_RANK, TARGET_DISP, TARGET_COUNT, TARGET_DATATYPE, OP, WIN, IERROR)
+    MPI_GET_RACCUMULATE(ORIGIN_ADDR, ORIGIN_COUNT, ORIGIN_DATATYPE, RESULT_ADDR, RESULT_COUNT, RESULT_DATATYPE,
+                TARGET_RANK, TARGET_DISP, TARGET_COUNT, TARGET_DATATYPE, OP, WIN, REQUEST, IERROR)
         <type> ORIGIN_ADDR(*), RESULT_ADDR(*)
         INTEGER(KIND=MPI_ADDRESS_KIND) TARGET_DISP
         INTEGER ORIGIN_COUNT, ORIGIN_DATATYPE, RESULT_COUNT, RESULT_DATATYPE, TARGET_RANK, TARGET_COUNT,
-        TARGET_DATATYPE, OP, WIN, IERROR
+        TARGET_DATATYPE, OP, WIN, REQUEST, IERROR
 ```
 
 ## Remarks
 
-Accumulate *origin_count* elements of type *origin_datatype* from the origin buffer (*origin_addr*) to the buffer at offset *target_disp*, in the target window specified by *target_rank* and *win*, using the operation *op* and return in the result buffer *result_addr* the content of the target buffer before the accumulation, specified by *target_disp*, *target_count*, and *target_datatype*. The data transferred from origin to target must fit, without truncation, in the target buffer. Likewise, the data copied from target to origin must fit, without truncation, in the result buffer.
-
-The origin and result buffers (*origin_addr* and *result_addr*) must be disjoint. Each datatype argument must be a predefined datatype or a derived datatype where all basic components are of the same predefined datatype. All datatype arguments must be constructed from the same predefined datatype. The operation *op* applies to elements of that predefined type. *target_datatype* must not specify overlapping entries, and the target buffer must fit in the target window or in attached memory in a dynamic window. The operation is executed atomically for each basic datatype.
+[**MPI\_Rget\_accumulate**](mpi-rget-accumulate-function.md) is similar to [**MPI\_Get\_accumulate**](mpi-get-accumulate-function.md), except that it allocates a communication request object and associates it with the request handle (the argument *request*) that can be used to wait or test for completion. The completion of an [**MPI\_Rget\_accumulate**](mpi-rget-accumulate-function.md) operation indicates that the data is available in the result buffer and the origin buffer is free to be updated. It does not indicate that the operation has been completed at the target window.
 
 ## Requirements
 

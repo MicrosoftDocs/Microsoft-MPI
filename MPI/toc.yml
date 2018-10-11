@@ -495,6 +495,14 @@
           href: mpi-get-accumulate-function.md
         - name: MPI_Put
           href: mpi-put-function.md
+        - name: MPI_Raccumulate
+          href: mpi-raccumulate-function.md
+        - name: MPI_Rget
+          href: mpi-rget-function.md
+        - name: MPI_Rget_accumulate
+          href: mpi-rget-accumulate-function.md
+        - name: MPI_Rput
+          href: mpi-rput-function.md
         - name: MPI_Win_allocate
           href: mpi-win-allocate-function.md
         - name: MPI_Win_attach
