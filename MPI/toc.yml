@@ -505,6 +505,8 @@
           href: mpi-rput-function.md
         - name: MPI_Win_allocate
           href: mpi-win-allocate-function.md
+        - name: MPI_Win_allocate_shared
+          href: mpi-win-allocate-shared-function.md
         - name: MPI_Win_attach
           href: mpi-win-attach-function.md
         - name: MPI_Win_complete
@@ -535,6 +537,8 @@
           href: mpi-win-lock-all-function.md
         - name: MPI_Win_post
           href: mpi-win-post-function.md
+        - name: MPI_Win_shared_query
+          href: mpi-win-shared-query-function.md
         - name: MPI_Win_start
           href: mpi-win-start-function.md
         - name: MPI_Win_sync

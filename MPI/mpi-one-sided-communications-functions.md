@@ -45,6 +45,9 @@ mtps_version: v=VS.85
   - [**MPI\_Win\_allocate**](mpi-win-allocate-function.md)  
     Creates an MPI Window object that allocates memory.
 
+  - [**MPI\_Win\_allocate\_shared**](mpi-win-allocate-shared-function.md)  
+    Creates an MPI Window object that allocates memory, allocated memory can be accessed from all processes in the window’s group with direct load/store instructions.
+
   - [**MPI\_Win\_attach**](mpi-win-attach-function.md)  
     Attaches a local memory region for remote access within the given window.
 
@@ -89,6 +92,9 @@ mtps_version: v=VS.85
 
   - [**MPI\_Win\_post**](mpi-win-post-function.md)  
     Starts an RMA exposure epoch.
+
+  - [**MPI\_Win\_shared\_query**](mpi-win-shared-query-function.md)  
+    Queries the process-local address for remote memory segments created with [**MPI\_Win\_allocate\_shared**](mpi-win-allocate-shared-function.md).
 
   - [**MPI\_Win\_start**](mpi-win-start-function.md)  
     Starts an RMA access epoch.
