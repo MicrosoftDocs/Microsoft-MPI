@@ -18,7 +18,7 @@ Performs atomic read-modify-write and returns the data before the accumulate ope
 ## Syntax
 
 ``` c++
-int MPIAPI MPI_Accumulate(
+int MPIAPI MPI_Get_accumulate(
   _In_  void         *origin_addr,
         int          origin_count,
         MPI_Datatype origin_datatype,
