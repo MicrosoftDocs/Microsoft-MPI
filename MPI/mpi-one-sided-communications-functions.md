@@ -27,6 +27,18 @@ mtps_version: v=VS.85
   - [**MPI\_Get\_accumulate**](mpi-get-accumulate-function.md)  
     Performs atomic read-modify-write and returns the data before the accumulate operation.
 
+  - [**MPI\_Raccumulate**](mpi-raccumulate-function.md)  
+    Request-based RMA accumulate operation.
+
+  - [**MPI\_Rget**](mpi-rget-function.md)  
+    Request-based RMA get operation.
+
+  - [**MPI\_Rget\_accumulate**](mpi-rget-accumulate-function.md)  
+    Request-based RMA read-modify-write operation returns the data before the accumulate operation.
+
+  - [**MPI\_Rput**](mpi-rput-function.md)  
+    Request-based RMA put operation.
+
   - [**MPI\_Put**](mpi-put-function.md)  
     Puts data into a memory window on a remote process.
 
