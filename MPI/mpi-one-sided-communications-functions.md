@@ -15,8 +15,17 @@ mtps_version: v=VS.85
   - [**MPI\_Accumulate**](mpi-accumulate-function.md)  
     Accumulates data into the target process using remote memory access.
 
+  - [**MPI\_Compare\_and\_swap**](mpi-compare-and-swap-function.md)  
+    Performs a remote atomic compare and swap operation.
+
+  - [**MPI\_Fetch\_and\_op**](mpi-fetch-and-op-function.md)  
+    Performs atomic read-modify-write on one element of data, and returns the data element before the accumulate operation.
+
   - [**MPI\_Get**](mpi-get-function.md)  
     Gets data from a memory window on a remote process.
+
+  - [**MPI\_Get\_accumulate**](mpi-get-accumulate-function.md)  
+    Performs atomic read-modify-write and returns the data before the accumulate operation.
 
   - [**MPI\_Put**](mpi-put-function.md)  
     Puts data into a memory window on a remote process.

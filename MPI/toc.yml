@@ -485,8 +485,14 @@
         items:
         - name: MPI_Accumulate
           href: mpi-accumulate-function.md
+        - name: MPI_Compare_and_swap
+          href: mpi-compare-and-swap-function.md
+        - name: MPI_Fetch_and_op
+          href: mpi-fetch-and-op-function.md
         - name: MPI_Get
           href: mpi-get-function.md
+        - name: MPI_Get_accumulate
+          href: mpi-get-accumulate-function.md
         - name: MPI_Put
           href: mpi-put-function.md
         - name: MPI_Win_allocate
