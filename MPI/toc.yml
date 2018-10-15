@@ -485,16 +485,38 @@
         items:
         - name: MPI_Accumulate
           href: mpi-accumulate-function.md
+        - name: MPI_Compare_and_swap
+          href: mpi-compare-and-swap-function.md
+        - name: MPI_Fetch_and_op
+          href: mpi-fetch-and-op-function.md
         - name: MPI_Get
           href: mpi-get-function.md
+        - name: MPI_Get_accumulate
+          href: mpi-get-accumulate-function.md
         - name: MPI_Put
           href: mpi-put-function.md
+        - name: MPI_Raccumulate
+          href: mpi-raccumulate-function.md
+        - name: MPI_Rget
+          href: mpi-rget-function.md
+        - name: MPI_Rget_accumulate
+          href: mpi-rget-accumulate-function.md
+        - name: MPI_Rput
+          href: mpi-rput-function.md
+        - name: MPI_Win_allocate
+          href: mpi-win-allocate-function.md
+        - name: MPI_Win_allocate_shared
+          href: mpi-win-allocate-shared-function.md
+        - name: MPI_Win_attach
+          href: mpi-win-attach-function.md
         - name: MPI_Win_complete
           href: mpi-win-complete-function.md
         - name: MPI_Win_create
           href: mpi-win-create-function.md
-        - name: MPI_Win_allocate
-          href: mpi-win-allocate-function.md
+        - name: MPI_Win_create_dynamic
+          href: mpi-win-create-dynamic-function.md
+        - name: MPI_Win_detach
+          href: mpi-win-detach-function.md
         - name: MPI_Win_fence
           href: mpi-win-fence-function.md
         - name: MPI_Win_flush
@@ -515,6 +537,8 @@
           href: mpi-win-lock-all-function.md
         - name: MPI_Win_post
           href: mpi-win-post-function.md
+        - name: MPI_Win_shared_query
+          href: mpi-win-shared-query-function.md
         - name: MPI_Win_start
           href: mpi-win-start-function.md
         - name: MPI_Win_sync

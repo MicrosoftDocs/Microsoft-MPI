@@ -15,11 +15,41 @@ mtps_version: v=VS.85
   - [**MPI\_Accumulate**](mpi-accumulate-function.md)  
     Accumulates data into the target process using remote memory access.
 
+  - [**MPI\_Compare\_and\_swap**](mpi-compare-and-swap-function.md)  
+    Performs a remote atomic compare and swap operation.
+
+  - [**MPI\_Fetch\_and\_op**](mpi-fetch-and-op-function.md)  
+    Performs atomic read-modify-write on one element of data, and returns the data element before the accumulate operation.
+
   - [**MPI\_Get**](mpi-get-function.md)  
     Gets data from a memory window on a remote process.
 
+  - [**MPI\_Get\_accumulate**](mpi-get-accumulate-function.md)  
+    Performs atomic read-modify-write and returns the data before the accumulate operation.
+
+  - [**MPI\_Raccumulate**](mpi-raccumulate-function.md)  
+    Request-based RMA accumulate operation.
+
+  - [**MPI\_Rget**](mpi-rget-function.md)  
+    Request-based RMA get operation.
+
+  - [**MPI\_Rget\_accumulate**](mpi-rget-accumulate-function.md)  
+    Request-based RMA read-modify-write operation returns the data before the accumulate operation.
+
+  - [**MPI\_Rput**](mpi-rput-function.md)  
+    Request-based RMA put operation.
+
   - [**MPI\_Put**](mpi-put-function.md)  
     Puts data into a memory window on a remote process.
+
+  - [**MPI\_Win\_allocate**](mpi-win-allocate-function.md)  
+    Creates an MPI Window object that allocates memory.
+
+  - [**MPI\_Win\_allocate\_shared**](mpi-win-allocate-shared-function.md)  
+    Creates an MPI Window object that allocates memory, allocated memory can be accessed from all processes in the window’s group with direct load/store instructions.
+
+  - [**MPI\_Win\_attach**](mpi-win-attach-function.md)  
+    Attaches a local memory region for remote access within the given window.
 
   - [**MPI\_Win\_complete**](mpi-win-complete-function.md)  
     Completes an RMA operations begun after an [**MPI\_Win\_start**](mpi-win-start-function.md).
@@ -27,8 +57,11 @@ mtps_version: v=VS.85
   - [**MPI\_Win\_create**](mpi-win-create-function.md)  
     Creates an MPI Window object for one-sided communication.
 
-  - [**MPI\_Win\_allocate**](mpi-win-allocate-function.md)  
-    Creates an MPI Window object that allocates memory.
+  - [**MPI\_Win\_create\_dynamic**](mpi-win-create-dynamic-function.md)  
+    Creates a window that allows the user to dynamically control which memory is exposed by the window.
+
+  - [**MPI\_Win\_detach**](mpi-win-detach-function.md)  
+    Detaches a previously attached memory region.
 
   - [**MPI\_Win\_fence**](mpi-win-fence-function.md)  
     Performs an MPI fence synchronization on a MPI window.
@@ -59,6 +92,9 @@ mtps_version: v=VS.85
 
   - [**MPI\_Win\_post**](mpi-win-post-function.md)  
     Starts an RMA exposure epoch.
+
+  - [**MPI\_Win\_shared\_query**](mpi-win-shared-query-function.md)  
+    Queries the process-local address for remote memory segments created with [**MPI\_Win\_allocate\_shared**](mpi-win-allocate-shared-function.md).
 
   - [**MPI\_Win\_start**](mpi-win-start-function.md)  
     Starts an RMA access epoch.
