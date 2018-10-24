@@ -12,6 +12,21 @@ mtps_version: v=VS.85
 
 This document contains the release notes for the current versions of Microsoft MPI (MS-MPI) for Windows.
 
+## MS-MPI v10.0 (October 2018)
+MS-MPI v10.0 includes the following improvements and fixes. Download MS-MPI v10.0 from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=57467).
+
+- Support all RMA operations
+- Support for utilizing multiple processor groups
+- Include IMB-MPI1 and IMB-NBC benchmarks
+- Add option in mpiexec/smpd to redirect logs
+- Remove nonstandard intrinsics/types to support usage with MinGW/gFortran
+
+- Fix a bug in core dump creation
+- Fix a bug in MPI_THREAD_MULTIPLE mode
+- Fix a bug in MSMPILaunchSvc that prevents saving credentials
+
+The MS-MPI v10.0 SDK is also available on [nuget](https://www.nuget.org/packages/msmpisdk/).
+
 ## MS-MPI v9.0.1 (March 2018)
 
 MS-MPI v9.0.1 includes the following improvements and fixes. Download MS-MPI v9.0.1 from the [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?linkid=389556).
