@@ -26,7 +26,7 @@ The following are current downloads for MS-MPI:
   - [MS-MPI v10.0](https://www.microsoft.com/download/details.aspx?id=57467) (new\!) - see [Release notes](microsoft-mpi-release-notes.md)
   - [Debugger for MS-MPI Applications with HPC Pack 2012 R2](https://go.microsoft.com/fwlink/p/?linkid=390711)
 
-Earlier versions of MS-MPI are available from the [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?linkid=390734).
+Earlier versions of MS-MPI are available from the [Microsoft Download Center](https://www.microsoft.com/en-us/download/default.aspx).
 
 ##  Community resources
 
