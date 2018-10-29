@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_get_attr function
 TOCTitle: MPI_Comm_get_attr function
 ms:assetid: 7fa4c249-273c-40a3-9dfb-2dd754adb259
@@ -61,7 +61,7 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 ## Remarks
 
-Attributes must be extracted from the same language as they were inserted in with [**MPI\_Comm\_set\_attr**](MPI-Comm-set-attr-function.md). Even though the *attribute_val* arguement is declared as *void* pointer, it is really the address of a void pointer.  See the rationale in the standard for more details.
+Attributes must be extracted from the same language as they were inserted in with [**MPI\_Comm\_set\_attr**](MPI-Comm-set-attr-function.md). Even though the *attribute_val* argument is declared as *void* pointer, it is really the address of a void pointer.  See the rationale in the standard for more details.
 
 ## Requirements
 
