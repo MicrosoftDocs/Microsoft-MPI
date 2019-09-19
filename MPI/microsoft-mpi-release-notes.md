@@ -13,7 +13,7 @@ mtps_version: v=VS.85
 This document contains the release notes for the current versions of Microsoft MPI (MS-MPI) for Windows.
 
 ## MS-MPI v10.1.1 (September 2019)
-MS-MPI v10.1.1 includes the following improvements and fixes. Download MS-MPI v10.1 from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=100305).
+MS-MPI v10.1.1 includes the following improvements and fixes. Download MS-MPI v10.1.1 from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=100305).
 
 - Support arguments passed to MsmpiLaunchSvc
 - Fix the bug in mpiexec double quote parsing
