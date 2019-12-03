@@ -1,0 +1,9 @@
+{
+  "redirections": [
+    {
+      "source_path": "MPI/index.md",
+      "redirect_url": "microsoft-mpi",
+      "redirect_document_id": false
+    }
+  ]
+}
