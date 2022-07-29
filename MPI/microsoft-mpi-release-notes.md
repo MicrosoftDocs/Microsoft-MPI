@@ -113,7 +113,7 @@ MS-MPI v7.1 includes the following notable improvements and fixes to MS-MPI v7.
 
 ## MS-MPI v7 (November 2015)
 
-MS-MPI v7 is the successor to the MS-MPI v6. Download MS-MPI v7 from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=49926).
+MS-MPI v7 is the successor to the MS-MPI v6. Download MS-MPI v7 from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=52981).
 
 ### New features
 
