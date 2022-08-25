@@ -155,7 +155,7 @@ MS-MPI v7 is compatible with HPC Pack 2012 R2 and later. If you are running a co
 
 ## MS-MPI v6 (May 2015)
 
-MS-MPI v6 is the successor to the MS-MPI v5 redistributable package (released in November 2014). Download MS-MPI v6 from the Microsoft Download Center.
+MS-MPI v6 is the successor to the MS-MPI v5 redistributable package (released in November 2014). 
 
 ### New features
 
