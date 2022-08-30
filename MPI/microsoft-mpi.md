@@ -40,6 +40,7 @@ Earlier versions of MS-MPI are available from the [Microsoft Download Center](ht
 ## Microsoft High Performance Computing Resources
 
   - Featured tutorial: [How to compile and run a simple MS-MPI program](/archive/blogs/windowshpc/how-to-compile-and-run-a-simple-ms-mpi-program)
+  - Featured guide: [Set up a Windows RDMA cluster with HPC Pack and A8 and A9 instances to run MPI applications](/previous-versions/azure/virtual-machines/windows/classic/hpcpack-rdma-cluster)
   - [Microsoft High Performance Computing for Developers](https://msdn.microsoft.com/library/ff976568.aspx)
   - [Overview of Microsoft HPC Pack 2019](/powershell/high-performance-computing/overview)
   - [Azure HPC Scenarios](https://www.microsoft.com/hpc)
@@ -47,4 +48,3 @@ Earlier versions of MS-MPI are available from the [Microsoft Download Center](ht
 ## Related Topics
 
 [MPI Reference](mpi-reference.md)
-

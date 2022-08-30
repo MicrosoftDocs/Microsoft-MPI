@@ -113,7 +113,7 @@ MS-MPI v7.1 includes the following notable improvements and fixes to MS-MPI v7.
 
 ## MS-MPI v7 (November 2015)
 
-MS-MPI v7 is the successor to the MS-MPI v6. Download MS-MPI v7 from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=49926).
+MS-MPI v7 is the successor to the MS-MPI v6. Download MS-MPI v7 from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=52981).
 
 ### New features
 
@@ -165,7 +165,7 @@ MS-MPI v6 includes the following new features, improvements, and fixes.
 
   - **Multi-job affinity support** so that multiple affinitized MPI jobs can co-exist on a single machine without overlapping the cores they run on. The MPI runtime now detects that there are existing jobs pinned to cores, and will launch subsequent jobs on cores that are not currently in use.
     
-    The feature is exposed as a new option to [mpiexec](https://technet.microsoft.com/en-us/library/cc947675.aspx) (*-affinity\_auto* or *–aa*) and is designed to work both under job schedulers such as Microsoft HPC Pack and in standalone SDK mode.
+    The feature is exposed as a new option to [mpiexec](https://technet.microsoft.com/library/cc947675.aspx) (*-affinity\_auto* or *–aa*) and is designed to work both under job schedulers such as Microsoft HPC Pack and in standalone SDK mode.
     
     As an example, to run two 8 core jobs on a single 16 core machine you could use the following command line:
     
@@ -190,7 +190,7 @@ MS-MPI v6 is compatible with HPC Pack 2012 R2 and later. If you are running a co
 
 ###  Changes to default settings
 
-MS-MPI v6 changes the following [mpiexec](https://technet.microsoft.com/en-us/library/cc947675.aspx) default settings:
+MS-MPI v6 changes the following [mpiexec](https://technet.microsoft.com/library/cc947675.aspx) default settings:
 
   - MSMPI\_ND\_ZCOPY\_THRESHOLD is set to -1, disabling zcopy. This can be reenabled by setting MSMPI\_ND\_ZCOPY\_THRESHOLD=0 in the mpiexec command line, or via [cluscfg setenvs](https://technet.microsoft.com/library/cc972901.aspx) (if you are using Microsoft HPC Pack).
   - MSMPI\_HA\_COLLECTIVE is set to all, enabling hierarchical collectives by default. This can be disabled by setting MSMPI\_HA\_COLLECTIVE=off, again through the mpiexec command line or externally.
