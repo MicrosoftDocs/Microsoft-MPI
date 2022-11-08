@@ -44,6 +44,7 @@
 
                                         ],
                   "globalMetadata":  {
+                           "ms.technology": "microsoft-mpi",
                                          "breadcrumb_path":  "/message-passing-interface/breadcrumb/toc.json",
                                          "extendBreadcrumb":  true,
                                          "feedback_system":  "None",
@@ -51,7 +52,7 @@
                                          "ms.topic":  "conceptual",
                                          "author":  "dlepow",
                                          "ms.author":  "dlepow",
-                                         "ms.prod":  "windows-server-dev",
+                                         "ms.prod":  "windows",
                                          "contributors_to_exclude": ["nivnar"],
                                          "titleSuffix": "Message Passing Interface"
                                      },
