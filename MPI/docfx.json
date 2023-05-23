@@ -47,7 +47,7 @@
                            "ms.technology": "microsoft-mpi",
                                          "breadcrumb_path":  "/message-passing-interface/breadcrumb/toc.json",
                                          "extendBreadcrumb":  true,
-                                         "feedback_system":  "None",
+                                         "feedback_system":  "Standard",
                                          "ROBOTS":  "INDEX,FOLLOW",
                                          "ms.topic":  "conceptual",
                                          "author":  "dlepow",
