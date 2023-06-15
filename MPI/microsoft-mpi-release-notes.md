@@ -12,6 +12,13 @@ mtps_version: v=VS.85
 
 This document contains the release notes for the current versions of Microsoft MPI (MS-MPI) for Windows.
 
+## MS-MPI v10.1.3 (June 2023)
+MS-MPI v10.1.3 includes the following improvements and fixes. Download MS-MPI v10.1.3 from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=105289).
+
+- Fix for assigning affinities to mpi worker processes on Windows 11 and Windows Server 2022. On these OSes affinities are being assigned through [CPU sets](https://learn.microsoft.com/en-us/windows/win32/procthread/cpu-sets), and not through Affinity masks.
+
+The MS-MPI v10.1.3 SDK is also available on [nuget](https://www.nuget.org/packages/msmpisdk/).
+
 ## MS-MPI v10.1.2 (November 2019)
 MS-MPI v10.1.2 includes the following improvements and fixes. Download MS-MPI v10.1.2 from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=100593).
 
