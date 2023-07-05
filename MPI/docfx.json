@@ -50,8 +50,8 @@
                                          "feedback_system":  "Standard",
                                          "ROBOTS":  "INDEX,FOLLOW",
                                          "ms.topic":  "conceptual",
-                                         "author":  "dlepow",
-                                         "ms.author":  "dlepow",
+                                         "author":  "AnnaDaly",
+                                         "ms.author":  "annalabu",
                                          "ms.prod":  "windows",
                                          "contributors_to_exclude": ["nivnar"],
                                          "titleSuffix": "Message Passing Interface"
