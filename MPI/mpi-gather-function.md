@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Gather function
 TOCTitle: MPI_Gather function
 ms:assetid: 16b5a535-42c9-4471-a8ef-c1458ea3b261
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Master MPI Gather Function: Efficiently gather data from group members at Learn Microsoft. Boost your parallel computing skills.
 ---
 
 # MPI\_Gather function
