@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm enumeration
 TOCTitle: MPI_Comm enumeration
 ms:assetid: 41201F26-5B85-49AB-A138-46CC9864B180
@@ -18,6 +18,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master MPI Comm Enumeration with Microsoft's guide on syntax, constants, and requirements for Message Passing Interface. Boost your HPC skills now.
 ---
 
 # MPI\_Comm enumeration
