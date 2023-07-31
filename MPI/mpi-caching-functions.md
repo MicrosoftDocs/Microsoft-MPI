@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI Caching Functions
 TOCTitle: MPI Caching Functions
 ms:assetid: 8F0F6B17-E886-4863-85F9-BB81BE27A3D4
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn473242(v=VS.85)
 ms:contentKeyID: 59360788
 ms.date: 03/28/2018
 mtps_version: v=VS.85
+description: Master MPI Caching Functions: Learn to create, delete, and manage attributes with Microsoft's Message Passing Interface. Boost your skills now.
 ---
 
 # MPI Caching Functions
