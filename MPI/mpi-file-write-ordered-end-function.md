@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_write_ordered_end function
 TOCTitle: MPI_File_write_ordered_end function
 ms:assetid: 6c913bcb-7af0-4ffe-bbb6-321de5bb7be5
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn Microsoft MPI File Write Ordered End Function: Complete split collective writes with shared file pointers. Boost your HPC Pack skills today.
 ---
 
 # MPI\_File\_write\_ordered\_end function
