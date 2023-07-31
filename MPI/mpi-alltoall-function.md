@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Alltoall function
 TOCTitle: MPI_Alltoall function
 ms:assetid: 1fde8800-421a-45d3-ba4d-be0237003b61
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Master the MPI_Alltoall Function: gather & scatter data efficiently with Microsoft's Message Passing Interface. Learn syntax, parameters & more.
 ---
 
 # MPI\_Alltoall function
