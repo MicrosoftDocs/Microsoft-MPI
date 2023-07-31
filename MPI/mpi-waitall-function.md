@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Waitall function
 TOCTitle: MPI_Waitall function
 ms:assetid: 89393f53-3b4b-4427-9c66-a0d2732b56ed
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Master the MPI_Waitall Function for efficient Message Passing Interface operations. Learn syntax, parameters, and usage at Microsoft.com.
 ---
 
 # MPI\_Waitall function
