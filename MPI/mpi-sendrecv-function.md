@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Sendrecv function
 TOCTitle: MPI_Sendrecv function
 ms:assetid: a79b2c21-bbab-4aeb-b612-8f11796d1512
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master the MPI_Sendrecv Function: Efficient Message Passing Interface for Microsoft HPC Pack. Learn syntax, parameters & more.
 ---
 
 # MPI\_Sendrecv function
