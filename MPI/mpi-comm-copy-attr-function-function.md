@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_copy_attr_function function
 TOCTitle: MPI_Comm_copy_attr_function function
 ms:assetid: fc983377-ed92-4f7e-b50d-06283c14eb6d
@@ -16,6 +16,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master the MPI_Comm_Copy_Attr_Function for efficient message-passing in Microsoft HPC Pack. Enhance communicator duplication & attribute management.
 ---
 
 # MPI\_Comm\_copy\_attr\_function function
