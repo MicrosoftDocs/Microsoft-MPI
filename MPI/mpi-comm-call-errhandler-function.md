@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_call_errhandler function
 TOCTitle: MPI_Comm_call_errhandler function
 ms:assetid: 3d0aac27-1ec7-4f29-ad16-c6ef4c1ea8e7
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master Message Passing Interface (MPI) with MPI_Comm_Call_Errhandler Function. Learn error handling on communicators at Microsoft.
 ---
 
 # MPI\_Comm\_call\_errhandler function

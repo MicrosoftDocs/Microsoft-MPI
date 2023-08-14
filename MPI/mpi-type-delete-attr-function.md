@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_delete_attr function
 TOCTitle: MPI_Type_delete_attr function
 ms:assetid: e0547cdd-85d8-4d28-a6ae-1e48aa811554
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn Microsoft MPI Type Delete Attr Function: Efficiently delete attribute values associated with datatypes. Maximize your coding skills today.
 ---
 
 # MPI\_Type\_delete\_attr function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_set_size function
 TOCTitle: MPI_File_set_size function
 ms:assetid: b1485a17-c2f1-4438-bd4c-197dda17755f
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn Microsoft MPI File Set Size Function: Easily set file size, truncate or expand files with MPI_SUCCESS. Maximize efficiency today.
 ---
 
 # MPI\_File\_set\_size function

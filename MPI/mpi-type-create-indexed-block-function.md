@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_create_indexed_block function
 TOCTitle: MPI_Type_create_indexed_block function
 ms:assetid: c093ef03-d22e-43cb-b5aa-641d53705fc9
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn Microsoft Message Passing Interface: Discover MPI_Type_Create_Indexed_Block function for efficient data type creation with custom block displacements.
 ---
 
 # MPI\_Type\_create\_indexed\_block function
