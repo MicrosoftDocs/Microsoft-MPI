@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_lock function
 TOCTitle: MPI_Win_lock function
 ms:assetid: e5bd3a8b-264f-4156-958f-e325db1c129c
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master the MPI_Win_lock Function for Message Passing Interface on Microsoft's platform. Optimize RMA access epochs & enhance communication.
 ---
 
 # MPI\_Win\_lock function
