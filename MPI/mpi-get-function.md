@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Get function
 TOCTitle: MPI_Get function
 ms:assetid: 7255cdf7-1fdf-4780-9c50-9c7eb8b28297
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master the MPI_Get Function: Learn to access remote memory windows with Microsoft's Message Passing Interface. Boost your parallel computing skills.
 ---
 
 # MPI\_Get function
