@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Finalized function
 TOCTitle: MPI_Finalized function
 ms:assetid: d7fc4031-59e9-47a6-9e84-be306cbc5c8a
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn Microsoft MPI_Finalized Function: Discover syntax, parameters, and return values for Message Passing Interface. Maximize HPC efficiency.
 ---
 
 # MPI\_Finalized function
