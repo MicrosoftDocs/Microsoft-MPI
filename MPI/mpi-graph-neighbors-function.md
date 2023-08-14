@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Graph_neighbors function
 TOCTitle: MPI_Graph_neighbors function
 ms:assetid: 19dc31c9-f9c8-4643-b4ca-8a717d9cc745
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Discover MPI Graph Neighbors Function on Microsoft: learn syntax, parameters, and return values for graph topology nodes. Boost your coding skills.
 ---
 
 # MPI\_Graph\_neighbors function
