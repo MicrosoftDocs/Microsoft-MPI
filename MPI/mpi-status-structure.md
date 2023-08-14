@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Status structure
 TOCTitle: MPI_Status structure
 ms:assetid: E7F73B45-7A00-4210-AAAC-0A3A4EE186B6
@@ -14,6 +14,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Discover Message Passing Interface (MPI) Status Structure: Learn syntax, members, and usage for efficient communication in Microsoft HPC Pack.
 ---
 
 # MPI\_Status structure
