@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Master the MPI_Reduce Function for efficient global operations across groups with Microsoft's Message Passing Interface. Learn more now.
 ---
 
 # MPI\_Reduce function
