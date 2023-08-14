@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Ssend function
 TOCTitle: MPI_Ssend function
 ms:assetid: dea32116-1bf7-479a-a5c0-25158844a739
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Master Microsoft's Message Passing Interface (MPI) with the MPI_Ssend function for synchronous mode send operations. Learn more now.
 ---
 
 # MPI\_Ssend function
