@@ -26,7 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
-description: Discover MPI Group Intersection Function: create new groups from existing ones with Microsoft's Message Passing Interface. Learn more now.
+description: "Discover MPI Group Intersection Function: create new groups from existing ones with Microsoft's Message Passing Interface. Learn more now."
 ---
 
 # MPI\_Group\_intersection function
