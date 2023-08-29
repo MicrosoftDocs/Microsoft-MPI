@@ -7,23 +7,23 @@ ms:contentKeyID: 59360912
 ms.date: 03/28/2018
 mtps_version: v=VS.85
 f1_keywords:
-- MPI_GATHER
-- mpif/MPI_Gather
-- mpi/MPI_GATHER
+  - MPI_GATHER
+  - mpif/MPI_Gather
+  - mpi/MPI_GATHER
 dev_langs:
-- C++
-- C
+  - C++
+  - C
 api_location:
-- Msmpi.dll
+  - Msmpi.dll
 api_name:
-- MPI_Gather
+  - MPI_Gather
 api_type:
-- DLLExport
+  - DLLExport
 product:
-- Windows
+  - Windows
 topic_type:
-- apiref
-- kbSyntax
+  - apiref
+  - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
 description: "Master MPI Gather Function: Efficiently gather data from group members at Learn Microsoft. Boost your parallel computing skills."
