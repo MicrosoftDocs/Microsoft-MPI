@@ -7,13 +7,13 @@ ms.contentKeyID: 59360914
 ms.date: 03/28/2018
 mtps_version: v=VS.85
 f1_keywords:
-- MPI_GET
-- mpif/MPI_Get
-- mpi/MPI_GET
+  - MPI_GET
+  - mpif/MPI_Get
+  - mpi/MPI_GET
 dev_langs:
-- C++
-- C
-description: Master the MPI_Get Function: Learn to access remote memory windows with Microsoft's Message Passing Interface. Boost your parallel computing skills.
+  - C++
+  - C
+description: "Master the MPI_Get Function: Learn to access remote memory windows with Microsoft's Message Passing Interface. Boost your parallel computing skills."
 ---
 
 # MPI\_Get function
