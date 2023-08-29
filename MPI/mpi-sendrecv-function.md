@@ -13,7 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
-description: Master the MPI_Sendrecv Function: Efficient Message Passing Interface for Microsoft HPC Pack. Learn syntax, parameters & more.
+description: "Master the MPI_Sendrecv Function: Efficient Message Passing Interface for Microsoft HPC Pack. Learn syntax, parameters & more."
 ---
 
 # MPI\_Sendrecv function
