@@ -26,7 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
-description: Master MPI Gather Function: Efficiently gather data from group members at Learn Microsoft. Boost your parallel computing skills.
+description: "Master MPI Gather Function: Efficiently gather data from group members at Learn Microsoft. Boost your parallel computing skills."
 ---
 
 # MPI\_Gather function
