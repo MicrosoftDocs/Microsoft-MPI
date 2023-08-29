@@ -26,7 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
-description: Learn Microsoft Message Passing Interface: Discover MPI_Type_Create_Indexed_Block function for efficient data type creation with custom block displacements.
+description: "Learn Microsoft Message Passing Interface: Discover MPI_Type_Create_Indexed_Block function for efficient data type creation with custom block displacements."
 ---
 
 # MPI\_Type\_create\_indexed\_block function

@@ -27,7 +27,7 @@ Microsoft MPI source code is available on [GitHub](https://github.com/Microsoft/
 
 The following are current downloads for MS-MPI:
 
-  - [MS-MPI v10.1.2](https://www.microsoft.com/download/details.aspx?id=100593) (new\!) - see [Release notes](microsoft-mpi-release-notes.md)
+  - [MS-MPI v10.1.3](https://www.microsoft.com/download/details.aspx?id=105289) (new\!) - see [Release notes](microsoft-mpi-release-notes.md)
   - [Debugger for MS-MPI Applications with HPC Pack 2012 R2](https://go.microsoft.com/fwlink/p/?linkid=390711)
 
 Earlier versions of MS-MPI are available from the [Microsoft Download Center](https://www.microsoft.com/en-us/download/default.aspx).
