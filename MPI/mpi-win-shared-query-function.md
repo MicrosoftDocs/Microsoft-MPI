@@ -9,7 +9,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
-description: Learn Microsoft MPI Win Shared Query Function: Discover process-local addresses for remote memory segments with MPI_Win_allocate_shared. Boost efficiency now.
+description: "Learn Microsoft MPI Win Shared Query Function: Discover process-local addresses for remote memory segments with MPI_Win_allocate_shared. Boost efficiency now."
 ---
 
 # MPI\_Win\_shared\_query function
