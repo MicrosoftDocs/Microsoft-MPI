@@ -13,7 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
-description: Learn Microsoft MPI File Set Size Function: Easily set file size, truncate or expand files with MPI_SUCCESS. Maximize efficiency today.
+description: "Learn Microsoft MPI File Set Size Function: Easily set file size, truncate or expand files with MPI_SUCCESS. Maximize efficiency today."
 ---
 
 # MPI\_File\_set\_size function
