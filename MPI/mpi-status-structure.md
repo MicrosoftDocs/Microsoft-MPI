@@ -14,7 +14,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
-description: Discover Message Passing Interface (MPI) Status Structure: Learn syntax, members, and usage for efficient communication in Microsoft HPC Pack.
+description: "Discover Message Passing Interface (MPI) Status Structure: Learn syntax, members, and usage for efficient communication in Microsoft HPC Pack."
 ---
 
 # MPI\_Status structure
