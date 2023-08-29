@@ -13,7 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
-description: Learn Microsoft MPI File Write Ordered End Function: Complete split collective writes with shared file pointers. Boost your HPC Pack skills today.
+description: "Learn Microsoft MPI File Write Ordered End Function: Complete split collective writes with shared file pointers. Boost your HPC Pack skills today."
 ---
 
 # MPI\_File\_write\_ordered\_end function
