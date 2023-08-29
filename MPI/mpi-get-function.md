@@ -1,9 +1,9 @@
 ---
 title: MPI_Get function
 TOCTitle: MPI_Get function
-ms:assetid: 7255cdf7-1fdf-4780-9c50-9c7eb8b28297
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn473378(v=VS.85)
-ms:contentKeyID: 59360914
+ms.assetid: 7255cdf7-1fdf-4780-9c50-9c7eb8b28297
+ms.mtpsurl: https://msdn.microsoft.com/en-us/library/Dn473378(v=VS.85)
+ms.contentKeyID: 59360914
 ms.date: 03/28/2018
 mtps_version: v=VS.85
 f1_keywords:
