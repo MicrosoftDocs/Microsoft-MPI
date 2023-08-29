@@ -13,7 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
-description: Learn Microsoft MPI Type Delete Attr Function: Efficiently delete attribute values associated with datatypes. Maximize your coding skills today.
+description: "Learn Microsoft MPI Type Delete Attr Function: Efficiently delete attribute values associated with datatypes. Maximize your coding skills today."
 ---
 
 # MPI\_Type\_delete\_attr function

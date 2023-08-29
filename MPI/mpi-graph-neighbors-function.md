@@ -7,13 +7,13 @@ ms:contentKeyID: 59360924
 ms.date: 03/28/2018
 mtps_version: v=VS.85
 f1_keywords:
-- MPI_GRAPH_NEIGHBORS
-- mpif/MPI_Graph_neighbors
-- mpi/MPI_GRAPH_NEIGHBORS
+  - MPI_GRAPH_NEIGHBORS
+  - mpif/MPI_Graph_neighbors
+  - mpi/MPI_GRAPH_NEIGHBORS
 dev_langs:
-- C++
-- C
-description: Discover MPI Graph Neighbors Function on Microsoft: learn syntax, parameters, and return values for graph topology nodes. Boost your coding skills.
+  - C++
+  - C
+description: "Discover MPI Graph Neighbors Function on Microsoft: learn syntax, parameters, and return values for graph topology nodes. Boost your coding skills."
 ---
 
 # MPI\_Graph\_neighbors function
