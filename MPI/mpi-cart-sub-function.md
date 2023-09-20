@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Cart_sub function
 TOCTitle: MPI_Cart_sub function
 ms:assetid: 6905d404-820f-440c-b3e3-aad9eed108bb
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to partition a communicator into subgroups with MPI_Cart_sub function. Understand syntax, parameters, and return values.
 ---
 
 # MPI\_Cart\_sub function

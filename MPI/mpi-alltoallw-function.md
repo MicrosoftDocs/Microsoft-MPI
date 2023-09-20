@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Master the MPI_Alltoallw function for efficient data exchange in groups. Learn syntax, parameters, and usage for better message-passing interface on Microsoft.
 ---
 
 # MPI\_Alltoallw function

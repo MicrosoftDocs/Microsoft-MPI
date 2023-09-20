@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Master the MPI_Group_translate_ranks function with this comprehensive guide. Learn syntax, parameters, and return values for efficient process numbering.
 ---
 
 # MPI\_Group\_translate\_ranks function

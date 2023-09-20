@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Intercomm_create function
 TOCTitle: MPI_Intercomm_create function
 ms:assetid: 6b40ca68-4d69-4445-b723-e0ee79770ad0
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to create an intercommunicator from two intracommunicators using MPI_Intercomm_create function on Microsoft's official site.
 ---
 
 # MPI\_Intercomm\_create function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Igather function
 TOCTitle: MPI_Igather function
 ms:assetid: 60C7DA65-D001-4959-AE7C-78D943A981EA
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to use the MPI_Igather function for non-blocking data gathering in Microsoft MPI. Detailed syntax, parameters, and return values explained.
 ---
 
 # MPI\_Igather function
