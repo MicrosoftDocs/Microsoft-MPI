@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Alloc_mem function
 TOCTitle: MPI_Alloc_mem function
 ms:assetid: 7300a020-c7e1-4862-b604-e7e14b86aa65
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to allocate memory for message passing and RMA using the MPI_Alloc_mem function on Microsoft's official site.
 ---
 
 # MPI\_Alloc\_mem function
