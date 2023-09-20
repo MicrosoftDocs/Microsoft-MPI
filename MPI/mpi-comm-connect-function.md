@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_connect function
 TOCTitle: MPI_Comm_connect function
 ms:assetid: 17d7fb2f-18cf-4154-bc73-7005c8bce57a
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Comm_connect function to form a new intercommunicator. Includes syntax, parameters, and return values.
 ---
 
 # MPI\_Comm\_connect function

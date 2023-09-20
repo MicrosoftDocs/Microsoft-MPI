@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Info_create function
 TOCTitle: MPI_Info_create function
 ms:assetid: 95df767e-93a9-4d7c-9d3b-8ed80d5a1b48
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to create a new info object with MPI_Info_create function. Understand syntax, parameters, return values, and requirements.
 ---
 
 # MPI\_Info\_create function

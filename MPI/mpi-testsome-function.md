@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Testsome function
 TOCTitle: MPI_Testsome function
 ms:assetid: 0cc7936e-e68b-4693-98a8-53d52b05d4b2
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Testsome function on Microsoft's official site. Understand its syntax, parameters, return values, and requirements.
 ---
 
 # MPI\_Testsome function

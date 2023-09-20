@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Startall function
 TOCTitle: MPI_Startall function
 ms:assetid: ffd68b75-c72e-4d48-aad8-103154f6bddc
@@ -16,6 +16,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Startall function on Microsoft's official site. Understand its syntax, parameters, return values, and usage considerations.
 ---
 
 # MPI\_Startall function

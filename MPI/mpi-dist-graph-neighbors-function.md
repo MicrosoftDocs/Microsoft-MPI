@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Dist_graph_neighbors function
 TOCTitle: MPI_Dist_graph_neighbors function
 ms:assetid: 2C012D74-85CD-407F-B0B9-3B16D3FE6E0C
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Master the MPI_Dist_graph_neighbors function with this comprehensive guide. Learn about its syntax, parameters, return values, and how it works in a distributed graph topology.
 ---
 
 # MPI\_Dist\_graph\_neighbors function
