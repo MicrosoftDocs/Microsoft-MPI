@@ -13,7 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
-description: "Learn Microsoft MPI_Finalized Function: Discover syntax, parameters, and return values for Message Passing Interface. Maximize HPC efficiency."
+description: Learn about the MPI_Finalized function, its syntax, parameters, and return values. Ideal for users of HPC Pack 2012 MS-MPI Redistributable Package.
 ---
 
 # MPI\_Finalized function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Exscan function
 TOCTitle: MPI_Exscan function
 ms:assetid: 21ee8f78-d70e-4886-927d-f810f2f933e6
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Exscan function, its syntax, parameters, and return values. Ideal for users of HPC Pack 2012 MS-MPI Redistributable Package.
 ---
 
 # MPI\_Exscan function
