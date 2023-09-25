@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_set_errhandler function
 TOCTitle: MPI_Comm_set_errhandler function
 ms:assetid: 6e529f19-8012-4dd6-aaa0-1846088bf051
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master the MPI_Comm_set_errhandler function with this comprehensive guide. Learn syntax, parameters, return values, and requirements.
 ---
 
 # MPI\_Comm\_set\_errhandler function

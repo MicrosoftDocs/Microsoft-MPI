@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Accumulate function
 TOCTitle: MPI_Accumulate function
 ms:assetid: 3f580b28-6b45-4294-9351-cf5c6b06807e
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Accumulate function for data accumulation in remote memory access with Microsoft's comprehensive guide.
 ---
 
 # MPI\_Accumulate function
