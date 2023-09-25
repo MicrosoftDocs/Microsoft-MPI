@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Comm_get_attr function to retrieve attribute values by key. Ideal for users of HPC Pack and MS-MPI Redistributable Package.
 ---
 
 # MPI\_Comm\_get\_attr function

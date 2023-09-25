@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_read function
 TOCTitle: MPI_File_read function
 ms:assetid: 442a3d4f-5344-4ef1-bdec-b6a08f866c19
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master the MPI_File_read function with Microsoft's comprehensive guide. Learn syntax, parameters, return values, and more. Perfect for HPC Pack users.
 ---
 
 # MPI\_File\_read function

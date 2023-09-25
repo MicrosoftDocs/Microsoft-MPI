@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_group function
 TOCTitle: MPI_Comm_group function
 ms:assetid: 45ad9c9c-1a68-4837-827e-992355639b3d
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Comm_group function on Microsoft's platform. Understand its syntax, parameters, return values, and its role in defining distinct groups.
 ---
 
 # MPI\_Comm\_group function
