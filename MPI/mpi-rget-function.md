@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Rget function
 TOCTitle: MPI_Rget function
 mtps_version: v=VS.85
@@ -9,6 +9,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master the MPI_Rget function with this comprehensive guide. Learn about its syntax, parameters, return values, and its role in one-sided communication functions.
 ---
 
 # MPI\_Rget function

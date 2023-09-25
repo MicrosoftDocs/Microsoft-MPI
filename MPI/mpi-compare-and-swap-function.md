@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Compare_and_swap function
 TOCTitle: MPI_Compare_and_swap function
 mtps_version: v=VS.85
@@ -9,6 +9,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Compare_and_swap function, its syntax, parameters, and return values. Ideal for users of HPC Pack and MS-MPI Redistributable Package.
 ---
 
 # MPI\_Compare\_and\_swap function

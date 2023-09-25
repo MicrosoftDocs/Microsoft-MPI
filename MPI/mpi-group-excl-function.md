@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Group_excl function
 TOCTitle: MPI_Group_excl function
 ms:assetid: d5b17422-4ff1-4c64-ba0e-72d8365f066b
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to use the MPI_Group_excl function to define a new group by deleting ranks from an existing group on Microsoft's official site.
 ---
 
 # MPI\_Group\_excl function

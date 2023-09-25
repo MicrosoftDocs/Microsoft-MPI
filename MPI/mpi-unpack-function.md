@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Unpack function
 TOCTitle: MPI_Unpack function
 ms:assetid: 8575ee33-58a8-45dd-84c7-968f3ffe3fa5
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to unpack a buffer into contiguous memory using the MPI_Unpack function on Microsoft's official site.
 ---
 
 # MPI\_Unpack function
