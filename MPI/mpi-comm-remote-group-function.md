@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_remote_group function
 TOCTitle: MPI_Comm_remote_group function
 ms:assetid: 25455c7f-a873-4407-838b-9f32b1ecd70a
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Comm_remote_group function, its syntax, parameters, and return values. Ideal for users of HPC Pack and MS-MPI Redistributable Package.
 ---
 
 # MPI\_Comm\_remote\_group function

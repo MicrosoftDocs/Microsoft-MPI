@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_iwrite_at function
 TOCTitle: MPI_File_iwrite_at function
 ms:assetid: bd7b5218-0990-4aa7-9e3d-85f7d73bac8a
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_File_iwrite_at function for nonblocking write with explicit offset on Microsoft's official site.
 ---
 
 # MPI\_File\_iwrite\_at function

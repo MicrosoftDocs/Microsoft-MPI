@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_post function
 TOCTitle: MPI_Win_post function
 ms:assetid: 7bc39c36-ca44-455b-9232-288036278612
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master the MPI_Win_post function with our comprehensive guide. Learn about RMA exposure epochs, syntax, parameters, return values, and more.
 ---
 
 # MPI\_Win\_post function

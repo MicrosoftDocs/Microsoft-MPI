@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_read_all_end function
 TOCTitle: MPI_File_read_all_end function
 ms:assetid: d22e2cca-88ad-45bb-b1bf-d0bb9576dea8
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master the MPI_File_read_all_end function with our comprehensive guide. Learn syntax, parameters, and return values for successful implementation.
 ---
 
 # MPI\_File\_read\_all\_end function

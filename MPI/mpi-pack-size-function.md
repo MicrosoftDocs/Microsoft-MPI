@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Pack_size function
 TOCTitle: MPI_Pack_size function
 ms:assetid: da4f6f13-89d5-47bb-9fc5-0d7b3fd1bd5b
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Pack_size function on Microsoft's official site. Understand its syntax, parameters, and return values for efficient message packing.
 ---
 
 # MPI\_Pack\_size function

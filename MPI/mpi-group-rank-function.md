@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Group_rank function
 TOCTitle: MPI_Group_rank function
 ms:assetid: 34650411-2dd1-447c-bca0-6122f43234cb
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Group_rank function on Microsoft's site. Understand its syntax, parameters, return value, and related MPI Group Functions.
 ---
 
 # MPI\_Group\_rank function
