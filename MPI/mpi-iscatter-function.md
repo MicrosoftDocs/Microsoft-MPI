@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Iscatter function
 TOCTitle: MPI_Iscatter function
 ms:assetid: 17138DD8-9BBF-45F2-A31B-252B90EBD0C8
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Master the MPI_Iscatter function with our comprehensive guide. Learn how to scatter data across all group members in a non-blocking way with Microsoft MPI.
 ---
 
 # MPI\_Iscatter function

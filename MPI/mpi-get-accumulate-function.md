@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Get_accumulate function
 TOCTitle: MPI_Get_accumulate function
 mtps_version: v=VS.85
@@ -9,6 +9,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master the MPI_Get_accumulate function with this comprehensive guide. Learn about its syntax, parameters, and return values for efficient data operations.
 ---
 
 # MPI\_Get\_accumulate function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_accept function
 TOCTitle: MPI_Comm_accept function
 ms:assetid: 12ede4b0-e249-4e21-a469-b72bef0f3c55
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master the MPI_Comm_accept function with our comprehensive guide. Learn syntax, parameters, and return values for successful implementation.
 ---
 
 # MPI\_Comm\_accept function

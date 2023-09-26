@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_indexed function
 TOCTitle: MPI_Type_indexed function
 ms:assetid: ceea8b95-a9aa-44b6-a37f-71fb313a92f1
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about MPI_Type_indexed function, a new data type with blocks of arbitrary size. Understand syntax, parameters, and return values. Perfect for HPC Pack users.
 ---
 
 # MPI\_Type\_indexed function

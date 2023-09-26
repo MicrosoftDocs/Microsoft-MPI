@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Reduce_scatter function
 TOCTitle: MPI_Reduce_scatter function
 ms:assetid: f52cf815-485f-4cca-903f-a0179ff929ed
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master the MPI_Reduce_scatter function with this comprehensive guide. Learn syntax, parameters, and return values for successful implementation.
 ---
 
 # MPI\_Reduce\_scatter function

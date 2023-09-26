@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_create_struct function
 TOCTitle: MPI_Type_create_struct function
 ms:assetid: a6c7a1fd-66e2-4dc0-a306-966b6c04cc86
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Type_create_struct function on Microsoft's site. Understand its syntax, parameters, return value, and usage in data type definition.
 ---
 
 # MPI\_Type\_create\_struct function

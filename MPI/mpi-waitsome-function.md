@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Waitsome function
 TOCTitle: MPI_Waitsome function
 ms:assetid: aa5b1b9f-7e49-4074-adb2-3e06b889baea
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master the MPI_Waitsome function with this comprehensive guide. Learn syntax, parameters, return values, and more for successful message-passing operations.
 ---
 
 # MPI\_Waitsome function
