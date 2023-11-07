@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Waitany function
 TOCTitle: MPI_Waitany function
 ms:assetid: bb03d8e6-8af9-43aa-a4b9-c7ff50d6fb22
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Waitany function, its syntax, parameters, and return values. Enhance your knowledge of MPI Point to Point Functions.
 ---
 
 # MPI\_Waitany function

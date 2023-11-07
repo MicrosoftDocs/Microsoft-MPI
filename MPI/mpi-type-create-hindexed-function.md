@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_create_hindexed function
 TOCTitle: MPI_Type_create_hindexed function
 ms:assetid: 07b5a612-29be-46f9-b91e-1cbc387baf78
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Master the MPI_Type_create_hindexed function with this comprehensive guide. Learn about its syntax, parameters, and usage in data block creation.
 ---
 
 # MPI\_Type\_create\_hindexed function

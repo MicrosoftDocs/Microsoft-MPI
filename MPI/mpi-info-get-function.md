@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Info_get function
 TOCTitle: MPI_Info_get function
 ms:assetid: f7909375-f67e-4339-9cce-7373813ab4bf
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Info_get function on Microsoft's official site. Retrieve values associated with keys and handle errors effectively.
 ---
 
 # MPI\_Info\_get function

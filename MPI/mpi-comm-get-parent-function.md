@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_get_parent function
 TOCTitle: MPI_Comm_get_parent function
 ms:assetid: cddf7e1a-4fb4-4c76-b4de-4377b94fa72e
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Comm_get_parent function on Microsoft's official site. Understand its syntax, parameters, return values, and usage in process management.
 ---
 
 # MPI\_Comm\_get\_parent function
