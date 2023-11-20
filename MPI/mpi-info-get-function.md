@@ -11,7 +11,6 @@ f1_keywords:
 - mpif/MPI_Info_get
 - mpi/MPI_INFO_GET
 dev_langs:
-- C++
 - C
 - golang
 description: test description
