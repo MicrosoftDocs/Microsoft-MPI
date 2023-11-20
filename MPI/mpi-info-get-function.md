@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Info_get function
 TOCTitle: MPI_Info_get function
 ms:assetid: f7909375-f67e-4339-9cce-7373813ab4bf
@@ -11,8 +11,9 @@ f1_keywords:
 - mpif/MPI_Info_get
 - mpi/MPI_INFO_GET
 dev_langs:
-- C++
 - C
+- golang
+description: test description
 ---
 
 # MPI\_Info\_get function
@@ -36,7 +37,7 @@ int MPIAPI MPI_Info_get(
   - *info*  
     Info object.
 
-  - *key* \[in\]  
+  - *key* [in]  
     Key.
 
   - *valuelen*  
@@ -45,7 +46,7 @@ int MPIAPI MPI_Info_get(
   - *value*  
     Value.
 
-  - *flag* \[out\]  
+  - *flag* [out]  
     True if key defined, false if not.
 
 ## Return value
@@ -90,6 +91,8 @@ Mpif.h</td>
 </tr>
 </tbody>
 </table>
+
+
 
 
 ## See also
