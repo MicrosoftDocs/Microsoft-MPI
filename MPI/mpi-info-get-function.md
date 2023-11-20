@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Info_get function
 TOCTitle: MPI_Info_get function
 ms:assetid: f7909375-f67e-4339-9cce-7373813ab4bf
@@ -13,7 +13,8 @@ f1_keywords:
 dev_langs:
 - C++
 - C
-
+- golang
+description: test description
 ---
 
 # MPI\_Info\_get function
