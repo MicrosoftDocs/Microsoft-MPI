@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+
 ---
 
 # MPI\_Info\_get function
@@ -36,7 +37,7 @@ int MPIAPI MPI_Info_get(
   - *info*  
     Info object.
 
-  - *key* \[in\]  
+  - *key* [in]  
     Key.
 
   - *valuelen*  
@@ -45,7 +46,7 @@ int MPIAPI MPI_Info_get(
   - *value*  
     Value.
 
-  - *flag* \[out\]  
+  - *flag* [out]  
     True if key defined, false if not.
 
 ## Return value
@@ -90,6 +91,8 @@ Mpif.h</td>
 </tr>
 </tbody>
 </table>
+
+
 
 
 ## See also
