@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Start function
 TOCTitle: MPI_Start function
 ms:assetid: 3bb5cee2-1add-4fe5-a73e-61cf1ff0b159
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to initiate communication with MPI_Start function. Understand its syntax, parameters, and return values for successful implementation.
 ---
 
 # MPI\_Start function
