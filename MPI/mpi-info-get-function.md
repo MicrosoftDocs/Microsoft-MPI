@@ -13,7 +13,7 @@ f1_keywords:
 dev_langs:
 - C
 - golang
-description: test description
+description: test description-2
 ---
 
 # MPI\_Info\_get function
