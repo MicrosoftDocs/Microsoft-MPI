@@ -14,6 +14,7 @@ dev_langs:
 - C
 - golang
 description: test description-2
+test: false
 ---
 
 # MPI\_Info\_get function
