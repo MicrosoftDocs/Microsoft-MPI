@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_create_errhandler function
 TOCTitle: MPI_File_create_errhandler function
 ms:assetid: fc15dd34-c897-43a1-8e5c-8b37a90d1664
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to create a file error handler with MPI_File_create_errhandler function. Detailed guide for Fortran users on Microsoft's platform.
 ---
 
 # MPI\_File\_create\_errhandler function

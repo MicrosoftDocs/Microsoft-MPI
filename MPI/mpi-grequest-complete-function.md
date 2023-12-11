@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Grequest_complete function
 TOCTitle: MPI_Grequest_complete function
 ms:assetid: c4a394ed-bdce-4cf0-b26e-276716bbc707
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Grequest_complete function, its syntax, parameters, and return values. Ideal for users of HPC Pack 2012 MS-MPI Redistributable Package.
 ---
 
 # MPI\_Grequest\_complete function
