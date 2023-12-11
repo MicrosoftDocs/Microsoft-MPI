@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Dist_graph_create_adjacent function
 TOCTitle: MPI_Dist_graph_create_adjacent function
 ms:assetid: 1E6FDB8C-6964-4DA4-837A-8DD4D304D48B
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about MPI_Dist_graph_create_adjacent function on Microsoft MPI. Understand its syntax, parameters, return values, and usage in distributed graph topology.
 ---
 
 # MPI\_Dist\_graph\_create\_adjacent function

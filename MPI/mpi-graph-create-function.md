@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Graph_create function
 TOCTitle: MPI_Graph_create function
 ms:assetid: e77ff296-4803-41a6-8c53-d758022cab5b
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Graph_create function on Microsoft's official site. Understand its syntax, parameters, return values, and usage in MPI Process Topology Functions.
 ---
 
 # MPI\_Graph\_create function
