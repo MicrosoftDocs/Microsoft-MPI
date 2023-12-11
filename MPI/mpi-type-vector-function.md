@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_vector function
 TOCTitle: MPI_Type_vector function
 ms:assetid: 1bb8716f-8dc1-4b3a-8f2b-5177c63db715
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to define a new data type with MPI_Type_vector function on Microsoft's platform. Understand syntax, parameters, and return values.
 ---
 
 # MPI\_Type\_vector function

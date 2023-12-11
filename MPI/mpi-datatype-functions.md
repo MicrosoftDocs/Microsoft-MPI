@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI Datatype Functions
 TOCTitle: MPI Datatype Functions
 ms:assetid: 1B53E575-4B69-4099-AB2E-4007DCB68308
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn473291(v=VS.85)
 ms:contentKeyID: 59360837
 ms.date: 03/28/2018
 mtps_version: v=VS.85
+description: Explore MPI Datatype Functions on Microsoft's official site. Learn about functions like MPI_Get_address, MPI_Pack, MPI_Type_commit, and more.
 ---
 
 # MPI Datatype Functions
