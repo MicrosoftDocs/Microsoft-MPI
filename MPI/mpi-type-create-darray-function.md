@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_create_darray function
 TOCTitle: MPI_Type_create_darray function
 ms:assetid: 59ada82e-1178-4059-bc07-3f0426a62297
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to create a datatype representing a distributed array with MPI_Type_create_darray function on Microsoft's official site.
 ---
 
 # MPI\_Type\_create\_darray function

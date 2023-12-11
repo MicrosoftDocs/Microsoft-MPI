@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_size function
 TOCTitle: MPI_Type_size function
 ms:assetid: f4ed33ce-5966-42b9-bc1c-d066d9b7dcec
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Type_size function on Microsoft's site. Understand its syntax, parameters, return values, and its role in data type functions.
 ---
 
 # MPI\_Type\_size function

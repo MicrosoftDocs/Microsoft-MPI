@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Cart_get function
 TOCTitle: MPI_Cart_get function
 ms:assetid: 97aa75cb-7fee-4021-b8cb-63812b0c1ef7
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about MPI_Cart_get function on Microsoft's site. It retrieves Cartesian topology info associated with a communicator. Perfect for HPC Pack users.
 ---
 
 # MPI\_Cart\_get function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MSMPI_Get_version function
 TOCTitle: MSMPI_Get_version function
 ms:assetid: 72af9edc-487e-4a9d-9c36-cef81f6517a7
@@ -12,6 +12,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about MSMPI_Get_version function on Microsoft's official site. It returns the version number of the MSMPI feature set. No parameters required.
 ---
 
 # MSMPI\_Get\_version function

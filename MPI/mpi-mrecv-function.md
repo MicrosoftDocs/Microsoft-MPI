@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Mrecv function
 TOCTitle: MPI_Mrecv function
 ms:assetid: C31BC7F5-80CD-42FE-9BF9-E6D81A1231C4
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Mrecv function on Microsoft's official site. Understand its syntax, parameters, return values, and how it performs a blocking receive for a message.
 ---
 
 # MPI\_Mrecv function

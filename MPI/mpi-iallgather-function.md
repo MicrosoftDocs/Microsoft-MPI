@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Iallgather function
 TOCTitle: MPI_Iallgather function
 ms:assetid: E4849DDC-80B0-4AB8-83E7-F7FB0A21A89B
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Iallgather function on Microsoft's platform. This article provides a detailed explanation of its syntax, parameters, and usage.
 ---
 
 # MPI\_Iallgather function
