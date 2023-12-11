@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_spawn_multiple function
 TOCTitle: MPI_Comm_spawn_multiple function
 ms:assetid: 138dbd80-1330-406f-abcb-6f95fa81135e
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Comm_spawn_multiple function for spawning multiple binaries or the same binary with different arguments on Microsoft's official site.
 ---
 
 # MPI\_Comm\_spawn\_multiple function

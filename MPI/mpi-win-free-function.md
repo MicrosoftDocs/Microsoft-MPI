@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_free function
 TOCTitle: MPI_Win_free function
 ms:assetid: daa35d13-e417-4159-99fb-ff9f9605df11
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore the MPI_Win_free function on Microsoft's learning platform. Understand its syntax, parameters, return values, and application in Fortran.
 ---
 
 # MPI\_Win\_free function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Get_version function
 TOCTitle: MPI_Get_version function
 ms:assetid: addf93e6-793d-45b0-b48b-e2da0d3791a1
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Get_version function on Microsoft's official site. Discover its syntax, parameters, return value, and related MPI management functions.
 ---
 
 # MPI\_Get\_version function

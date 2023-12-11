@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_get_view function
 TOCTitle: MPI_File_get_view function
 ms:assetid: 5760eaeb-fba1-4a07-9e9c-e9ef83c29d16
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_File_get_view function on Microsoft's official site. Understand its syntax, parameters, return values, and requirements.
 ---
 
 # MPI\_File\_get\_view function
