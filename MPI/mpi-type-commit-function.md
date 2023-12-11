@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_commit function
 TOCTitle: MPI_Type_commit function
 ms:assetid: 7530b8e4-b739-486c-b866-4f3672054934
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Type_commit function in Microsoft's HPC Pack. Understand its syntax, parameters, return values, and requirements.
 ---
 
 # MPI\_Type\_commit function

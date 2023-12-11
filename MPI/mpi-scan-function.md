@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Scan function
 TOCTitle: MPI_Scan function
 ms:assetid: d7d4782a-6140-4696-99a8-849efb219ea8
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Scan function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Scan function
