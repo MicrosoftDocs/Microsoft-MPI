@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Ibarrier function
 TOCTitle: MPI_Ibarrier function
 ms:assetid: F55E976F-7B43-4355-9471-F5DD66C64F4D
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about MPI_Ibarrier function, a non-blocking barrier synchronization method for group members. Understand syntax, parameters, and return values.
 ---
 
 # MPI\_Ibarrier function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Recv_init function
 TOCTitle: MPI_Recv_init function
 ms:assetid: a47e0891-c684-43cd-b831-5c2fc45ed6aa
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore MPI_Recv_init function on Microsoft's learning platform. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Recv\_init function

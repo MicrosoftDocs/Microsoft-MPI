@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_fence function
 TOCTitle: MPI_Win_fence function
 ms:assetid: 330ac361-b77d-4047-ace9-e6581700bb4c
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master MPI_Win_fence function with our comprehensive guide. Learn about its syntax, parameters, return values, and special conditions for optimization.
 ---
 
 # MPI\_Win\_fence function

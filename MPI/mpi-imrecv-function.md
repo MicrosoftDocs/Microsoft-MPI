@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Imrecv function
 TOCTitle: MPI_Imrecv function
 ms:assetid: E91DF5CA-9A31-4D30-B9CC-44AD4BEFF6C2
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the non-blocking MPI_Imrecv function on Microsoft MPI v6. Understand its syntax, parameters, return values, and related functions.
 ---
 
 # MPI\_Imrecv function
