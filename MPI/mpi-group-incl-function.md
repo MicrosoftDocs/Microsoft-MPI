@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Group_incl function
 TOCTitle: MPI_Group_incl function
 ms:assetid: 59def9d7-933a-43e2-8218-1bf874b786da
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to create a new group with a subset of processes using the MPI_Group_incl function on Microsoft's official site.
 ---
 
 # MPI\_Group\_incl function

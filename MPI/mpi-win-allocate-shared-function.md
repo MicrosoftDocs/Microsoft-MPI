@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_allocate_shared function
 TOCTitle: MPI_Win_allocate_shared function
 mtps_version: v=VS.85
@@ -9,6 +9,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to create an MPI Window object with the MPI_Win_allocate_shared function. Understand syntax, parameters, and return values for successful implementation.
 ---
 
 # MPI\_Win\_allocate\_shared function
