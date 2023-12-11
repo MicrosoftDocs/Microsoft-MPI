@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Request_get_status function
 TOCTitle: MPI_Request_get_status function
 ms:assetid: 31c598c3-0b5e-4509-9357-93c6d4f20bdd
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about MPI_Request_get_status function on Microsoft's site. Understand its syntax, parameters, return value, and how it differs from MPI_Test.
 ---
 
 # MPI\_Request\_get\_status function

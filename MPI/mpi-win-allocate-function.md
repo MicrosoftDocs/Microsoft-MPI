@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_allocate function
 TOCTitle: MPI_Win_allocate function
 mtps_version: v=VS.85
@@ -9,6 +9,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to create an MPI Window object with the MPI_Win_allocate function on Microsoft's official site. Understand syntax, parameters, and return values.
 ---
 
 # MPI\_Win\_allocate function

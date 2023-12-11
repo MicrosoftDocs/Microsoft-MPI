@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Register_datarep function
 TOCTitle: MPI_Register_datarep function
 ms:assetid: 3c505756-3c1a-4284-b611-5bdda552819d
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to register user-provided data conversion functions using MPI_Register_datarep on Microsoft's official site. Perfect for HPC Pack users.
 ---
 
 # MPI\_Register\_datarep function
