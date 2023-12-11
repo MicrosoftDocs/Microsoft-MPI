@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_read_all function
 TOCTitle: MPI_File_read_all function
 ms:assetid: dea86621-f747-443b-ad1a-7f1d8b70d9d4
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore the MPI_File_read_all function on Microsoft's learning platform. Understand syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_File\_read\_all function

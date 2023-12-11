@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI Point to Point Functions
 TOCTitle: MPI Point to Point Functions
 ms:assetid: 59F2FC56-63FF-4F3B-895A-9639AD57415D
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn473446(v=VS.85)
 ms:contentKeyID: 59360981
 ms.date: 03/28/2018
 mtps_version: v=VS.85
+description: Explore MPI Point to Point Functions on Microsoft's official site. Learn about functions like MPI_Bsend, MPI_Cancel, MPI_Get_count, and more.
 ---
 
 # MPI Point to Point Functions

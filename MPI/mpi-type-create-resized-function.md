@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_create_resized function
 TOCTitle: MPI_Type_create_resized function
 ms:assetid: 42b179ed-d5a9-4819-ac6b-88ebf868a90f
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to create a datatype with a new lower bound and extent using the MPI_Type_create_resized function on Microsoft's official site.
 ---
 
 # MPI\_Type\_create\_resized function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Graph_map function
 TOCTitle: MPI_Graph_map function
 ms:assetid: 43f34f5d-dd31-4173-b441-4c330fe7f75e
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to map processes to graph topology using the MPI_Graph_map function on Microsoft's official site. Includes syntax and parameters.
 ---
 
 # MPI\_Graph\_map function
