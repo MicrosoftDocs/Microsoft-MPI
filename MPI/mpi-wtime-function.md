@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Wtime function
 TOCTitle: MPI_Wtime function
 ms:assetid: 089418b3-028b-4e5b-b94b-7aa3ef6891d4
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Wtime function on Microsoft's official site. Understand its syntax, parameters, return value, and its high-resolution elapsed clock feature.
 ---
 
 # MPI\_Wtime function

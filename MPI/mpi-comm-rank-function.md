@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_rank function
 TOCTitle: MPI_Comm_rank function
 ms:assetid: f42f18ed-4a0a-4c4a-b5a8-11bb8ad8a0b9
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Comm_rank function on Microsoft's official site. Understand its syntax, parameters, return value, and how it simplifies process rank retrieval.
 ---
 
 # MPI\_Comm\_rank function

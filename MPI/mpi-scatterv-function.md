@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Scatterv function
 TOCTitle: MPI_Scatterv function
 ms:assetid: 057f380a-db02-4197-a4e8-e0e0e8fd2dea
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to use the MPI_Scatterv function to scatter data across all members of a group. Detailed syntax, parameters, and return values explained.
 ---
 
 # MPI\_Scatterv function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Allreduce function
 TOCTitle: MPI_Allreduce function
 ms:assetid: 4ff26760-0a3f-4927-8c8d-ac7d7f662039
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Explore the MPI_Allreduce function on Microsoft's learning platform. Understand its syntax, parameters, return values, and how it combines values from all processes.
 ---
 
 # MPI\_Allreduce function
