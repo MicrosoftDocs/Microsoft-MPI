@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Datatype enumeration
 TOCTitle: MPI_Datatype enumeration
 ms:assetid: FA174D3F-F696-4A0F-89C7-2193A88EF799
@@ -159,6 +159,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Explore the enumeration of predefined MPI datatypes at Microsoft's learning platform. Understand syntax, constants, and requirements.
 ---
 
 # MPI\_Datatype enumeration

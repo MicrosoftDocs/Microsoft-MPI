@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Abort function
 TOCTitle: MPI_Abort function
 ms:assetid: 5d2710ad-44c9-4d3a-be7e-70d8dd27b997
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Abort function on Microsoft's official site. Understand its syntax, parameters, return values, and requirements for successful execution.
 ---
 
 # MPI\_Abort function

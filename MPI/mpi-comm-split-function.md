@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_split function
 TOCTitle: MPI_Comm_split function
 ms:assetid: 32195e4e-b754-4766-9a38-9353854447e3
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to use the MPI_Comm_split function to partition a group into subgroups. Detailed syntax, parameters, and usage examples provided.
 ---
 
 # MPI\_Comm\_split function
