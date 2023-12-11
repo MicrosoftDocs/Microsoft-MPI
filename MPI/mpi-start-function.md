@@ -13,7 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
-description: Learn how to initiate communication with MPI_Start function. Understand its syntax, parameters, and return values for successful implementation.
+description: Learn how to initiate communication with MPI_Start function. Understand its syntax, parameters, return values, and requirements for successful implementation.
 ---
 
 # MPI\_Start function

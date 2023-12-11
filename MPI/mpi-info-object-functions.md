@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI Info Object Functions
 TOCTitle: MPI Info Object Functions
 ms:assetid: 717560A2-765A-450E-B062-CBEF7BDC90E9
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn473417(v=VS.85)
 ms:contentKeyID: 59360953
 ms.date: 03/28/2018
 mtps_version: v=VS.85
+description: Master MPI Info Object Functions with Microsoft. Learn to create, delete, duplicate, free, and manage keys in an info object effectively.
 ---
 
 # MPI Info Object Functions
