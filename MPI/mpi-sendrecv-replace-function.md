@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Sendrecv_replace function
 TOCTitle: MPI_Sendrecv_replace function
 ms:assetid: 6b8cfc50-a75c-44cf-8106-5935abead2ef
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore MPI_Sendrecv_replace function on Microsoft's learning platform. Understand syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Sendrecv\_replace function

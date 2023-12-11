@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_open function
 TOCTitle: MPI_File_open function
 ms:assetid: d3838a60-de06-4dfb-a8dd-4ea0e00fdddc
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_File_open function on Microsoft's platform. Understand syntax, parameters, return values, and requirements.
 ---
 
 # MPI\_File\_open function

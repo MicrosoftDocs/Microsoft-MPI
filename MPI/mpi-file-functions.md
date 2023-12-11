@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI File Functions
 TOCTitle: MPI File Functions
 ms:assetid: 082D0346-E740-491E-B968-7488790EB467
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn473310(v=VS.85)
 ms:contentKeyID: 59360856
 ms.date: 03/28/2018
 mtps_version: v=VS.85
+description: Explore MPI File Functions on Microsoft's learning platform. Understand file access, atomicity, nonblocking read/write, and more.
 ---
 
 # MPI File Functions
