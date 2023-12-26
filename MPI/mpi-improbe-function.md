@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Improbe function
 TOCTitle: MPI_Improbe function
 ms:assetid: 5761A549-EA87-4A8F-BE00-FFE5E8535BB7
@@ -27,6 +27,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Improbe function on Microsoft's official site. Understand its syntax, parameters, return value, and how it probes messages in a non-blocking way.
 ---
 
 # MPI\_Improbe function

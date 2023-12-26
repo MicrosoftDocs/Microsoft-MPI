@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_free function
 TOCTitle: MPI_Type_free function
 ms:assetid: b2e32753-cd32-442e-bb67-1d3c2d417174
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Type_free function on Microsoft's official site. Understand its syntax, parameters, return values, and related MPI Datatype Functions.
 ---
 
 # MPI\_Type\_free function

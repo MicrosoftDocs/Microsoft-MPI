@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_write function
 TOCTitle: MPI_File_write function
 ms:assetid: 7553b5ce-4594-4b1c-b561-b6e5e020d6d3
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master the MPI_File_write function with our comprehensive guide. Learn syntax, parameters, return values, and requirements for successful implementation.
 ---
 
 # MPI\_File\_write function
