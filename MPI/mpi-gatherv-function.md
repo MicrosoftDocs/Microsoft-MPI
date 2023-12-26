@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Gatherv function
 TOCTitle: MPI_Gatherv function
 ms:assetid: 00b24f79-498a-404d-ae40-e006ad8d7d2d
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Gatherv function on Microsoft's official site. Understand its syntax, parameters, return values, and how it gathers variable data from group members.
 ---
 
 # MPI\_Gatherv function

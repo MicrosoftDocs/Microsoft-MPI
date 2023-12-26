@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt147726(v=VS.85)
 ms:contentKeyID: 65803983
 ms.date: 03/28/2018
 mtps_version: v=VS.85
+description: Stay updated with the latest Microsoft MPI release notes. Find improvements, fixes, and download links for all MS-MPI versions on our official page.
 ---
 
 # Microsoft MPI Release Notes

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI Error
 TOCTitle: MPI Error
 ms:assetid: D66B4D6B-A1FD-461B-BBC0-88742C912B08
@@ -187,6 +187,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Understand MPI error values and their meanings. A comprehensive guide to predefined MPI errors on Microsoft's official site.
 ---
 
 # MPI Error
