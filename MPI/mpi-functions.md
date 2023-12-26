@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI Functions
 TOCTitle: MPI Functions
 ms:assetid: 697290CD-D6FF-484D-99B5-C5E2500DD11F
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn473375(v=VS.85)
 ms:contentKeyID: 59360911
 ms.date: 03/28/2018
 mtps_version: v=VS.85
+description: Explore MPI functions in-depth at Microsoft's learning platform. Includes caching, communicator, datatype, process management functions, and more.
 ---
 
 # MPI Functions

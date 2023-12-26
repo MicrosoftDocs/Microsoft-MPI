@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Cart_create function
 TOCTitle: MPI_Cart_create function
 ms:assetid: 6d87963c-d013-4944-bd45-78c016477969
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Cart_create function on Microsoft's official site. Understand its syntax, parameters, return values, and requirements for HPC Packs.
 ---
 
 # MPI\_Cart\_create function

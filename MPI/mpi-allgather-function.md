@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Allgather function
 TOCTitle: MPI_Allgather function
 ms:assetid: 85205349-5573-404a-b8c0-1273f3a442e5
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to use the MPI_Allgather function in Microsoft's HPC Pack. This guide provides syntax, parameters, and usage rules for efficient data distribution.
 ---
 
 # MPI\_Allgather function
