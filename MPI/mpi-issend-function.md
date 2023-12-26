@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Issend function
 TOCTitle: MPI_Issend function
 ms:assetid: 00a15bca-82c1-4e49-8e45-64a3d91d7508
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Issend function on Microsoft's official site. Understand its syntax, parameters, return value, and usage in synchronous mode send operations.
 ---
 
 # MPI\_Issend function

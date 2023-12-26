@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI Management Functions
 TOCTitle: MPI Management Functions
 ms:assetid: F88C4C06-3AD5-454D-9A5B-1A895E32377F
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn473433(v=VS.85)
 ms:contentKeyID: 59360969
 ms.date: 03/28/2018
 mtps_version: v=VS.85
+description: Explore MPI Management Functions on Microsoft's official site. Learn about MPI error classes, handlers, memory allocation, and more.
 ---
 
 # MPI Management Functions

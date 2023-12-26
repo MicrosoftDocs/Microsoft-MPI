@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_spawn function
 TOCTitle: MPI_Comm_spawn function
 ms:assetid: 99eaf029-0e82-4548-8132-eb8047cafc26
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Comm_spawn function to spawn instances of an MPI application. Detailed syntax, parameters, and return values explained.
 ---
 
 # MPI\_Comm\_spawn function

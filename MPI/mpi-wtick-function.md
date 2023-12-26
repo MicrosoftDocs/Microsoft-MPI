@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Wtick function
 TOCTitle: MPI_Wtick function
 ms:assetid: fa916c75-ea37-4ff2-a85e-975a726e5352
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Wtick function on Microsoft's site. Understand its syntax, parameters, return value, and requirements for HPC Pack.
 ---
 
 # MPI\_Wtick function

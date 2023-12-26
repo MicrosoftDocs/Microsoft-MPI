@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Fetch_and_op function
 TOCTitle: MPI_Fetch_and_op function
 mtps_version: v=VS.85
@@ -9,6 +9,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Fetch_and_op function on Microsoft's official site. Understand its syntax, parameters, return values, and usage in atomic read-modify-write operations.
 ---
 
 # MPI\_Fetch\_and\_op function
