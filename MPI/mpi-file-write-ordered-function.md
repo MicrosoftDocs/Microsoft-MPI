@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_write_ordered function
 TOCTitle: MPI_File_write_ordered function
 ms:assetid: df40b0a9-4d75-423f-a527-a31541a29c20
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_File_write_ordered function in MS-MPI Redistributable Packages. Detailed syntax, parameters, and return values explained.
 ---
 
 # MPI\_File\_write\_ordered function

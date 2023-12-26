@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_create function
 TOCTitle: MPI_Comm_create function
 ms:assetid: bb028396-e3d5-4e2c-908f-bfe70cd86ca5
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to use the MPI_Comm_create function for separate MIMD computation in a new communicator. Detailed syntax, parameters, and return values explained.
 ---
 
 # MPI\_Comm\_create function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_flush function
 TOCTitle: MPI_Win_flush function
 mtps_version: v=VS.85
@@ -9,6 +9,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master the MPI_Win_flush function with our comprehensive guide. Learn about its syntax, parameters, return values, and its role in RMA operations.
 ---
 
 # MPI\_Win\_flush function
