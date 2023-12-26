@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI One-Sided Communications Functions
 TOCTitle: MPI One-Sided Communications Functions
 ms:assetid: 5555139A-2EA1-4BD4-954C-5DEBD0B94D43
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn473435(v=VS.85)
 ms:contentKeyID: 59360971
 ms.date: 03/28/2018
 mtps_version: v=VS.85
+description: Explore MPI One-Sided Communications Functions on Microsoft's learning platform. Understand remote memory access, atomic operations, and RMA epochs.
 ---
 
 # MPI One-Sided Communications Functions

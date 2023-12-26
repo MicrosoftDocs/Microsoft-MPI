@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Ibcast function
 TOCTitle: MPI_Ibcast function
 ms:assetid: 2DBA6049-967D-41C1-A84C-942AE694A922
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about MPI_Ibcast function on Microsoft MPI. Understand its syntax, parameters, and usage for non-blocking message broadcasts in your processes.
 ---
 
 # MPI\_Ibcast function

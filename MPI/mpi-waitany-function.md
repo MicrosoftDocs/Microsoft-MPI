@@ -26,7 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
-description: Learn about the MPI_Waitany function, its syntax, parameters, and return values. Enhance your knowledge of MPI Point to Point Functions.
+description: Learn about the MPI_Waitany function on Microsoft's official site. Understand its syntax, parameters, return values, and how it completes outstanding operations.
 ---
 
 # MPI\_Waitany function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Send_init function
 TOCTitle: MPI_Send_init function
 ms:assetid: 5504607b-e403-4daa-8e62-5919e0a14c46
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to create a persistent request for a standard send with MPI_Send_init function on Microsoft's official site.
 ---
 
 # MPI\_Send\_init function

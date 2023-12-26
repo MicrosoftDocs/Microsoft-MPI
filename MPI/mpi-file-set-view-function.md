@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_set_view function
 TOCTitle: MPI_File_set_view function
 ms:assetid: 4e09feaf-1242-4ddb-9459-e1047625826e
@@ -14,6 +14,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to set the file view using MPI_File_set_view function on Microsoft's platform. Includes syntax, parameters, and return values.
 ---
 
 # MPI\_File\_set\_view function

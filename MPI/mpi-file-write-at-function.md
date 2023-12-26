@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_write_at function
 TOCTitle: MPI_File_write_at function
 ms:assetid: 73622535-ee27-4aad-9efb-e8b29c883a2a
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore the MPI_File_write_at function on Microsoft's learning platform. Understand syntax, parameters, return values, and related MPI file functions.
 ---
 
 # MPI\_File\_write\_at function

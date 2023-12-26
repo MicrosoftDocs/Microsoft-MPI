@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Get_address function
 TOCTitle: MPI_Get_address function
 ms:assetid: 8ecaca8f-2b45-47ea-b329-95ae70fa032f
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Get_address function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Get\_address function
