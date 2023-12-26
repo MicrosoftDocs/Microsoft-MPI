@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI Collective Functions
 TOCTitle: MPI Collective Functions
 ms:assetid: 4FE1B4FE-7788-42CD-9270-C5E1DF650020
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn473253(v=VS.85)
 ms:contentKeyID: 59360799
 ms.date: 03/28/2018
 mtps_version: v=VS.85
+description: Explore MPI Collective Functions on Microsoft's learning platform. Understand data gathering, broadcasting, synchronization, and more in group processes.
 ---
 
 # MPI Collective Functions

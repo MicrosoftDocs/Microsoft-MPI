@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Wait function
 TOCTitle: MPI_Wait function
 ms:assetid: 516ab401-2b6b-45db-9815-34d75b9c4c3b
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Wait function on Microsoft's official site. Understand its syntax, parameters, return values, and how it completes operations.
 ---
 
 # MPI\_Wait function

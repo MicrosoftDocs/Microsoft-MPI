@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_contiguous function
 TOCTitle: MPI_Type_contiguous function
 ms:assetid: f2fb753c-3f17-4308-a384-8edd8c18bacf
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to define a new data type using MPI_Type_contiguous function on Microsoft's official site. Step-by-step guide included.
 ---
 
 # MPI\_Type\_contiguous function

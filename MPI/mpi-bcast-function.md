@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Bcast function
 TOCTitle: MPI_Bcast function
 ms:assetid: 92e6be4d-915c-49a4-80fe-5abbc88b57b2
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Explore the MPI_Bcast function on Microsoft's learning platform. Understand its syntax, parameters, return value, and usage in both intra and intercommunicator contexts.
 ---
 
 # MPI\_Bcast function

@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Recv function on Microsoft's official site. Understand its syntax, parameters, return values, and how it performs a receive operation.
 ---
 
 # MPI\_Recv function

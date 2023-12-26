@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Iallreduce function
 TOCTitle: MPI_Iallreduce function
 ms:assetid: 0E94E7ED-8194-4AFE-B287-765914559DEA
@@ -29,6 +29,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Iallreduce function on Microsoft's platform. This article provides a detailed explanation of parameters, syntax, and usage for efficient data processing.
 ---
 
 # MPI\_Iallreduce function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Buffer_attach function
 TOCTitle: MPI_Buffer_attach function
 ms:assetid: 30D28DF2-2734-4BEF-B6EA-66FD40B42EE6
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Buffer_attach function for sending in MS-MPI Redistributable Package. Includes syntax, parameters, and return values.
 ---
 
 # MPI\_Buffer\_attach function

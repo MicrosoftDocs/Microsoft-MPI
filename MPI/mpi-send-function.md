@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Send function
 TOCTitle: MPI_Send function
 ms:assetid: 02e5b56e-a813-46bc-8927-b9481b932830
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Master the MPI_Send function with this comprehensive guide. Learn about its syntax, parameters, return values, and how it performs standard mode send operations.
 ---
 
 # MPI\_Send function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_join function
 TOCTitle: MPI_Comm_join function
 ms:assetid: 3c07220f-07c9-4fa4-ba9f-52160c29100e
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to create a communicator with MPI_Comm_join function on Microsoft's platform. Understand syntax, parameters, return values, and requirements.
 ---
 
 # MPI\_Comm\_join function

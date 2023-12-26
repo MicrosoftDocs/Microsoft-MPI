@@ -26,7 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
-description: Learn how to define a new group using the MPI_Group_range_incl function on Microsoft's official site. Includes syntax, parameters, and return values.
+description: Learn how to define a new group using the MPI_Group_range_incl function on Microsoft's platform. Understand syntax, parameters, and return values.
 ---
 
 # MPI\_Group\_range\_incl function

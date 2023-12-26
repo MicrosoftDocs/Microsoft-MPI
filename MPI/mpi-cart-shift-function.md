@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Cart_shift function
 TOCTitle: MPI_Cart_shift function
 ms:assetid: 35d82504-3fdd-4fe4-afa6-27e41b390786
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about MPI_Cart_shift function on Microsoft's official site. Understand its syntax, parameters, return values, and its role in MPI Process Topology Functions.
 ---
 
 # MPI\_Cart\_shift function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Pack function
 TOCTitle: MPI_Pack function
 ms:assetid: f518e8c8-43b7-447d-a5c4-4e8de9a51eb2
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Pack function on Microsoft's official site. Understand its syntax, parameters, return values, and requirements for successful implementation.
 ---
 
 # MPI\_Pack function

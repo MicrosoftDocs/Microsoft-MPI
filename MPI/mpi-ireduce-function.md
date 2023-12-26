@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Ireduce function
 TOCTitle: MPI_Ireduce function
 ms:assetid: 8EE81913-0713-4FF3-8723-0EC6641583E3
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to perform a global reduce operation across all group members non-blockingly with the MPI_Ireduce function on Microsoft MPI.
 ---
 
 # MPI\_Ireduce function

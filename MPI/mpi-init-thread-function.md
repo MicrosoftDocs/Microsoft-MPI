@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Init_thread function
 TOCTitle: MPI_Init_thread function
 ms:assetid: 8042dcc8-8099-446f-85a0-9fbffa8f487e
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to initialize the MPI process's execution environment for threaded execution with MPI_Init_thread function at Microsoft's official site.
 ---
 
 # MPI\_Init\_thread function

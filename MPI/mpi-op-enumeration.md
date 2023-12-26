@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Op enumeration
 TOCTitle: MPI_Op enumeration
 ms:assetid: 3C70A7BA-E67A-434F-BF13-F42F498B8150
@@ -53,6 +53,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Explore predefined MPI operations with our comprehensive guide. Learn about MPI_MAX, MPI_MIN, MPI_SUM, and more at Microsoft's official site.
 ---
 
 # MPI\_Op enumeration

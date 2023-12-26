@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Init function
 TOCTitle: MPI_Init function
 ms:assetid: 4b88878f-b15c-421e-bad0-21353b516bb5
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Master the MPI_Init function for single-threaded execution with our comprehensive guide. Learn syntax, parameters, return values, and more.
 ---
 
 # MPI\_Init function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Allgatherv function
 TOCTitle: MPI_Allgatherv function
 ms:assetid: 6f44ceb1-8213-4541-a2d8-639a84a38be2
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to use the MPI_Allgatherv function in Microsoft's HPC Pack for efficient data distribution among group members. Detailed syntax and parameters explained.
 ---
 
 # MPI\_Allgatherv function

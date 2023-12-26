@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI External Functions
 TOCTitle: MPI External Functions
 ms:assetid: 0E55F7D2-5379-44CF-B9DB-A0DC98723C79
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn473302(v=VS.85)
 ms:contentKeyID: 59360848
 ms.date: 03/28/2018
 mtps_version: v=VS.85
+description: Explore MPI External Functions on Microsoft's learning platform. Understand MPI_Grequest, MPI_Init_thread, and more for effective threaded execution.
 ---
 
 # MPI External Functions

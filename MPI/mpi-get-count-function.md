@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Get_count function
 TOCTitle: MPI_Get_count function
 ms:assetid: e464e9ce-e387-4a12-9bb1-1d500c2960be
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Get_count function on Microsoft's official site. Understand its syntax, parameters, return values, and usage in HPC Pack.
 ---
 
 # MPI\_Get\_count function

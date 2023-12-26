@@ -13,7 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
-description: Learn how to use the MPI_Info_get function on Microsoft's official site. Retrieve values associated with keys and handle errors effectively.
+description: Learn about the MPI_Info_get function on Microsoft's official site. Understand its syntax, parameters, return values, and associated requirements.
 ---
 
 # MPI\_Info\_get function

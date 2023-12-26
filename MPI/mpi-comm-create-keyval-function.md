@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_create_keyval function
 TOCTitle: MPI_Comm_create_keyval function
 ms:assetid: 13d0bf93-f8b8-4f26-bcbf-1b2a0bdab0fe
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to create a new attribute key with MPI_Comm_create_keyval function. Understand syntax, parameters, and differences between C and Fortran.
 ---
 
 # MPI\_Comm\_create\_keyval function

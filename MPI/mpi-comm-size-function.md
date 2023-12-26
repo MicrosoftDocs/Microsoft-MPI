@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to use the MPI_Comm_size function to retrieve the number of processes in a communicator. Ideal for enhancing concurrency in your programs.
 ---
 
 # MPI\_Comm\_size function

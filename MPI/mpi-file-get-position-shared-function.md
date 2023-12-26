@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_get_position_shared function
 TOCTitle: MPI_File_get_position_shared function
 ms:assetid: dc3cb8ad-032d-49b4-a9fc-97ae738aef4e
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_File_get_position_shared function on Microsoft's site. Understand its syntax, parameters, return value, and requirements.
 ---
 
 # MPI\_File\_get\_position\_shared function

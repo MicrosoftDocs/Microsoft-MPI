@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Irecv function
 TOCTitle: MPI_Irecv function
 ms:assetid: 033ac026-a3a4-455f-9f4d-ba64ac7623e7
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to initiate a receive operation using MPI_Irecv function on Microsoft's platform. Understand syntax, parameters, and return values.
 ---
 
 # MPI\_Irecv function

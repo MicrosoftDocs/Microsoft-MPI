@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_compare function
 TOCTitle: MPI_Comm_compare function
 ms:assetid: 881e2ef6-ad94-413b-82e0-89fe27534419
@@ -30,6 +30,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to use the MPI_Comm_compare function in Microsoft's MPI. Compare two communicator handles and understand return values.
 ---
 
 # MPI\_Comm\_compare function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_lock_all function
 TOCTitle: MPI_Win_lock_all function
 mtps_version: v=VS.85
@@ -9,6 +9,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore the MPI_Win_lock_all function in detail. Learn about its syntax, parameters, return values, and usage in RMA operations on Microsoft's official site.
 ---
 
 # MPI\_Win\_lock\_all function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_get_size function
 TOCTitle: MPI_File_get_size function
 ms:assetid: f6f80e03-8aee-4a61-80cd-4238e6e80994
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_File_get_size function on Microsoft's platform. Understand syntax, parameters, return values, and requirements.
 ---
 
 # MPI\_File\_get\_size function

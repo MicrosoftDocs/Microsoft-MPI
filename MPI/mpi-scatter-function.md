@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Scatter function
 TOCTitle: MPI_Scatter function
 ms:assetid: de4353a3-d286-4d0d-a5b9-4e1f3bb8df11
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to use the MPI_Scatter function to distribute data across all members of a group with Microsoft's comprehensive guide.
 ---
 
 # MPI\_Scatter function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Testall function
 TOCTitle: MPI_Testall function
 ms:assetid: 2509A007-140B-45B5-93B0-60A8987635B8
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Testall function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Testall function

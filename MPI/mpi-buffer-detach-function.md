@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Buffer_detach function
 TOCTitle: MPI_Buffer_detach function
 ms:assetid: A7F774CA-CE48-401A-92B5-2890951D4CC9
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Buffer_detach function in MS-MPI Redistributable Packages. Understand syntax, parameters, return values, and requirements.
 ---
 
 # MPI\_Buffer\_detach function

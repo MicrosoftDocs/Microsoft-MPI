@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_get_extent function
 TOCTitle: MPI_Type_get_extent function
 ms:assetid: c0c7644d-9301-4e93-80ee-074280af22bb
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about MPI_Type_get_extent function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Type\_get\_extent function

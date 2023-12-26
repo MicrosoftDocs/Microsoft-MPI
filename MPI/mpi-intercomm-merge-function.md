@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Intercomm_merge function
 TOCTitle: MPI_Intercomm_merge function
 ms:assetid: 09f063e6-f21f-448d-b8fe-c7509aecc0bd
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to create an intracommunicator from an intercommunicator using MPI_Intercomm_merge function on Microsoft's official site.
 ---
 
 # MPI\_Intercomm\_merge function

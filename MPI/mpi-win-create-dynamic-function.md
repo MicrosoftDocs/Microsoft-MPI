@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_create_dynamic function
 TOCTitle: MPI_Win_create_dynamic function
 mtps_version: v=VS.85
@@ -9,6 +9,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Win_create_dynamic function for dynamic memory control in MS-MPI. Detailed syntax, parameters, and return values explained.
 ---
 
 # MPI\_Win\_create\_dynamic function

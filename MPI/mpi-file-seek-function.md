@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_seek function
 TOCTitle: MPI_File_seek function
 ms:assetid: f0856c8b-b88c-47da-805e-89e1a6e3099b
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_File_seek function in MS-MPI Redistributable Packages. Get syntax, parameters, and return values for successful implementation.
 ---
 
 # MPI\_File\_seek function

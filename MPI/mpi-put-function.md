@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Put function
 TOCTitle: MPI_Put function
 ms:assetid: 3a25a0d7-eb69-4377-a9ea-4dd89939b798
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Put function to put data into a memory window on a remote process at Microsoft's official site.
 ---
 
 # MPI\_Put function

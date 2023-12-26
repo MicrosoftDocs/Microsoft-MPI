@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Finalize function
 TOCTitle: MPI_Finalize function
 ms:assetid: e93c2023-9526-466a-892d-f11d18bb9bfe
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Finalize function on Microsoft's platform. Understand its syntax, parameters, return value, and how it impacts MPI processes.
 ---
 
 # MPI\_Finalize function

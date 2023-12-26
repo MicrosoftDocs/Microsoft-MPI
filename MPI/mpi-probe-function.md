@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Probe function
 TOCTitle: MPI_Probe function
 ms:assetid: 48c0aa71-76be-402f-8318-6fed9a8d2667
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Probe function, its syntax, parameters, and return values. Ideal for users of HPC Pack 2012 MS-MPI Redistributable Package.
 ---
 
 # MPI\_Probe function

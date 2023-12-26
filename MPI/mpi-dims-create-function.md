@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Dims_create function
 TOCTitle: MPI_Dims_create function
 ms:assetid: 8dd7b947-2842-4f6a-9d92-1b18e346b7af
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to create a division of processors in a cartesian grid using the MPI_Dims_create function on Microsoft's official site.
 ---
 
 # MPI\_Dims\_create function

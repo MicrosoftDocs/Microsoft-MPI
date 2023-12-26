@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI Group Functions
 TOCTitle: MPI Group Functions
 ms:assetid: C907F7D6-7B0C-41B1-B13F-3BD9563FCD20
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn473399(v=VS.85)
 ms:contentKeyID: 59360935
 ms.date: 03/28/2018
 mtps_version: v=VS.85
+description: Explore MPI Group Functions on Microsoft's official site. Learn about group constructors, rank retrieval, group size, and more. Enhance your coding skills.
 ---
 
 # MPI Group Functions

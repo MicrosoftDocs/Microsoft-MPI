@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI Communicator Functions
 TOCTitle: MPI Communicator Functions
 ms:assetid: EF7FD722-0ACF-4297-BEF1-CFD0F569DE8D
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn473255(v=VS.85)
 ms:contentKeyID: 59360801
 ms.date: 03/28/2018
 mtps_version: v=VS.85
+description: Explore MPI Communicator Functions on Microsoft's official site. Learn about MPI_Comm_compare, MPI_Comm_create, MPI_Comm_dup, and more. Enhance your MIMD computation skills.
 ---
 
 # MPI Communicator Functions

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Testany function
 TOCTitle: MPI_Testany function
 ms:assetid: 9C4B9B43-3569-4252-8284-5DBE1229915D
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Explore the MPI_Testany function on Microsoft's learning platform. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Testany function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Status_f2c function
 TOCTitle: MPI_Status_f2c function
 ms:assetid: 427308ed-2fb0-411e-bab5-d3e78ad35dcd
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to convert Fortran status to C status using MPI_Status_f2c function. No information is lost in the conversion. Perfect for HPC Pack users.
 ---
 
 # MPI\_Status\_f2c function

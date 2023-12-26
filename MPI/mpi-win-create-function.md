@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_create function
 TOCTitle: MPI_Win_create function
 ms:assetid: fccf3c21-8840-4de4-8d97-e8bb778771e2
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about MPI_Win_create function for one-sided communication on Microsoft's official site. Understand syntax, parameters, and return values.
 ---
 
 # MPI\_Win\_create function

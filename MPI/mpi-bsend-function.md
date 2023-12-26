@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Bsend function
 TOCTitle: MPI_Bsend function
 ms:assetid: 991fa16c-06bd-4aff-9a04-35ba13c4ea69
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to use the MPI_Bsend function to send data in buffered mode. Understand syntax, parameters, and handle errors for successful implementation.
 ---
 
 # MPI\_Bsend function
