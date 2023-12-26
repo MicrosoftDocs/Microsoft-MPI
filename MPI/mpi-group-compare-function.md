@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Group_compare function
 TOCTitle: MPI_Group_compare function
 ms:assetid: 2549da8a-673e-4ac3-8985-e5b49796582c
@@ -29,6 +29,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Group_compare function on Microsoft's site. Understand its syntax, parameters, return values, and how it compares two groups for member equality.
 ---
 
 # MPI\_Group\_compare function

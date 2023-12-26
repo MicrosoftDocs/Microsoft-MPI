@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_create_hvector function
 TOCTitle: MPI_Type_create_hvector function
 ms:assetid: 66f3fd82-d20c-4ac0-a5e1-ab54115df59f
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about MPI_Type_create_hvector function, a new data type defining method with specified blocks and elements. Understand its syntax, parameters, and usage.
 ---
 
 # MPI\_Type\_create\_hvector function
