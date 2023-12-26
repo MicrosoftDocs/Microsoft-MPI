@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_write_all function
 TOCTitle: MPI_File_write_all function
 ms:assetid: 1defb515-dd3d-497b-b709-c316514d99b4
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore MPI_File_write_all function on Microsoft's learning platform. Understand syntax, parameters, return values, and related MPI file functions.
 ---
 
 # MPI\_File\_write\_all function

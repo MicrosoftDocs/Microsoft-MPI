@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Cart_rank function
 TOCTitle: MPI_Cart_rank function
 ms:assetid: 84c507f8-bca9-4a92-befb-9f48555f2544
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Cart_rank function on Microsoft's official site. Understand its syntax, parameters, return values, and requirements for successful implementation.
 ---
 
 # MPI\_Cart\_rank function

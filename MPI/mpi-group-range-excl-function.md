@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Group_range_excl function
 TOCTitle: MPI_Group_range_excl function
 ms:assetid: 635a803a-a5a9-4d1c-a324-602048154f27
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to create a new group by removing processes from an existing one using the MPI_Group_range_excl function on Microsoft's official site.
 ---
 
 # MPI\_Group\_range\_excl function
