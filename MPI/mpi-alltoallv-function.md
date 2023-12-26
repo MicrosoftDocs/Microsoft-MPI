@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Alltoallv function
 TOCTitle: MPI_Alltoallv function
 ms:assetid: 14a47f9e-b476-4397-9b70-d8d2428b33bd
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to use the MPI_Alltoallv function for data gathering and scattering across a group. Understand syntax, parameters, and return values.
 ---
 
 # MPI\_Alltoallv function

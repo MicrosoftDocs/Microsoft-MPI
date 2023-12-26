@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Get_processor_name function
 TOCTitle: MPI_Get_processor_name function
 ms:assetid: cdbe3718-c1f5-4c6c-a34a-2263c76ee30d
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Get_processor_name function to get the name of the processor. Detailed syntax, parameters, and return values explained.
 ---
 
 # MPI\_Get\_processor\_name function

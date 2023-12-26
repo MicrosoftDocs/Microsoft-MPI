@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Test function
 TOCTitle: MPI_Test function
 ms:assetid: a0f641d4-3764-43fe-969e-354a8857e5b5
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Test function on Microsoft's official site. Understand its syntax, parameters, return values, and how it operates in Fortran.
 ---
 
 # MPI\_Test function
