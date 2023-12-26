@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb524831(v=VS.85)
 ms:contentKeyID: 8247973
 ms.date: 03/28/2018
 mtps_version: v=VS.85
+description: Explore Microsoft MPI, a high-performance parallel application development tool for Windows. Learn about its benefits, download options, and access tutorials.
 ---
 
 # Microsoft MPI

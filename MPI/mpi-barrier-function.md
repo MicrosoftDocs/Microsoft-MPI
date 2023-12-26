@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Barrier function
 TOCTitle: MPI_Barrier function
 ms:assetid: 92ef641a-b65b-4e3b-8f64-98d9c0810b29
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Barrier function, its syntax, parameters, and return value. Understand how it initiates barrier synchronization across group members.
 ---
 
 # MPI\_Barrier function
