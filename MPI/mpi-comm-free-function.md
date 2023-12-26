@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_free function
 TOCTitle: MPI_Comm_free function
 ms:assetid: fd2c2e53-09dc-4438-bec8-9c4384db4497
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to free a communicator with the MPI_Comm_free function. Understand its syntax, parameters, return values, and application in both intra and intercommunicators.
 ---
 
 # MPI\_Comm\_free function

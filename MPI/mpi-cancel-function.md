@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Cancel function
 TOCTitle: MPI_Cancel function
 ms:assetid: c0393047-75f3-4ae1-bd02-94be1d8798f1
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore MPI_Cancel function on Microsoft's learning platform. Understand its syntax, parameters, return values, and its use in multi-buffering schemes.
 ---
 
 # MPI\_Cancel function

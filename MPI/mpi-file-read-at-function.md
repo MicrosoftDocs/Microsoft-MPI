@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_read_at function
 TOCTitle: MPI_File_read_at function
 ms:assetid: 87993528-d8be-418f-89fa-303aa08d8fc4
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master the MPI_File_read_at function with our comprehensive guide. Learn syntax, parameters, return values, and requirements for successful implementation.
 ---
 
 # MPI\_File\_read\_at function

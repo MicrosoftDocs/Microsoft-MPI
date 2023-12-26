@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Dist_graph_create function
 TOCTitle: MPI_Dist_graph_create function
 ms:assetid: AA8B083C-E601-4E64-BAEE-09CB364A005F
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Dist_graph_create function on Microsoft MPI. Understand its syntax, parameters, return value, and usage in C and Fortran.
 ---
 
 # MPI\_Dist\_graph\_create function
