@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Iprobe function
 TOCTitle: MPI_Iprobe function
 ms:assetid: e2a6fadf-447d-42b1-a455-89a504beeabd
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Iprobe function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Iprobe function

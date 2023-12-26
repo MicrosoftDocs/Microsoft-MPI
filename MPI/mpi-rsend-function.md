@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Rsend function
 TOCTitle: MPI_Rsend function
 ms:assetid: 28076c76-7ea3-4ac3-996c-b36619565227
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Rsend function on Microsoft's official site. Understand its syntax, parameters, return value, and how it improves performance in data sending operations.
 ---
 
 # MPI\_Rsend function
