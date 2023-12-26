@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Op_create function
 TOCTitle: MPI_Op_create function
 ms:assetid: 5b636d07-7c9c-4164-8a08-d3a9e37cfe41
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to create a user-defined combination function handle with MPI_Op_create on Microsoft's official site. Perfect for HPC Pack users.
 ---
 
 # MPI\_Op\_create function

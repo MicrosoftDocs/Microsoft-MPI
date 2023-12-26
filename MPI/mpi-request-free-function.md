@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Request_free function
 TOCTitle: MPI_Request_free function
 ms:assetid: f89b1d2f-52c1-48e4-8e59-ba7c3f361706
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Request_free function, its syntax, parameters, and usage in freeing communication requests in MPI. Perfect for HPC Pack users.
 ---
 
 # MPI\_Request\_free function

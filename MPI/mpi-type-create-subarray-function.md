@@ -28,6 +28,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about MPI_Type_create_subarray function, a new data type for n-dimensional subarrays. Understand syntax, parameters, and error handling.
 ---
 
 # MPI\_Type\_create\_subarray function

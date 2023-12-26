@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_dup function
 TOCTitle: MPI_Comm_dup function
 ms:assetid: f23804db-a2b4-478d-8b1d-c628b52e864d
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to duplicate an existing communicator with MPI_Comm_dup function. Understand its syntax, parameters, return values, and application in parallel processes.
 ---
 
 # MPI\_Comm\_dup function

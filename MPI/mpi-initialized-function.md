@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Initialized function
 TOCTitle: MPI_Initialized function
 ms:assetid: fae67e86-8a12-4dc0-9c65-ec1aa63c7eb4
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Initialized function on Microsoft's official site. Understand its syntax, parameters, return values, and requirements.
 ---
 
 # MPI\_Initialized function

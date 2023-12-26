@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI Process Topology Functions
 TOCTitle: MPI Process Topology Functions
 ms:assetid: EF52087F-9343-40C3-BAEE-6F1F9B9F9C85
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn473449(v=VS.85)
 ms:contentKeyID: 59360984
 ms.date: 03/28/2018
 mtps_version: v=VS.85
+description: Explore MPI Process Topology Functions on Microsoft's learning platform. Understand cartesian topology, graph topology, and distributed graph topology.
 ---
 
 # MPI Process Topology Functions
