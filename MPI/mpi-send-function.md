@@ -92,8 +92,8 @@ This function can be called whether or not a matching receive function is posted
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

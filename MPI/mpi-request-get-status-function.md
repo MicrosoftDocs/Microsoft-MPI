@@ -63,8 +63,8 @@ Unlike [**MPI\_Test**](mpi-test-function.md), [**MPI\_Request\_get\_status**](mp
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

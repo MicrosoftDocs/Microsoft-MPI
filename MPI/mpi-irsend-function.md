@@ -91,8 +91,8 @@ This function can return before the message was copied out of the send buffer. T
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

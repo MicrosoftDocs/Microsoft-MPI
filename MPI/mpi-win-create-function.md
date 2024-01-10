@@ -76,8 +76,8 @@ The call is collective on an intracommunicator. [**MPI\_Win\_create**](mpi-win-c
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

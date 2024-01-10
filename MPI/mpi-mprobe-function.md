@@ -83,8 +83,8 @@ This function behaves like [**MPI\_Improbe**](mpi-improbe-function.md) except th
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

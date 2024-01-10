@@ -80,8 +80,8 @@ If the *request* parameter points to a value of **MPI\_REQUEST\_NULL** or to an 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

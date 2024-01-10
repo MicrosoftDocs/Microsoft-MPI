@@ -57,8 +57,8 @@ Completes an RMA access epoch started by a call to [**MPI\_Win\_lock**](mpi-win-
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

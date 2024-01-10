@@ -51,8 +51,8 @@ Microsoft MPI uses unified memory model, and so doesn't utilize private and publ
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

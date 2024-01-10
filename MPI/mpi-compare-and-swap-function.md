@@ -77,8 +77,8 @@ This function compares one element of type *datatype* in the compare buffer *com
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

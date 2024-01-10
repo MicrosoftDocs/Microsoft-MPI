@@ -72,8 +72,8 @@ This is a collective call executed by all processes in the group of *comm*. On e
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

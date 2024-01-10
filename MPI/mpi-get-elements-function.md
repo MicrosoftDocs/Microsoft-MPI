@@ -61,8 +61,8 @@ If the size of the datatype is zero and the amount of data returned as determine
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

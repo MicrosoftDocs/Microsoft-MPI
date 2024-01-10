@@ -101,8 +101,8 @@ Processes can send messages to themselves. However, it is unsafe to do so with t
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

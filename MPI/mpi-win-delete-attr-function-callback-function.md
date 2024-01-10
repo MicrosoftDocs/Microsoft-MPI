@@ -64,8 +64,8 @@ If an attribute delete function returns anything other than **MPI\_SUCCESS**, th
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

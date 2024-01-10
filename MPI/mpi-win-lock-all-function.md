@@ -54,8 +54,8 @@ During the epoch, the calling process can access the window memory on all proces
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

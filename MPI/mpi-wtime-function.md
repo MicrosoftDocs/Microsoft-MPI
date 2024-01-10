@@ -50,8 +50,8 @@ This is a function, declared as **DOUBLE PRECISION MPI\_WTIME()** in Fortran.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

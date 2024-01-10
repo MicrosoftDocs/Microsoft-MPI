@@ -79,8 +79,8 @@ The *comm\_copy\_attr\_fn* function is invoked when a communicator is duplicated
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

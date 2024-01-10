@@ -55,8 +55,8 @@ This routine provides a common interface for profiling control.  The interpretat
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

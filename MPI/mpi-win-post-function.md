@@ -66,8 +66,8 @@ The *assert* argument is used to indicate special conditions for the post that a
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

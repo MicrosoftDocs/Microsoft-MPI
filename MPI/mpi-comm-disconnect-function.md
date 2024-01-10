@@ -53,8 +53,8 @@ This routine waits for all pending communication to complete, then frees the com
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

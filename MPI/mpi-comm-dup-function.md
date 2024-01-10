@@ -75,8 +75,8 @@ This function applies to both intracommunicators and intercommunicators.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

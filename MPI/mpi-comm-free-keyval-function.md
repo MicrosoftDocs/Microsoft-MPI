@@ -53,8 +53,8 @@ This function sets the value of keyval to **MPI\_KEYVAL\_INVALID**. Note that it
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -88,8 +88,8 @@ If this function is called with **MPI\_MESSAGE\_NO\_PROC** as the message argume
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

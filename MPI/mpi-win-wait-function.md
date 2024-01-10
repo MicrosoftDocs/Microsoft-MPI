@@ -53,8 +53,8 @@ Completes an RMA exposure epoch started by a call to [**MPI\_Win\_post**](mpi-wi
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
