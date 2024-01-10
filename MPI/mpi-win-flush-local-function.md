@@ -54,8 +54,8 @@ All flush and sync functions can be called only within passive target epochs.
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -113,8 +113,8 @@ Weights are specified as non-negative integers using the *sourceweights* and *de
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

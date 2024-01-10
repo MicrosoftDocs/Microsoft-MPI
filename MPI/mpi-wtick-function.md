@@ -44,8 +44,8 @@ Time in seconds of resolution of [**MPI\_Wtime**](mpi-wtime-function.md).
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

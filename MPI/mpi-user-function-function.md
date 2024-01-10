@@ -63,8 +63,8 @@ The user-defined operation is assumed to be associative. If *commute = true*, th
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

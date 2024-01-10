@@ -92,8 +92,8 @@ This function is local, it returns immediately, and does not wait for any other 
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

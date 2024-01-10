@@ -54,8 +54,8 @@ A datatype object has to be committed before it can be used in a communication. 
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

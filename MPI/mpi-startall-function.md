@@ -61,8 +61,8 @@ Unlike [**MPI\_Waitall**](mpi-waitall-function.md), [**MPI\_Startall**](mpi-star
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

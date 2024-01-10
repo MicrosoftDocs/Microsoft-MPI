@@ -62,8 +62,8 @@ If the size of the datatype is zero, this routine will return a count of zero.  
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

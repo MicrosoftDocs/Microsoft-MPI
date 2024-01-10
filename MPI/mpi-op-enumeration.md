@@ -115,8 +115,8 @@ typedef enum _MPI_Op {
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

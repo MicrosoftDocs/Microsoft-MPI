@@ -67,8 +67,8 @@ This function queries the process-local address for remote memory segments creat
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

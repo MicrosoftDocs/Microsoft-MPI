@@ -71,8 +71,8 @@ This function enables the user to retrieve the process rank with a single functi
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

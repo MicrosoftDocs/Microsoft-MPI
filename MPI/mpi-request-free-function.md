@@ -56,8 +56,8 @@ This routine may also be used to free a non-persistent requests such as those cr
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

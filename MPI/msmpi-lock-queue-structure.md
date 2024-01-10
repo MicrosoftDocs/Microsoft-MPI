@@ -63,8 +63,8 @@ Each thread calling the [**MSMPI\_Queuelock\_acquire**](msmpi-queuelock-acquire-
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

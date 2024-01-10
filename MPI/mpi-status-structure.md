@@ -62,8 +62,8 @@ There are two defined **MPI\_Status** pointers that can be used in place of this
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

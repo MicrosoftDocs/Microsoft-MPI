@@ -47,8 +47,8 @@ Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error cod
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

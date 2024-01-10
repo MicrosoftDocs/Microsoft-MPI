@@ -106,8 +106,8 @@ If the *comm* parameter references an intercommunicator, then each process of on
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

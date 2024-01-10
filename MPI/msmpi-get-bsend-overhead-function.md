@@ -36,8 +36,8 @@ The required overhead for Bsend operations.
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

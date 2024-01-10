@@ -79,8 +79,8 @@ This function creates a new group of processes that is derived by removing speci
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

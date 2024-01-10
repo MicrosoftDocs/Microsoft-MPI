@@ -58,8 +58,8 @@ This function is an extension to the standard.
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

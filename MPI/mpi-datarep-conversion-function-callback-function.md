@@ -74,8 +74,8 @@ The conversion functions should return an error code. If the returned error code
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -35,8 +35,8 @@ void MSMPI_Request_callback(
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

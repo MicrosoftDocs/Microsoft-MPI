@@ -57,8 +57,8 @@ Assuming the input parameters are valid, when the error handler is set to **MPI\
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

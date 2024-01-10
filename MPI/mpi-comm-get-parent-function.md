@@ -58,8 +58,8 @@ After the parent communicator is freed or disconnected, [**MPI\_Comm\_get\_paren
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

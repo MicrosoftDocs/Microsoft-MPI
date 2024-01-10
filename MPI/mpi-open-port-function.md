@@ -65,8 +65,8 @@ If the address is not a valid IP address of the host on which the [**MPI\_Open\_
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

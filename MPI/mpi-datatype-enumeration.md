@@ -380,8 +380,8 @@ typedef enum _MPI_Datatype {
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

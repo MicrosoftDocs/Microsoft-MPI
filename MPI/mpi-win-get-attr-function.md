@@ -73,8 +73,8 @@ The following attributes are predefined for all MPI Window objects:
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

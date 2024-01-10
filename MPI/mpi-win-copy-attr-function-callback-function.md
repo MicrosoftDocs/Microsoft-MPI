@@ -74,8 +74,8 @@ If an attribute copy function returns anything other than **MPI\_SUCCESS**, then
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

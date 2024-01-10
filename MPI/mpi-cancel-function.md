@@ -57,8 +57,8 @@ Users are advised that cancelling a send, while a local operation (as defined by
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

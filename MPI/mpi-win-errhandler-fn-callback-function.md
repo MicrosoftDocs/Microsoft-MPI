@@ -55,8 +55,8 @@ The placeholder name of this function, *MPI\_Win\_errhandler\_fn*, is deprecated
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

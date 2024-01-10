@@ -58,8 +58,8 @@ This is the nonblocking version of [**MPI\_Win\_wait**](mpi-win-wait-function.md
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

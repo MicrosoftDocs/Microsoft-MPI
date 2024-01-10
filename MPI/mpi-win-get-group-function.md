@@ -57,8 +57,8 @@ The group is a duplicate of the group from the communicator used to create the M
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

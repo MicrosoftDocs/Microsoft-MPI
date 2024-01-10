@@ -68,8 +68,8 @@ This function is invoked when a communicator is deleted by [**MPI\_Comm\_free**]
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

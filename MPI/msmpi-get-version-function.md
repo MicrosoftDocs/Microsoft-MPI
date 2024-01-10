@@ -37,8 +37,8 @@ The version number of the MSMPI feature set.
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

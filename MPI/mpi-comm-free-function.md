@@ -71,8 +71,8 @@ The delete callback functions for all cached attributes are called in an indeter
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

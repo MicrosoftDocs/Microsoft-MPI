@@ -63,8 +63,8 @@ MPI will only call this routine with predefined datatypes employed by the user.
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

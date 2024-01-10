@@ -63,8 +63,8 @@ If there is no corresponding type for the specified range, the call is erroneous
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

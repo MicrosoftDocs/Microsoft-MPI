@@ -92,8 +92,8 @@ This function returns an error if there is insufficient buffer space. The amount
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

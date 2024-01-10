@@ -64,8 +64,8 @@ If an attribute is already present, the delete function (specified when the corr
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

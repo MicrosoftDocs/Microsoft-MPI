@@ -54,8 +54,8 @@ If successfully freed, *win* is set to **MPI\_WIN\_NULL**.
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

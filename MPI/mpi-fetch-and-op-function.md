@@ -79,8 +79,8 @@ The origin and result buffers (*origin_addr* and *result_addr*) must be disjoint
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

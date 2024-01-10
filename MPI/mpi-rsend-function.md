@@ -92,8 +92,8 @@ The **MPI\_Rsend** function has the same semantics as the [**MPI\_Send**](mpi-se
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

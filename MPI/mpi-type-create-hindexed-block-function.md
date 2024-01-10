@@ -83,8 +83,8 @@ This function is similar to the function [**MPI\_Type\_create\_indexed\_block**]
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

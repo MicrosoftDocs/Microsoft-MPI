@@ -54,8 +54,8 @@ The arguments *base* and *win* must match the arguments passed to a previous cal
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

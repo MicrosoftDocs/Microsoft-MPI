@@ -87,8 +87,8 @@ If the *comm* parameter references an intercommunicator, then the created commun
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

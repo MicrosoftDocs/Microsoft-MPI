@@ -92,8 +92,8 @@ All completion calls (e.g., [**MPI\_Wait**](mpi-wait-function.md)) are supported
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

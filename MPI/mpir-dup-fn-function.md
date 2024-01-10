@@ -59,8 +59,8 @@ int MPIAPI MPIR_Dup_fn(
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

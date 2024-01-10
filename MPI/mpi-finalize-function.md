@@ -64,8 +64,8 @@ The **MPI\_Finalize** function cleans up all state related to MPI. Once it is ca
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

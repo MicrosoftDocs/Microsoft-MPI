@@ -52,8 +52,8 @@ int MPIAPI MPI_Get_version(
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

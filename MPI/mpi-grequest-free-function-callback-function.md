@@ -59,8 +59,8 @@ The *free\_fn* callback is also invoked for generalized requests that are freed 
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

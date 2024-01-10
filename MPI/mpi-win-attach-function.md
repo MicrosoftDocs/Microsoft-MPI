@@ -59,8 +59,8 @@ Attaches a local memory region beginning at *base* for remote access within the 
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

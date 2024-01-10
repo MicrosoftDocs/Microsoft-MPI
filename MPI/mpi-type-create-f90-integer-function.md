@@ -57,8 +57,8 @@ This function returns a predefined MPI datatype that matches a INTEGER variable 
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

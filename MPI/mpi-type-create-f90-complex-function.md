@@ -59,8 +59,8 @@ This function returns a predefined MPI datatype that matches a **COMPLEX** varia
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -71,8 +71,8 @@ Default copy and delete functions are available.  These are
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

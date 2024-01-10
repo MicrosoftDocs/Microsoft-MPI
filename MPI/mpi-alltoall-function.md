@@ -103,8 +103,8 @@ The number of items that is sent by processes in group A, do not have to be equa
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

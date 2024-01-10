@@ -106,8 +106,8 @@ The Fortran binding of **MPI\_Init\_thread** does not accept the ARGC and ARGV p
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

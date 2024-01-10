@@ -88,8 +88,8 @@ This function returns *ﬂag* = **true** if there is a message that can be recei
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -81,8 +81,8 @@ Entries in the *array\_of\_requests* parameter can be **MPI\_REQUEST\_NULL** or 
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

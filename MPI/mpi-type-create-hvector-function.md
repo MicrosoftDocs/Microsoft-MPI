@@ -83,8 +83,8 @@ This function replaces the **MPI\_Type\_hvector** function, which is deprecated.
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

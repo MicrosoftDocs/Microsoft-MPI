@@ -64,8 +64,8 @@ If an attribute delete function returns something other than **MPI\_SUCCESS**, t
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

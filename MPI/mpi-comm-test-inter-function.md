@@ -54,8 +54,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

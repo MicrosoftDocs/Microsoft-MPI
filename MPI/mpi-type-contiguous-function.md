@@ -75,8 +75,8 @@ The concatenation of the new data type is defined by using the extent of the old
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

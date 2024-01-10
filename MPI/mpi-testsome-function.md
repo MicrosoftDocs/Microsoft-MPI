@@ -71,8 +71,8 @@ While it is possible to list a request handle more than once in the *array\_of\_
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

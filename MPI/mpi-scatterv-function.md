@@ -122,8 +122,8 @@ If the *comm* parameter references an intercommunicator, then the call involves 
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

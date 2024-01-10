@@ -62,8 +62,8 @@ If the *service_name* is found, MPI copies the associated value into *port_name*
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

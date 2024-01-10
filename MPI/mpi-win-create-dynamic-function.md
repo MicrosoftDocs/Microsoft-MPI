@@ -62,8 +62,8 @@ In the case of a window created with [**MPI\_Win\_create\_dynamic**](mpi-win-cre
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

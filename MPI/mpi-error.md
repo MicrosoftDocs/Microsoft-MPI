@@ -528,8 +528,8 @@ Last valid error code for a predefined error class.
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

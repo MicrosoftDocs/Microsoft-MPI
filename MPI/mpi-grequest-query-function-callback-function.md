@@ -61,8 +61,8 @@ The *query\_fn* callback is invoked by the **MPI\_{Wait|Test}{any|some|all}** ca
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

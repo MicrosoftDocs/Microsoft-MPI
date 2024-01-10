@@ -60,8 +60,8 @@ The the application-defined function with this signature is invoked to start the
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

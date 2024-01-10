@@ -71,8 +71,8 @@ The Fortran binding of **MPI\_Init** does not accept the ARGC and ARGV parameter
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

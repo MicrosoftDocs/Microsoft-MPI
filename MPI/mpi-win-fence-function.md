@@ -63,8 +63,8 @@ The *assert* argument is used to indicate special conditions for the fence that 
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

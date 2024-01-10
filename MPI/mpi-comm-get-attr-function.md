@@ -68,8 +68,8 @@ Attributes must be extracted from the same language as they were inserted in wit
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">
