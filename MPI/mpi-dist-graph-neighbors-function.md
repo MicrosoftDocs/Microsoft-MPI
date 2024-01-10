@@ -95,8 +95,8 @@ The incoming and outgoing edge weights are returned only if the graph was create
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

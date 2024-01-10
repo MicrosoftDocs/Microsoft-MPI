@@ -66,8 +66,8 @@ If an attribute is already present, the delete function (specified when the corr
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -83,8 +83,8 @@ This function is similar to the function [**MPI\_Type\_indexed**](mpi-type-index
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

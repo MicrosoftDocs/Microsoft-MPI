@@ -78,8 +78,8 @@ This function is often used with the [**MPI\_Comm\_rank**](mpi-comm-rank-functio
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

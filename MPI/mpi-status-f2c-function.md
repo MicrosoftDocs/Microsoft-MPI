@@ -51,8 +51,8 @@ The C status has the same source, tag and error code values as the Fortran statu
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

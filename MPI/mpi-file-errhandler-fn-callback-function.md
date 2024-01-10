@@ -54,8 +54,8 @@ The placeholder name of this function, *MPI\_File\_errhandler\_fn*, is deprecate
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

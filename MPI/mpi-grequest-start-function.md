@@ -75,8 +75,8 @@ The one special case is the error value returned by [**MPI\_Comm\_dup**](mpi-com
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

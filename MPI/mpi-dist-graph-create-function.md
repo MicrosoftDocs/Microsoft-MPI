@@ -106,8 +106,8 @@ In C or FORTRAN, an application can supply **MPI\_UNWEIGHTED** for the *weights*
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

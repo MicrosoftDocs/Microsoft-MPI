@@ -115,8 +115,8 @@ The function returns an error if the subarray starts or ends outside the bounds 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

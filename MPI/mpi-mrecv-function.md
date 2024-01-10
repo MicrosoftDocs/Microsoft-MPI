@@ -88,8 +88,8 @@ On return from this function, the message handle is set to **MPI\_MESSAGE\_NULL*
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

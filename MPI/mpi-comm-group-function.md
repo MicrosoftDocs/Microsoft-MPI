@@ -73,8 +73,8 @@ The MPI implementation does not provide a mechanism to build a group from scratc
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">
