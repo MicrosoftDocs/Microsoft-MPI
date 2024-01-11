@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Add_error_string function
 TOCTitle: MPI_Add_error_string function
 ms:assetid: 20bd7d14-41a0-4ecc-bdd5-4ccd9b889447
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to associate an error string with an MPI error code or class using the MPI_Add_error_string function on Microsoft's official site.
 ---
 
 # MPI\_Add\_error\_string function
