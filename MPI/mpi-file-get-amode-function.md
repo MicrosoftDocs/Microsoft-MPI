@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_get_amode function
 TOCTitle: MPI_File_get_amode function
 ms:assetid: a100cb7d-34a9-4f53-9c6e-9f0c4bbc8f09
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about MPI_File_get_amode function on Microsoft's official site. Understand its syntax, parameters, return values, and requirements.
 ---
 
 # MPI\_File\_get\_amode function

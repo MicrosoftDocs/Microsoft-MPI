@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_iwrite function
 TOCTitle: MPI_File_iwrite function
 ms:assetid: 1f2c71dd-8f06-4a96-bb54-449c9bcdcfa1
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_File_iwrite function for nonblocking write using individual file pointers on Microsoft's official site.
 ---
 
 # MPI\_File\_iwrite function

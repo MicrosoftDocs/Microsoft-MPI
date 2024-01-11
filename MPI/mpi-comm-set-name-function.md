@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_set_name function
 TOCTitle: MPI_Comm_set_name function
 ms:assetid: 514ae37f-893b-46ed-9cf5-a2308b7a93cf
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to set the print name for a communicator using the MPI_Comm_set_name function on Microsoft's official site.
 ---
 
 # MPI\_Comm\_set\_name function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_read_shared function
 TOCTitle: MPI_File_read_shared function
 ms:assetid: 6606a12a-6ea7-4de3-998a-1e2cd3950817
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_File_read_shared function with Microsoft's HPC Pack. Understand syntax, parameters, and return values for successful implementation.
 ---
 
 # MPI\_File\_read\_shared function
