@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_read_ordered function
 TOCTitle: MPI_File_read_ordered function
 ms:assetid: e4117d21-06ba-4ae6-8f9e-f5bb62b21879
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_File_read_ordered function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_File\_read\_ordered function

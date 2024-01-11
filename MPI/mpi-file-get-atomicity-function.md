@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_get_atomicity function
 TOCTitle: MPI_File_get_atomicity function
 ms:assetid: 7ebe709c-0295-400d-90a4-b8ac8551806e
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_File_get_atomicity function on Microsoft's official site. Understand its syntax, parameters, return values, and requirements.
 ---
 
 # MPI\_File\_get\_atomicity function
