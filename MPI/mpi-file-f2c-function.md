@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_f2c function
 TOCTitle: MPI_File_f2c function
 ms:assetid: 06be8e19-475c-4560-858f-cc5e92104e1d
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to translate a Fortran file handle to a C file handle using the MPI_File_f2c function on Microsoft's official site.
 ---
 
 # MPI\_File\_f2c function

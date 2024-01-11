@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI Miscellaneous Functions
 TOCTitle: MPI Miscellaneous Functions
 ms:assetid: 707D73BB-2AC4-4A56-9CFC-3B328E21567D
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn473434(v=VS.85)
 ms:contentKeyID: 59360970
 ms.date: 03/28/2018
 mtps_version: v=VS.85
+description: Explore MPI Miscellaneous Functions on Microsoft's learning platform. Understand how to attach buffers, control profiling, set names, and more.
 ---
 
 # MPI Miscellaneous Functions

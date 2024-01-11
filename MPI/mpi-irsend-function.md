@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Irsend function
 TOCTitle: MPI_Irsend function
 ms:assetid: be8e193d-4341-4f20-aa31-40c9640a8bca
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to initiate a ready mode send operation using the MPI_Irsend function on Microsoft's platform. Detailed syntax, parameters, and return values explained.
 ---
 
 # MPI\_Irsend function
