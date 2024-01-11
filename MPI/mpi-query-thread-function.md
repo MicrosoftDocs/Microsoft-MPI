@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Query_thread function
 TOCTitle: MPI_Query_thread function
 ms:assetid: b413d76a-ce8b-4340-9334-adbbe70c905b
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore MPI_Query_thread function on Microsoft's site. Learn about thread support levels, syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Query\_thread function

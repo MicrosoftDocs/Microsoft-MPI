@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Graph_neighbors_count function
 TOCTitle: MPI_Graph_neighbors_count function
 ms:assetid: f2d8fdf3-1487-4301-9519-191f21af68c2
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore the MPI_Graph_neighbors_count function on Microsoft's learning platform. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Graph\_neighbors\_count function

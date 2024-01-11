@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_close function
 TOCTitle: MPI_File_close function
 ms:assetid: 8cd5bcba-0edd-462c-80ae-474929eafa0a
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_File_close function in MS-MPI. This guide includes syntax, parameters, return values, and related file functions.
 ---
 
 # MPI\_File\_close function

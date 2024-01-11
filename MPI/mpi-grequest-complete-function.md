@@ -13,7 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
-description: Learn about the MPI_Grequest_complete function, its syntax, parameters, and return values. Ideal for users of HPC Pack 2012 MS-MPI Redistributable Package.
+description: Master the MPI_Grequest_complete function with this comprehensive guide. Learn syntax, parameters, return values, and requirements for successful implementation.
 ---
 
 # MPI\_Grequest\_complete function
