@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_get_contents function
 TOCTitle: MPI_Type_get_contents function
 ms:assetid: 1e25a15b-cc5a-4584-b130-29b742c84753
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Type_get_contents function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Type\_get\_contents function

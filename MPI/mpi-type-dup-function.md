@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_dup function
 TOCTitle: MPI_Type_dup function
 ms:assetid: 2e3f1d0b-5b14-4d14-b81d-c35a2793b7ea
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Type_dup function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Type\_dup function
