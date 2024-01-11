@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_complete function
 TOCTitle: MPI_Win_complete function
 ms:assetid: b3d531e7-a108-4613-b3ad-7a1ada88bdbd
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master the MPI_Win_complete function with our comprehensive guide. Learn syntax, parameters, return values, and requirements for successful implementation.
 ---
 
 # MPI\_Win\_complete function

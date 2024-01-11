@@ -1,4 +1,4 @@
-﻿---
+---
 title: MSMPI_Waitsome_interruptible function
 TOCTitle: MSMPI_Waitsome_interruptible function
 ms:assetid: 42CB465D-3923-45C2-BF91-9E4B9308BF59
@@ -25,6 +25,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about MSMPI_Waitsome_interruptible function on Microsoft's official site. Understand its syntax, parameters, return value, and usage in a multi-threaded environment.
 ---
 
 # MSMPI\_Waitsome\_interruptible function

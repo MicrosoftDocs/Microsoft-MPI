@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_match_size function
 TOCTitle: MPI_Type_match_size function
 ms:assetid: 2c06213e-42da-4e6f-b8b0-2ac39fcbe3b8
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Type_match_size function in MS-MPI Redistributable Packages. Find MPI datatypes matching a specified size.
 ---
 
 # MPI\_Type\_match\_size function

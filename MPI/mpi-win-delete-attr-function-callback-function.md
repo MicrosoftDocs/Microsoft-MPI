@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_delete_attr_function callback function
 TOCTitle: MPI_Win_delete_attr_function callback function
 ms:assetid: a3882119-b24a-4d88-8127-9a79f838b265
@@ -16,6 +16,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore the MPI_Win_delete_attr_function, an application-defined callback function for win_keyval. Learn its syntax, parameters, and return value.
 ---
 
 # MPI\_Win\_delete\_attr\_function callback function
