@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_errhandler_fn callback function
 TOCTitle: MPI_Comm_errhandler_fn callback function
 ms:assetid: 07417db4-d087-42bf-a11c-ae1a3181c382
@@ -16,6 +16,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Comm_errhandler_function, an application-defined function in MPI. Understand its syntax, parameters, and usage in HPC Pack.
 ---
 
 # MPI\_Comm\_errhandler\_function callback function
