@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Op_free function
 TOCTitle: MPI_Op_free function
 ms:assetid: e18b71d1-4e7a-46b8-b08c-ee256296488a
@@ -16,6 +16,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Op_free function on Microsoft's official site. Understand its syntax, parameters, return value, and usage in Fortran.
 ---
 
 # MPI\_Op\_free function

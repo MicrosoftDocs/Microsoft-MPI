@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Info_delete function
 TOCTitle: MPI_Info_delete function
 ms:assetid: 059ee73a-7053-440f-9eb0-5b011a9cf640
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to delete a (key,value) pair using the MPI_Info_delete function on Microsoft's official site. Includes syntax, parameters, and return values.
 ---
 
 # MPI\_Info\_delete function

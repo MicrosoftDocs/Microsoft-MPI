@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Rsend_init function
 TOCTitle: MPI_Rsend_init function
 ms:assetid: 829bc811-bb98-4c84-b869-2305607ed242
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Rsend_init function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Rsend\_init function

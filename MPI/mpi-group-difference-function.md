@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Group_difference function
 TOCTitle: MPI_Group_difference function
 ms:assetid: 815697d8-9e0a-400a-b1f1-1fae934a991b
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to create a new group using the MPI_Group_difference function on Microsoft's platform. Understand syntax, parameters, and return values.
 ---
 
 # MPI\_Group\_difference function

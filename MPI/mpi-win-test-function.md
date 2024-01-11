@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_test function
 TOCTitle: MPI_Win_test function
 ms:assetid: d43eee70-534a-4f0f-a5cd-fb442a809fe2
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore the MPI_Win_test function, a nonblocking version of MPI_Win_wait. Learn its syntax, parameters, and return values for successful RMA exposure epoch completion.
 ---
 
 # MPI\_Win\_test function
