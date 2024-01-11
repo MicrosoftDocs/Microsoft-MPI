@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_disconnect function
 TOCTitle: MPI_Comm_disconnect function
 ms:assetid: 29696257-76c8-4e5f-8a0f-f748d4844476
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Comm_disconnect function in Microsoft's HPC Pack. This guide includes syntax, parameters, and return values.
 ---
 
 # MPI\_Comm\_disconnect function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Reduce_local function
 TOCTitle: MPI_Reduce_local function
 ms:assetid: 0310d14e-ebc8-4131-8467-ee58f04d0020
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Reduce_local function in Microsoft's HPC Pack. Understand syntax, parameters, and return values for successful implementation.
 ---
 
 # MPI\_Reduce\_local function
