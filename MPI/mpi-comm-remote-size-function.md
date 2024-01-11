@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_remote_size function
 TOCTitle: MPI_Comm_remote_size function
 ms:assetid: 9705a575-9a21-4684-991a-9f3337636b53
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Comm_remote_size function, its syntax, parameters, and return value. Ideal for users of HPC Pack and MS-MPI Redistributable Package.
 ---
 
 # MPI\_Comm\_remote\_size function
