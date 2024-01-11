@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_call_errhandler function
 TOCTitle: MPI_File_call_errhandler function
 ms:assetid: 9a05a4b8-ee76-4c16-b5c6-57b744a383c3
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_File_call_errhandler function in MS-MPI. Understand syntax, parameters, return values, and requirements. Perfect for HPC Pack users.
 ---
 
 # MPI\_File\_call\_errhandler function

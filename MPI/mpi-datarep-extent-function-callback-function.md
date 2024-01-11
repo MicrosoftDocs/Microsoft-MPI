@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Datarep_extent_function callback function
 TOCTitle: MPI_Datarep_extent_function callback function
 ms:assetid: 0a58ab96-146a-42af-871c-0acbd21df042
@@ -16,6 +16,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore the MPI_Datarep_extent_function callback function on Microsoft's learning platform. Understand its syntax, parameters, and usage in user-defined extent functions.
 ---
 
 # MPI\_Datarep\_extent\_function callback function
