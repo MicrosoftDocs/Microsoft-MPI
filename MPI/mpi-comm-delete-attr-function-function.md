@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_delete_attr_function function
 TOCTitle: MPI_Comm_delete_attr_function function
 ms:assetid: d8b778cb-c354-4361-8d7a-0dc0f3209cdf
@@ -16,6 +16,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore the MPI_Comm_delete_attr_function, its syntax, parameters, and return value. Learn how it's invoked and its requirements on Microsoft's learning platform.
 ---
 
 # MPI\_Comm\_delete\_attr\_function function

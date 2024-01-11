@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_set_name function
 TOCTitle: MPI_Win_set_name function
 ms:assetid: 0296ec58-73e0-49ad-bd4e-bc1bf0afffe2
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to set the print name for an MPI window object using the MPI_Win_set_name function on Microsoft's official site.
 ---
 
 # MPI\_Win\_set\_name function

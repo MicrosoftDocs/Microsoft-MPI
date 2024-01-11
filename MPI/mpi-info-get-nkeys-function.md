@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Info_get_nkeys function
 TOCTitle: MPI_Info_get_nkeys function
 ms:assetid: a4b7e3c3-24be-494b-987f-970b332b8f94
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Info_get_nkeys function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Info\_get\_nkeys function

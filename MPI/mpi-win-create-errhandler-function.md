@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_create_errhandler function
 TOCTitle: MPI_Win_create_errhandler function
 ms:assetid: e15fa101-c1c0-4764-8c8c-05cb829bf8ff
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to create an error handler for MPI window objects using the MPI_Win_create_errhandler function on Microsoft's official site.
 ---
 
 # MPI\_Win\_create\_errhandler function

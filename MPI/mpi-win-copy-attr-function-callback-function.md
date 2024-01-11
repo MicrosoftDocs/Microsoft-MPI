@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_copy_attr_function callback function
 TOCTitle: MPI_Win_copy_attr_function callback function
 ms:assetid: 4866238c-2fd2-43ee-938f-c36ca0ca0806
@@ -16,6 +16,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Win_copy_attr_function, an application-defined callback function for win_keyval, on Microsoft's official site. Understand its syntax and parameters.
 ---
 
 # MPI\_Win\_copy\_attr\_function callback function
