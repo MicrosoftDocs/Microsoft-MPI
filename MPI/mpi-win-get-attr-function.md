@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_get_attr function
 TOCTitle: MPI_Win_get_attr function
 ms:assetid: 772d60fb-b2f0-4498-b39d-86b25be9450d
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Win_get_attr function on Microsoft's official site. Understand its syntax, parameters, return values, and associated attributes.
 ---
 
 # MPI\_Win\_get\_attr function
