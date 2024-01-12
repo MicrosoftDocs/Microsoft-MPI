@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_get_position function
 TOCTitle: MPI_File_get_position function
 ms:assetid: da6ead7e-c626-4a1d-a3b3-036907cff725
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_File_get_position function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_File\_get\_position function

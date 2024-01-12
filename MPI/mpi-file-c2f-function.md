@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_c2f function
 TOCTitle: MPI_File_c2f function
 ms:assetid: 12db8e3e-f4df-48c2-b780-94cef9ef3baa
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to translate a C file handle to a Fortran file handle using the MPI_File_c2f function on Microsoft's official site.
 ---
 
 # MPI\_File\_c2f function

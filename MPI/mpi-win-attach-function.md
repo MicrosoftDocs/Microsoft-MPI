@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_attach function
 TOCTitle: MPI_Win_attach function
 mtps_version: v=VS.85
@@ -9,6 +9,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Win_attach function for remote memory access within a given window. Understand its syntax, parameters, and return values.
 ---
 
 # MPI\_Win\_attach function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_get_name function
 TOCTitle: MPI_Comm_get_name function
 ms:assetid: a842a324-3e85-4a75-85dc-4eb6bf5f80a6
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Comm_get_name function to return the print name from the communicator. Detailed syntax, parameters, and return values explained.
 ---
 
 # MPI\_Comm\_get\_name function

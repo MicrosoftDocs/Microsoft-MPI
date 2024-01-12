@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_set_attr function
 TOCTitle: MPI_Type_set_attr function
 ms:assetid: 209ea154-8c25-46ec-8bf9-eca8e5e26b42
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Type_set_attr function on Microsoft's official site. Understand its syntax, parameters, return values, and its application in C and Fortran.
 ---
 
 # MPI\_Type\_set\_attr function
