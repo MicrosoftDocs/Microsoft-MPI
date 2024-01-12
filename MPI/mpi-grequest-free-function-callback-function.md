@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Grequest_free_function callback function
 TOCTitle: MPI_Grequest_free_function callback function
 ms:assetid: b1a96d01-0a0c-4307-9cf2-68b51426e45e
@@ -16,6 +16,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Grequest_free_function callback function, its syntax, parameters, and return value. Understand how it helps in managing user-allocated resources in MPI.
 ---
 
 # MPI\_Grequest\_free\_function callback function

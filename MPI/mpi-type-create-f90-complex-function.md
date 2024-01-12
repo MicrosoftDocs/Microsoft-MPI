@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_create_f90_complex function
 TOCTitle: MPI_Type_create_f90_complex function
 ms:assetid: a88fa355-14bb-4e57-9e5f-156552b747e6
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Type_create_f90_complex function on Microsoft's site. Understand its syntax, parameters, return values, and matching rules for datatypes.
 ---
 
 # MPI\_Type\_create\_f90\_complex function
