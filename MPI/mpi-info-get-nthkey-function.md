@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Info_get_nthkey function
 TOCTitle: MPI_Info_get_nthkey function
 ms:assetid: 6c269257-df91-4101-a042-81bed6f90f7e
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore MPI_Info_get_nthkey function on Microsoft's learning platform. Understand syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Info\_get\_nthkey function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_create_keyval function
 TOCTitle: MPI_Win_create_keyval function
 ms:assetid: 6c871be1-55e6-4aa9-bd4b-5c9b99ba953c
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to create an attribute keyval for MPI window objects using the MPI_Win_create_keyval function on Microsoft's official site.
 ---
 
 # MPI\_Win\_create\_keyval function
