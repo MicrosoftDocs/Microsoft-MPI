@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Ibsend function
 TOCTitle: MPI_Ibsend function
 ms:assetid: 3d745753-698a-4f0a-99b3-27d79c1a888a
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Ibsend function on Microsoft's official site. Understand its syntax, parameters, return value, and usage in buffered mode send operations.
 ---
 
 # MPI\_Ibsend function

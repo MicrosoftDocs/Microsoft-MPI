@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_write_all_begin function
 TOCTitle: MPI_File_write_all_begin function
 ms:assetid: feca4e8d-9fd8-4c92-8fb5-e3f94c607ecc
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_File_write_all_begin function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_File\_write\_all\_begin function

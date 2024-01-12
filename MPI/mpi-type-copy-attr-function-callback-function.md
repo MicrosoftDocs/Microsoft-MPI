@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_copy_attr_function callback function
 TOCTitle: MPI_Type_copy_attr_function callback function
 ms:assetid: af7f651c-0da6-42e0-b7bc-5d4200f5f11f
@@ -16,6 +16,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore the MPI_Type_copy_attr_function callback function in detail. Learn about its syntax, parameters, return value, and related MPI caching functions.
 ---
 
 # MPI\_Type\_copy\_attr\_function callback function
