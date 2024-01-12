@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_set_errhandler function
 TOCTitle: MPI_Win_set_errhandler function
 ms:assetid: 96d06273-5afa-4b3a-8a87-62be3775c822
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to set error handlers for MPI windows objects using MPI_Win_set_errhandler function. Includes syntax, parameters, and return values.
 ---
 
 # MPI\_Win\_set\_errhandler function
