@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_set_attr function
 TOCTitle: MPI_Comm_set_attr function
 ms:assetid: c2a64e32-631d-4865-8805-6c70cf4fb4db
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore MPI_Comm_set_attr function on Microsoft's learning platform. Understand syntax, parameters, return values, and requirements for successful implementation.
 ---
 
 # MPI\_Comm\_set\_attr function

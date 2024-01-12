@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Test_cancelled function
 TOCTitle: MPI_Test_cancelled function
 ms:assetid: 4649c1b5-9202-4a0c-b48a-1faf55ce74ef
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore the MPI_Test_cancelled function on Microsoft's learning platform. Understand its syntax, parameters, return values, and related MPI functions.
 ---
 
 # MPI\_Test\_cancelled function
