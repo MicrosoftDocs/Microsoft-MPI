@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_get_envelope function
 TOCTitle: MPI_Type_get_envelope function
 ms:assetid: 5a7b663b-d716-4a42-a4e3-4f3993e7bcb8
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore the MPI_Type_get_envelope function on Microsoft's learning platform. Understand its syntax, parameters, and return values for efficient data handling.
 ---
 
 # MPI\_Type\_get\_envelope function

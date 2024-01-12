@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Publish_name function
 TOCTitle: MPI_Publish_name function
 ms:assetid: 456bdd5f-8597-451f-8202-9ba6a610bfc3
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Publish_name function for service name publishing with MPI_Comm_connect on Microsoft's official site.
 ---
 
 # MPI\_Publish\_name function

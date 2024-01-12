@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_seek_shared function
 TOCTitle: MPI_File_seek_shared function
 ms:assetid: dca08b07-00f2-4406-82e4-454bd3b185f3
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_File_seek_shared function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_File\_seek\_shared function
