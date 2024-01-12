@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_set_info function
 TOCTitle: MPI_File_set_info function
 ms:assetid: 3e44f6dd-26e1-467c-981d-09cc842d2a1b
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to set new values for hints associated with a file using the MPI_File_set_info function on Microsoft's official site.
 ---
 
 # MPI\_File\_set\_info function
