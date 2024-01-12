@@ -27,6 +27,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Explore the MSMPI_Lock_queue structure in Microsoft MPI lock queue. Learn about its syntax, members, and usage for thread synchronization in HPC Pack.
 ---
 
 # MSMPI\_Lock\_queue structure

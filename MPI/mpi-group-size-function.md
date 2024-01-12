@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Group_size function
 TOCTitle: MPI_Group_size function
 ms:assetid: a946e817-a999-4ded-8465-9a52a7ce8783
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to use the MPI_Group_size function on Microsoft's platform. Retrieve group sizes and handle errors effectively with our guide.
 ---
 
 # MPI\_Group\_size function

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_sync function
 TOCTitle: MPI_File_sync function
 ms:assetid: b18288ed-e627-43a1-826a-bc80243500bc
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_File_sync function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_File\_sync function

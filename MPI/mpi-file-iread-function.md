@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_iread function
 TOCTitle: MPI_File_iread function
 ms:assetid: e1f4966f-5c96-494d-9e51-249b124d8fd9
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_File_iread function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_File\_iread function
