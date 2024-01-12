@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Pcontrol function
 TOCTitle: MPI_Pcontrol function
 ms:assetid: 1b30a36b-bb5f-4c36-8e77-f763eb4b3ed5
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore the MPI_Pcontrol function on Microsoft's learning platform. Understand its syntax, parameters, return value, and its role in profiling control.
 ---
 
 # MPI\_Pcontrol function

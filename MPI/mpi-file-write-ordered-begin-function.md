@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_write_ordered_begin function
 TOCTitle: MPI_File_write_ordered_begin function
 ms:assetid: b51bd73e-3055-4f00-a9f5-27f77b3e8702
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_File_write_ordered_begin function for split collective writes with shared file pointers on Microsoft's official site.
 ---
 
 # MPI\_File\_write\_ordered\_begin function
