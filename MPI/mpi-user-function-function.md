@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_User_function function
 TOCTitle: MPI_User_function function
 ms:assetid: 81f4f323-be56-4546-b589-9f1a0aae1515
@@ -16,6 +16,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about MPI_User_function, an application-defined function in Microsoft's HPC Pack. Understand its syntax, parameters, and usage in MPI_Reduce calls.
 ---
 
 # MPI\_User\_function function

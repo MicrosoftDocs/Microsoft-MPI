@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_start function
 TOCTitle: MPI_Win_start function
 ms:assetid: bf2616c8-c541-4f96-a0ae-2ab2401231b9
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Win_start function on Microsoft's official site. Understand its syntax, parameters, return values, and how to optimize its use.
 ---
 
 # MPI\_Win\_start function

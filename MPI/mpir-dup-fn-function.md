@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPIR_Dup_fn function
 TOCTitle: MPIR_Dup_fn function
 ms:assetid: d3982ec6-a490-4c6b-b1ff-01fb9b458e12
@@ -12,6 +12,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore the MPIR_Dup_fn function on Microsoft's learning platform. Understand its syntax, parameters, return value, and requirements for successful implementation.
 ---
 
 # MPIR\_Dup\_fn function
