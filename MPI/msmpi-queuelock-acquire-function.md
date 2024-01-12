@@ -1,4 +1,4 @@
-﻿---
+---
 title: MSMPI_Queuelock_acquire function
 TOCTitle: MSMPI_Queuelock_acquire function
 ms:assetid: 185CFDF0-FA10-41A8-A8B1-E4C180E8A175
@@ -25,6 +25,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to use the MSMPI_Queuelock_acquire function in Microsoft MPI library for FIFO serialization of callers. Includes syntax, parameters, and usage tips.
 ---
 
 # MSMPI\_Queuelock\_acquire function

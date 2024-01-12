@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Cart_map function
 TOCTitle: MPI_Cart_map function
 ms:assetid: ef78cb00-255d-48fc-a5b5-01cd2395165d
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Cart_map function on Microsoft's official site. Understand its syntax, parameters, return values, and its role in mapping processes to Cartesian topology.
 ---
 
 # MPI\_Cart\_map function

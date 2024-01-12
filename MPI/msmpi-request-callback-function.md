@@ -1,4 +1,4 @@
-﻿---
+---
 title: MSMPI_Request_callback function
 TOCTitle: MSMPI_Request_callback function
 ms:assetid: d07a68ea-edd0-4471-99c0-0e69e1a5c8a5
@@ -12,6 +12,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore the MSMPI_Request_callback function on Microsoft's official site. Learn about its syntax, parameters, and requirements for HPC Packs.
 ---
 
 # MSMPI\_Request\_callback function
