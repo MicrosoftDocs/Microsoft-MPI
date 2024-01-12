@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Close_port function
 TOCTitle: MPI_Close_port function
 ms:assetid: 44452534-c82b-44ac-b39e-79f83a237add
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Close_port function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Close\_port function

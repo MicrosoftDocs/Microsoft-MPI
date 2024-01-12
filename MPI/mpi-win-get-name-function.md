@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_get_name function
 TOCTitle: MPI_Win_get_name function
 ms:assetid: d50ea5e1-e23e-4c33-9213-af2676e25106
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Win_get_name function on Microsoft's official site. Understand its syntax, parameters, return values, and requirements.
 ---
 
 # MPI\_Win\_get\_name function
