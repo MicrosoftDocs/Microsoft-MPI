@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Datarep_conversion_function callback function
 TOCTitle: MPI_Datarep_conversion_function callback function
 ms:assetid: e8271935-4647-4436-9a4a-7d7ce2e573c3
@@ -16,6 +16,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Datarep_conversion_function callback function on Microsoft's site. Understand its syntax, parameters, and error handling.
 ---
 
 # MPI\_Datarep\_conversion\_function callback function
@@ -74,8 +75,8 @@ The conversion functions should return an error code. If the returned error code
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Add_error_code function
 TOCTitle: MPI_Add_error_code function
 ms:assetid: 3d04e050-5fdc-482f-8913-437eb6b7d8bc
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to add an MPI error code to an MPI error class using the MPI_Add_error_code function on Microsoft's official site.
 ---
 
 # MPI\_Add\_error\_code function
@@ -53,8 +54,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

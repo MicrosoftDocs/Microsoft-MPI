@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_set_atomicity function
 TOCTitle: MPI_File_set_atomicity function
 ms:assetid: f53af688-ddd0-4eb0-a83a-2d31b01d05d1
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to set the atomicity mode using MPI_File_set_atomicity function on Microsoft's platform. Includes syntax, parameters, and return values.
 ---
 
 # MPI\_File\_set\_atomicity function
@@ -54,8 +55,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

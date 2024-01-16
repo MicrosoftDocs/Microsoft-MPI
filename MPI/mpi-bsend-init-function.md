@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Bsend_init function
 TOCTitle: MPI_Bsend_init function
 ms:assetid: 42523711-0675-48d3-b91d-1a569cd287e4
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about MPI_Bsend_init function on Microsoft's official site. Understand its syntax, parameters, return value, and requirements for HPC Pack.
 ---
 
 # MPI\_Bsend\_init function
@@ -74,8 +75,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

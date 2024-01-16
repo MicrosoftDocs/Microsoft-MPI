@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_create_f90_integer function
 TOCTitle: MPI_Type_create_f90_integer function
 ms:assetid: 150faece-b5d8-4359-9efb-07ca41d75997
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Type_create_f90_integer function on Microsoft's official site. Understand its syntax, parameters, return values, and usage in Fortran.
 ---
 
 # MPI\_Type\_create\_f90\_integer function
@@ -57,8 +58,8 @@ This function returns a predefined MPI datatype that matches a INTEGER variable 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

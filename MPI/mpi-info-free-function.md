@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Info_free function
 TOCTitle: MPI_Info_free function
 ms:assetid: 2ecb355c-9739-4d20-8cb5-ef17a1c3c156
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Info_free function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Info\_free function
@@ -49,8 +50,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

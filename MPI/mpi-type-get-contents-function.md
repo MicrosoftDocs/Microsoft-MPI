@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_get_contents function
 TOCTitle: MPI_Type_get_contents function
 ms:assetid: 1e25a15b-cc5a-4584-b130-29b742c84753
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Type_get_contents function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Type\_get\_contents function
@@ -76,8 +77,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

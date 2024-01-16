@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_write_all_end function
 TOCTitle: MPI_File_write_all_end function
 ms:assetid: d9ec9d1a-e525-4cf7-8fb6-62234efaba92
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_File_write_all_end function on Microsoft's official site. Understand its syntax, parameters, return values, and related MPI file functions.
 ---
 
 # MPI\_File\_write\_all\_end function
@@ -58,8 +59,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

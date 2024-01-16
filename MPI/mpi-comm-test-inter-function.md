@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_test_inter function
 TOCTitle: MPI_Comm_test_inter function
 ms:assetid: a70de0d0-e4f1-4215-a31d-d482a0606f8c
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore the MPI_Comm_test_inter function on Microsoft's learning platform. Understand its syntax, parameters, and return values for successful inter-communication.
 ---
 
 # MPI\_Comm\_test\_inter function
@@ -54,8 +55,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

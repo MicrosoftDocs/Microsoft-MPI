@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Igatherv function
 TOCTitle: MPI_Igatherv function
 ms:assetid: 7857E458-3F26-473E-9A37-F5F604B0EBA5
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to use the MPI_Igatherv function for non-blocking data gathering from all group members in Microsoft MPI. Detailed syntax and parameters explained.
 ---
 
 # MPI\_Igatherv function
@@ -112,8 +113,8 @@ All completion calls (e.g., [**MPI\_Wait**](mpi-wait-function.md)) are supported
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

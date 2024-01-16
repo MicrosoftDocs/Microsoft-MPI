@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Grequest_query_function callback function
 TOCTitle: MPI_Grequest_query_function callback function
 ms:assetid: 5b15fa89-832a-428d-87b7-efd393a20ea1
@@ -16,6 +16,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Grequest_query_function callback function, its syntax, parameters, and return value. Understand its role in error handling in MPI functions.
 ---
 
 # MPI\_Grequest\_query\_function callback function
@@ -61,8 +62,8 @@ The *query\_fn* callback is invoked by the **MPI\_{Wait|Test}{any|some|all}** ca
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

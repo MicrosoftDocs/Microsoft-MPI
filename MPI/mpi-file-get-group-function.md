@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_get_group function
 TOCTitle: MPI_File_get_group function
 ms:assetid: d4fb24d9-b010-4d3e-8a0b-d7269ebd6e38
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_File_get_group function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_File\_get\_group function
@@ -53,8 +54,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

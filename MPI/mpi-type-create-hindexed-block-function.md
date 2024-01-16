@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_create_hindexed_block function
 TOCTitle: MPI_Type_create_hindexed_block function
 ms:assetid: ED5D334D-FE5E-4259-A679-82B38C750873
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about MPI_Type_create_hindexed_block function on Microsoft MPI v6. Understand its syntax, parameters, return value, and how it differs from MPI_Type_create_indexed_block.
 ---
 
 # MPI\_Type\_create\_hindexed\_block function
@@ -83,8 +84,8 @@ This function is similar to the function [**MPI\_Type\_create\_indexed\_block**]
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

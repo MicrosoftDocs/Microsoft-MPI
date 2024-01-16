@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_set_errhandler function
 TOCTitle: MPI_File_set_errhandler function
 ms:assetid: 32f30a82-85ec-434a-b52f-ebfe563394ec
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to set the error handler for an MPI file using the MPI_File_set_errhandler function. Includes syntax, parameters, and return values.
 ---
 
 # MPI\_File\_set\_errhandler function
@@ -53,8 +54,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

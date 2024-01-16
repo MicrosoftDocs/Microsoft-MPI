@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_wait function
 TOCTitle: MPI_Win_wait function
 ms:assetid: 333bc1f0-460f-42bb-bdeb-c8a1bf40a185
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Win_wait function on Microsoft's platform. Understand its syntax, parameters, return values, and its role in RMA exposure epoch completion.
 ---
 
 # MPI\_Win\_wait function
@@ -53,8 +54,8 @@ Completes an RMA exposure epoch started by a call to [**MPI\_Win\_post**](mpi-wi
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

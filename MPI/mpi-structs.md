@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI Structs
 TOCTitle: MPI Structs
 ms:assetid: 64B99517-86CA-4C40-BE87-4E51CCCE1426
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dn473478(v=VS.85)
 ms:contentKeyID: 59361013
 ms.date: 03/28/2018
 mtps_version: v=VS.85
+description: Explore Microsoft's MPI Structs article to understand MSMPI_Lock_queue and MPI_Status structures in message-passing interface.
 ---
 
 # MPI Structs

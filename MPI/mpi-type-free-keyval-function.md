@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_free_keyval function
 TOCTitle: MPI_Type_free_keyval function
 ms:assetid: 0d27efc5-9246-410f-b922-856888c77121
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Type_free_keyval function on Microsoft's official site. Understand its syntax, parameters, return values, and related MPI caching functions.
 ---
 
 # MPI\_Type\_free\_keyval function
@@ -49,8 +50,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

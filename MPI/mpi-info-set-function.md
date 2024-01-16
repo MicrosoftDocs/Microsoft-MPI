@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Info_set function
 TOCTitle: MPI_Info_set function
 ms:assetid: 276f8c2d-61e3-46c4-9977-cb5781d065c1
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to add a (key,value) pair to the info object using MPI_Info_set function on Microsoft's official site.
 ---
 
 # MPI\_Info\_set function
@@ -58,8 +59,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Mprobe function
 TOCTitle: MPI_Mprobe function
 ms:assetid: A54B0A78-045E-4D90-AC91-761893AD8DB5
@@ -27,6 +27,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Mprobe function on Microsoft MPI v6. Understand its syntax, parameters, return value, and how it provides a mechanism for message passing.
 ---
 
 # MPI\_Mprobe function
@@ -83,8 +84,8 @@ This function behaves like [**MPI\_Improbe**](mpi-improbe-function.md) except th
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_start function
 TOCTitle: MPI_Win_start function
 ms:assetid: bf2616c8-c541-4f96-a0ae-2ab2401231b9
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Win_start function on Microsoft's official site. Understand its syntax, parameters, return values, and how to optimize its use.
 ---
 
 # MPI\_Win\_start function
@@ -64,8 +65,8 @@ The *assert* argument is used to indicate special conditions for the fence that 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_read_at_all_end function
 TOCTitle: MPI_File_read_at_all_end function
 ms:assetid: d53d47e7-5305-457b-9bf3-2c39d1b62224
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_File_read_at_all_end function on Microsoft's official site. Understand its syntax, parameters, return values, and related MPI file functions.
 ---
 
 # MPI\_File\_read\_at\_all\_end function
@@ -58,8 +59,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

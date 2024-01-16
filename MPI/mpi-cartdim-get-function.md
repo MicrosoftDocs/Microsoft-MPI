@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Cartdim_get function
 TOCTitle: MPI_Cartdim_get function
 ms:assetid: f12febe5-5739-4b77-a741-4011dc7c1ec0
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about MPI_Cartdim_get function on Microsoft's site. It retrieves Cartesian topology info associated with a communicator. Perfect for HPC Pack users.
 ---
 
 # MPI\_Cartdim\_get function
@@ -53,8 +54,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

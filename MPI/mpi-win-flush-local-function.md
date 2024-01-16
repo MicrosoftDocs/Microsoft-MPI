@@ -9,7 +9,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
-description: Master the MPI_Win_flush_local function with our comprehensive guide. Learn syntax, parameters, return values, and requirements. Boost your MS-MPI skills.
+description: Explore the MPI_Win_flush_local function on Microsoft's learning platform. Understand its syntax, parameters, return values, and usage in passive target epochs.
 ---
 
 # MPI\_Win\_flush\_local function
@@ -54,8 +54,8 @@ All flush and sync functions can be called only within passive target epochs.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

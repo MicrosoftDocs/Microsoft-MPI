@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_unlock_all function
 TOCTitle: MPI_Win_unlock_all function
 mtps_version: v=VS.85
@@ -9,6 +9,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore the MPI_Win_unlock_all function on Microsoft's learning platform. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Win\_unlock\_all function
@@ -45,8 +46,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

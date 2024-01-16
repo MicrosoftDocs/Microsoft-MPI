@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_get_errhandler function
 TOCTitle: MPI_Win_get_errhandler function
 ms:assetid: dd5cd778-3db5-4d14-b08a-6f8eb23d4113
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to get the error handler for the MPI RMA window using the MPI_Win_get_errhandler function on Microsoft's official site.
 ---
 
 # MPI\_Win\_get\_errhandler function
@@ -53,8 +54,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

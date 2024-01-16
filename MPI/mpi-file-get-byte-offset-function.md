@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_get_byte_offset function
 TOCTitle: MPI_File_get_byte_offset function
 ms:assetid: 8174a682-6f67-42b9-81eb-c08adb99ca48
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_File_get_byte_offset function on Microsoft's platform. Understand syntax, parameters, return values, and requirements.
 ---
 
 # MPI\_File\_get\_byte\_offset function
@@ -58,8 +59,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

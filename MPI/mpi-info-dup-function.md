@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Info_dup function
 TOCTitle: MPI_Info_dup function
 ms:assetid: 99d49571-e529-475c-85fb-fca63cc3e19a
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Info_dup function on Microsoft's official site. Understand its syntax, parameters, return values, and related requirements.
 ---
 
 # MPI\_Info\_dup function
@@ -53,8 +54,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

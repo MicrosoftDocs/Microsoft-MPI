@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Unpublish_name function
 TOCTitle: MPI_Unpublish_name function
 ms:assetid: 427374d1-63f6-472a-9982-944dee4f945e
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to unpublish a service name with the MPI_Unpublish_name function. Get syntax, parameters, and return value details on Microsoft's site.
 ---
 
 # MPI\_Unpublish\_name function
@@ -58,8 +59,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

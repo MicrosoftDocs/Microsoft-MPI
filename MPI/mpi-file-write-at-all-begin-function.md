@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_write_at_all_begin function
 TOCTitle: MPI_File_write_at_all_begin function
 ms:assetid: 9b7fcc2e-8b01-4d3a-9055-1e5d6efcf051
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_File_write_at_all_begin function on Microsoft's official site. Understand its syntax, parameters, return values, and requirements.
 ---
 
 # MPI\_File\_write\_at\_all\_begin function
@@ -67,8 +68,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

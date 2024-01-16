@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Grequest_cancel_function callback function
 TOCTitle: MPI_Grequest_cancel_function callback function
 ms:assetid: 185973fe-26d2-4271-a581-df43908eb227
@@ -16,6 +16,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Grequest_cancel_function, an application-defined function for canceling a generalized request in MPI. Explore syntax, parameters, and more.
 ---
 
 # MPI\_Grequest\_cancel\_function callback function
@@ -60,8 +61,8 @@ The the application-defined function with this signature is invoked to start the
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_create_f90_real function
 TOCTitle: MPI_Type_create_f90_real function
 ms:assetid: 04ad4925-0708-4733-9453-4e6ee7bcefdc
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Type_create_f90_real function on Microsoft's platform. Understand its syntax, parameters, return value, and requirements.
 ---
 
 # MPI\_Type\_create\_f90\_real function
@@ -63,8 +64,8 @@ If there is no corresponding type for the specified range, the call is erroneous
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

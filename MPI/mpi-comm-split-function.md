@@ -99,8 +99,8 @@ The result of the **MPI\_Comm\_split** function on an intercommunicator is that 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

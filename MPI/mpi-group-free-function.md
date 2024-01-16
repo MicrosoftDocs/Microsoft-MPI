@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Group_free function
 TOCTitle: MPI_Group_free function
 ms:assetid: dd68e143-41fa-4bd9-96d9-9fc36f0b03ab
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Group_free function in Microsoft's HPC Pack. This guide includes syntax, parameters, return values, and requirements.
 ---
 
 # MPI\_Group\_free function
@@ -49,8 +50,8 @@ In Fortran the return value is stored in the IERROR parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

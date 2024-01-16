@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Group_union function
 TOCTitle: MPI_Group_union function
 ms:assetid: c68c09cf-212c-45b6-b2d7-f4bbeda3d395
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn how to create a new group using the MPI_Group_union function on Microsoft's platform. Understand syntax, parameters, and return values.
 ---
 
 # MPI\_Group\_union function
@@ -76,8 +77,8 @@ The MPI implementation does not provide a mechanism to build a group from scratc
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

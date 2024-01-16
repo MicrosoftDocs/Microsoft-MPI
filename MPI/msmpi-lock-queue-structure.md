@@ -27,6 +27,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Explore the MSMPI_Lock_queue structure in Microsoft MPI lock queue. Learn about its syntax, members, and usage for thread synchronization in HPC Pack.
 ---
 
 # MSMPI\_Lock\_queue structure
@@ -63,8 +64,8 @@ Each thread calling the [**MSMPI\_Queuelock\_acquire**](msmpi-queuelock-acquire-
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

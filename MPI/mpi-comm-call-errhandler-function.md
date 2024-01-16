@@ -58,8 +58,8 @@ Assuming the input parameters are valid, when the error handler is set to **MPI\
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

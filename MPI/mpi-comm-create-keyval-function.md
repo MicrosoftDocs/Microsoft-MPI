@@ -76,8 +76,8 @@ This should not be a problem for most users; only programers using both Fortran 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_free_keyval function
 TOCTitle: MPI_Win_free_keyval function
 ms:assetid: 3fb0a67e-2aaa-4a33-9cb1-d6ee329219eb
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Win_free_keyval function for MPI RMA windows. Understand its syntax, parameters, return value, and requirements. Perfect for HPC Pack users.
 ---
 
 # MPI\_Win\_free\_keyval function
@@ -49,8 +50,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

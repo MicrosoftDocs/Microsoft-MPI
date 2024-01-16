@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_create_errhandler function
 TOCTitle: MPI_Comm_create_errhandler function
 ms:assetid: 43a8f33f-1b5c-451f-8d6d-1852b73703d1
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to create a communicator error handler with MPI_Comm_create_errhandler function. Detailed syntax, parameters, and return values explained.
 ---
 
 # MPI\_Comm\_create\_errhandler function
@@ -54,8 +55,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

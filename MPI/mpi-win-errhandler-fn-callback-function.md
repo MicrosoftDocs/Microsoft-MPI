@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_errhandler_fn callback function
 TOCTitle: MPI_Win_errhandler_fn callback function
 ms:assetid: cad5be1d-5e89-41d1-9548-f6eb09c14e34
@@ -16,6 +16,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Win_errhandler_function, its syntax, parameters, and usage in Microsoft's HPC Pack. Understand its role in MPI Management Functions.
 ---
 
 # MPI\_Win\_errhandler\_function callback function
@@ -55,8 +56,8 @@ The placeholder name of this function, *MPI\_Win\_errhandler\_fn*, is deprecated
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

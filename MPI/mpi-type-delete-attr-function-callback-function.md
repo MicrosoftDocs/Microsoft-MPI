@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_delete_attr_function callback function
 TOCTitle: MPI_Type_delete_attr_function callback function
 ms:assetid: 51e6cd99-404f-4ede-9b92-e87ff9469053
@@ -16,6 +16,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore the MPI_Type_delete_attr_function callback function on Microsoft's learning platform. Understand its syntax, parameters, and return value.
 ---
 
 # MPI\_Type\_delete\_attr\_function callback function
@@ -64,8 +65,8 @@ If an attribute delete function returns something other than **MPI\_SUCCESS**, t
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_call_errhandler function
 TOCTitle: MPI_Win_call_errhandler function
 ms:assetid: f801a8d2-f467-43ce-b4e4-e6096d3013ff
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to call the error handler on a window object using MPI_Win_call_errhandler function. Detailed syntax, parameters, and return values explained.
 ---
 
 # MPI\_Win\_call\_errhandler function
@@ -57,8 +58,8 @@ Assuming the input parameters are valid, when the error handler is set to **MPI\
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

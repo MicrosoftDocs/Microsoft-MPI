@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Free_mem function
 TOCTitle: MPI_Free_mem function
 ms:assetid: a951f728-1745-4298-804f-f0374d7372bb
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to free memory with the MPI_Free_mem function on Microsoft's platform. Understand syntax, parameters, and return values.
 ---
 
 # MPI\_Free\_mem function
@@ -50,8 +51,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

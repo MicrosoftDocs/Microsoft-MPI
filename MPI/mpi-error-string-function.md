@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Error_string function
 TOCTitle: MPI_Error_string function
 ms:assetid: 8809420b-8081-4057-a422-a6abc1f19dd4
@@ -15,6 +15,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Explore MPI_Error_string function on Microsoft's platform. Learn about its syntax, parameters, return values, and related MPI management functions.
 ---
 
 # MPI\_Error\_string function
@@ -60,8 +61,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

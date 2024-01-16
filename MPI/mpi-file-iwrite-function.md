@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_iwrite function
 TOCTitle: MPI_File_iwrite function
 ms:assetid: 1f2c71dd-8f06-4a96-bb54-449c9bcdcfa1
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_File_iwrite function for nonblocking write using individual file pointers on Microsoft's official site.
 ---
 
 # MPI\_File\_iwrite function
@@ -66,8 +67,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

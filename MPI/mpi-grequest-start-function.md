@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Grequest_start function
 TOCTitle: MPI_Grequest_start function
 ms:assetid: e87295c3-6e39-4b47-aa6b-2398b6d3508a
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Grequest_start function on Microsoft's official site. Understand its syntax, parameters, return values, and requirements for HPC Packs.
 ---
 
 # MPI\_Grequest\_start function
@@ -75,8 +76,8 @@ The one special case is the error value returned by [**MPI\_Comm\_dup**](mpi-com
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

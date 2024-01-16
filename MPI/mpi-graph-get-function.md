@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Graph_get function
 TOCTitle: MPI_Graph_get function
 ms:assetid: dc024019-391a-41d4-b3eb-10a8d38b984d
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about MPI_Graph_get function on Microsoft's site. It retrieves graph topology info associated with a communicator. Perfect for HPC Pack users.
 ---
 
 # MPI\_Graph\_get function
@@ -65,8 +66,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

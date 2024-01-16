@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_write_shared function
 TOCTitle: MPI_File_write_shared function
 ms:assetid: acd56c90-42a4-4e36-8efc-df9e2bc92df9
@@ -16,6 +16,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_File_write_shared function in MS-MPI. Understand syntax, parameters, return values, and requirements for successful implementation.
 ---
 
 # MPI\_File\_write\_shared function
@@ -69,8 +70,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

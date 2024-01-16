@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_delete_attr function
 TOCTitle: MPI_Comm_delete_attr function
 ms:assetid: 4d702a45-4379-4569-a23c-eb5157475962
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Comm_delete_attr function in MS-MPI. This guide includes syntax, parameters, return values, and requirements.
 ---
 
 # MPI\_Comm\_delete\_attr function
@@ -53,8 +54,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Iscatterv function
 TOCTitle: MPI_Iscatterv function
 ms:assetid: 5675B3BF-395B-44B6-9CC0-A6DD9428974A
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about the MPI_Iscatterv function on Microsoft MPI v7. Understand its syntax, parameters, return value, and how it initiates a collective reduction operation.
 ---
 
 # MPI\_Iscatterv function
@@ -115,8 +116,8 @@ All completion calls (e.g., [**MPI\_Wait)**](mpi-wait-function.md) are supported
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

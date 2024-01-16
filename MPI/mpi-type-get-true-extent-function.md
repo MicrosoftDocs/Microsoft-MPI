@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Type_get_true_extent function
 TOCTitle: MPI_Type_get_true_extent function
 ms:assetid: a55f4c95-e51f-48ac-a965-ccd403c9bd71
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Type_get_true_extent function on Microsoft's platform. Understand its syntax, parameters, return values, and application in Fortran.
 ---
 
 # MPI\_Type\_get\_true\_extent function
@@ -62,8 +63,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

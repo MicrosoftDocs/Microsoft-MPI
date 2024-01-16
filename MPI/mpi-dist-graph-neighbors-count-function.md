@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Dist_graph_neighbors_count function
 TOCTitle: MPI_Dist_graph_neighbors_count function
 ms:assetid: 1016274C-C079-4770-962E-8036FF696B71
@@ -26,6 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
+description: Learn about MPI_Dist_graph_neighbors_count function, its syntax, parameters, and return value. Understand adjacency in distributed graph topology with Microsoft MPI.
 ---
 
 # MPI\_Dist\_graph\_neighbors\_count function
@@ -75,8 +76,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

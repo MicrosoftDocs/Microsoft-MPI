@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_read_ordered_begin function
 TOCTitle: MPI_File_read_ordered_begin function
 ms:assetid: d73516a2-1ac2-45e7-9e0a-988ebf388791
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about MPI_File_read_ordered_begin function for collective read using shared file pointer. Includes syntax, parameters, and return values.
 ---
 
 # MPI\_File\_read\_ordered\_begin function
@@ -62,8 +63,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

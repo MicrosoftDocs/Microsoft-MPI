@@ -13,7 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
-description: Learn about the MPI_Comm_get_parent function on Microsoft's official site. Understand its syntax, parameters, return values, and usage in process management.
+description: Learn about the MPI_Comm_get_parent function, its syntax, parameters, and return values. Ideal for users of HPC Pack 2012 MS-MPI Redistributable Package.
 ---
 
 # MPI\_Comm\_get\_parent function
@@ -58,8 +58,8 @@ After the parent communicator is freed or disconnected, [**MPI\_Comm\_get\_paren
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_errhandler_fn callback function
 TOCTitle: MPI_File_errhandler_fn callback function
 ms:assetid: ae5f7495-3285-4d2a-9c67-9f186c35babf
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_File_errhandler_function, its syntax, parameters, and usage in Microsoft's HPC Packs. Stay updated with MPI standards.
 ---
 
 # MPI\_File\_errhandler\_function callback function
@@ -54,8 +55,8 @@ The placeholder name of this function, *MPI\_File\_errhandler\_fn*, is deprecate
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

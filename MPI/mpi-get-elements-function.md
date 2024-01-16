@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Get_elements function
 TOCTitle: MPI_Get_elements function
 ms:assetid: e9d2d957-a9ea-4efe-ac2a-b69844ee6712
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Get_elements function on Microsoft's official site. Understand its syntax, parameters, return values, and usage in HPC Pack.
 ---
 
 # MPI\_Get\_elements function
@@ -61,8 +62,8 @@ If the size of the datatype is zero and the amount of data returned as determine
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

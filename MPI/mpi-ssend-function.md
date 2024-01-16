@@ -92,8 +92,8 @@ If both send and receive operations are blocking operations, then the synchronou
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -26,7 +26,7 @@ topic_type:
 - kbSyntax
 product_family_name: VS
 ROBOTS: INDEX,FOLLOW
-description: Master the MPI_Type_create_hindexed function with this comprehensive guide. Learn about its syntax, parameters, and usage in data block creation.
+description: Learn about MPI_Type_create_hindexed function, its syntax, parameters, and return value. Understand how it defines new data types with blocks of arbitrary size.
 ---
 
 # MPI\_Type\_create\_hindexed function
@@ -83,8 +83,8 @@ This function replaces the **MPI\_Type\_hindexed**, which is deprecated.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

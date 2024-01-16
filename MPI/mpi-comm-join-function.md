@@ -58,8 +58,8 @@ The socket must be quiescent before [**MPI\_Comm\_join**](mpi-comm-join-function
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

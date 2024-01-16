@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Ssend_init function
 TOCTitle: MPI_Ssend_init function
 ms:assetid: 070d39d4-fe69-43db-9751-cc3046334e7c
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about MPI_Ssend_init function, a persistent request for synchronous send. Understand its syntax, parameters, and return value for better coding.
 ---
 
 # MPI\_Ssend\_init function
@@ -74,8 +75,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

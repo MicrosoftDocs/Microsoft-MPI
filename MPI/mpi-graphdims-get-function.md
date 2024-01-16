@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Graphdims_get function
 TOCTitle: MPI_Graphdims_get function
 ms:assetid: ef8b9432-ac5a-42c3-ac0b-03891d789414
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about MPI_Graphdims_get function on Microsoft's site. It retrieves graph topology info associated with a communicator. Perfect for HPC Pack users.
 ---
 
 # MPI\_Graphdims\_get function
@@ -57,8 +58,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

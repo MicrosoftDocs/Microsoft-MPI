@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Status_c2f function
 TOCTitle: MPI_Status_c2f function
 ms:assetid: 2bb2d54f-b801-41a7-a1db-4d792858cc2c
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to convert a C status to a Fortran status using the MPI_Status_c2f function. Detailed syntax, parameters, and return values explained.
 ---
 
 # MPI\_Status\_c2f function
@@ -44,8 +45,8 @@ Returns **MPI\_SUCCESS** on success. Otherwise, the return value is an error cod
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Pack_external_size function
 TOCTitle: MPI_Pack_external_size function
 ms:assetid: 03fb67d7-1610-4a99-ad87-4b8bdaf73b7c
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Pack_external_size function on Microsoft's site. Understand its syntax, parameters, return value, and requirements for HPC Packs.
 ---
 
 # MPI\_Pack\_external\_size function
@@ -63,8 +64,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

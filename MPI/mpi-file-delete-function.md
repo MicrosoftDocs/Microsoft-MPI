@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_File_delete function
 TOCTitle: MPI_File_delete function
 ms:assetid: ecfedbef-e88b-43e7-b48b-11a7ead3f788
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_File_delete function in Microsoft's HPC Pack. This guide provides syntax, parameters, and return values.
 ---
 
 # MPI\_File\_delete function
@@ -54,8 +55,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

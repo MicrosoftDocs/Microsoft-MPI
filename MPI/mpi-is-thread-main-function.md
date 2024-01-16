@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Is_thread_main function
 TOCTitle: MPI_Is_thread_main function
 ms:assetid: 5ef3ecf3-d8e1-4e76-9d0b-1e0b572c1b6a
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Is_thread_main function, its syntax, parameters, and return values. Ideal for users of HPC Pack 2012 MS-MPI Redistributable Package.
 ---
 
 # MPI\_Is\_thread\_main function
@@ -50,8 +51,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

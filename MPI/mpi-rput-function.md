@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Rput function
 TOCTitle: MPI_Rput function
 mtps_version: v=VS.85
@@ -9,6 +9,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn about the MPI_Rput function, its syntax, parameters, and return values. Understand how it differs from MPI_Put and its role in one-sided communications.
 ---
 
 # MPI\_Rput function
@@ -85,8 +86,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

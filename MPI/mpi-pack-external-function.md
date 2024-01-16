@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Pack_external function
 TOCTitle: MPI_Pack_external function
 ms:assetid: c2051da8-9986-49f7-b19b-feb1d45d9a56
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Pack_external function for packing data into contiguous memory with the external32 format on Microsoft's official site.
 ---
 
 # MPI\_Pack\_external function
@@ -77,8 +78,8 @@ In Fortran, the return value is stored in the *IERROR* parameter.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Win_unlock function
 TOCTitle: MPI_Win_unlock function
 ms:assetid: 1fda2d0f-1b14-4b06-890c-3eba478d438c
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Master the MPI_Win_unlock function with our comprehensive guide. Learn syntax, parameters, return values, and understand RMA access epochs.
 ---
 
 # MPI\_Win\_unlock function
@@ -57,8 +58,8 @@ Completes an RMA access epoch started by a call to [**MPI\_Win\_lock**](mpi-win-
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">

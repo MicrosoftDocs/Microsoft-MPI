@@ -1,4 +1,4 @@
-﻿---
+---
 title: MPI_Comm_free_keyval function
 TOCTitle: MPI_Comm_free_keyval function
 ms:assetid: 9f5c82d0-29b4-4c5f-9a84-1a9e3e26690a
@@ -13,6 +13,7 @@ f1_keywords:
 dev_langs:
 - C++
 - C
+description: Learn how to use the MPI_Comm_free_keyval function in Microsoft's HPC Pack. Understand syntax, parameters, return values, and requirements.
 ---
 
 # MPI\_Comm\_free\_keyval function
@@ -53,8 +54,8 @@ This function sets the value of keyval to **MPI\_KEYVAL\_INVALID**. Note that it
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col/>
+<col/>
 </colgroup>
 <tbody>
 <tr class="odd">
