@@ -44,7 +44,8 @@
 
                                         ],
                   "globalMetadata":  {
-                           "ms.technology": "microsoft-mpi",
+                           "ms.subservice": "microsoft-mpi",
+                           "ms.service": "windows",
                                          "breadcrumb_path":  "/message-passing-interface/breadcrumb/toc.json",
                                          "extendBreadcrumb":  true,
                                          "feedback_system":  "Standard",
@@ -52,7 +53,6 @@
                                          "ms.topic":  "reference",
                                          "author":  "AnnaDaly",
                                          "ms.author":  "annalabu",
-                                         "ms.prod":  "windows",
                                          "contributors_to_exclude": ["nivnar"],
                                          "titleSuffix": "Message Passing Interface"
                                      },
