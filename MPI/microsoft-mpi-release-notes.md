@@ -16,7 +16,7 @@ This document contains the release notes for the current versions of Microsoft M
 ## MS-MPI v10.1.3 (June 2023)
 MS-MPI v10.1.3 includes the following improvements and fixes. Download MS-MPI v10.1.3 from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=105289).
 
-- Fix for assigning affinities to mpi worker processes on Windows 11 and Windows Server 2022. On these OSes affinities are being assigned through [CPU sets](https://learn.microsoft.com/en-us/windows/win32/procthread/cpu-sets), and not through Affinity masks.
+- Fix for assigning affinities to mpi worker processes on Windows 11 and Windows Server 2022. On these OSes affinities are being assigned through [CPU sets](/windows/win32/procthread/cpu-sets), and not through Affinity masks.
 
 The MS-MPI v10.1.3 SDK is also available on [nuget](https://www.nuget.org/packages/msmpisdk/).
 
